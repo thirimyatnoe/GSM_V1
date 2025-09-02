@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet6" targetNamespace="http://tempuri.org/DataSet6.xsd" xmlns:mstns="http://tempuri.org/DataSet6.xsd" xmlns="http://tempuri.org/DataSet6.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet6" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet6" msprop:Generator_UserDSName="DataSet6">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtCreditBalance" msprop:Generator_TableClassName="dtCreditBalanceDataTable" msprop:Generator_TableVarName="tabledtCreditBalance" msprop:Generator_TablePropName="dtCreditBalance" msprop:Generator_RowDeletingName="dtCreditBalanceRowDeleting" msprop:Generator_RowChangingName="dtCreditBalanceRowChanging" msprop:Generator_RowEvHandlerName="dtCreditBalanceRowChangeEventHandler" msprop:Generator_RowDeletedName="dtCreditBalanceRowDeleted" msprop:Generator_UserTableName="dtCreditBalance" msprop:Generator_RowChangedName="dtCreditBalanceRowChanged" msprop:Generator_RowEvArgName="dtCreditBalanceRowChangeEvent" msprop:Generator_RowClassName="dtCreditBalanceRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CustomerID" msprop:Generator_ColumnVarNameInTable="columnCustomerID" msprop:Generator_ColumnPropNameInRow="CustomerID" msprop:Generator_ColumnPropNameInTable="CustomerIDColumn" msprop:Generator_UserColumnName="CustomerID" type="xs:string" minOccurs="0" />
+              <xs:element name="CustomerName" msprop:Generator_ColumnVarNameInTable="columnCustomerName" msprop:Generator_ColumnPropNameInRow="CustomerName" msprop:Generator_ColumnPropNameInTable="CustomerNameColumn" msprop:Generator_UserColumnName="CustomerName" type="xs:string" minOccurs="0" />
+              <xs:element name="CreditAmount" msprop:Generator_ColumnVarNameInTable="columnCreditAmount" msprop:Generator_ColumnPropNameInRow="CreditAmount" msprop:Generator_ColumnPropNameInTable="CreditAmountColumn" msprop:Generator_UserColumnName="CreditAmount" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,19 @@
+/*  @font-face 
+ {
+	font-family: Myanmar3;
+	src: url('mm3.ttf');	
+} */
+
+@font-face {
+	font-family: 'Myanmar3';
+	src: url('myanmar3.eot');
+	src: url('myanmar3.eot?#iefix') format('embedded-opentype'),
+		 local('Myanmar3'),url('myanmar3.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body,html,p
+{
+	font-family: "Masterpiece Uni Sans",Myanmar3 !important;
+}

@@ -1,0 +1,13 @@
+D:\WorkingGit\GlobalGoldV1.2\ConvertFunction\bin\x86\Debug\ConvertFunction.dll.config
+D:\WorkingGit\GlobalGoldV1.2\ConvertFunction\bin\x86\Debug\ConvertFunction.dll
+D:\WorkingGit\GlobalGoldV1.2\ConvertFunction\bin\x86\Debug\ConvertFunction.pdb
+D:\WorkingGit\GlobalGoldV1.2\ConvertFunction\bin\x86\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\WorkingGit\GlobalGoldV1.2\ConvertFunction\bin\x86\Debug\Newtonsoft.Json.dll
+D:\WorkingGit\GlobalGoldV1.2\ConvertFunction\bin\x86\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\WorkingGit\GlobalGoldV1.2\ConvertFunction\bin\x86\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\WorkingGit\GlobalGoldV1.2\ConvertFunction\bin\x86\Debug\Newtonsoft.Json.xml
+D:\WorkingGit\GlobalGoldV1.2\ConvertFunction\obj\x86\Debug\ConvertFunction.dll
+D:\WorkingGit\GlobalGoldV1.2\ConvertFunction\obj\x86\Debug\ConvertFunction.pdb
+D:\WorkingGit\GlobalGoldV1.2\ConvertFunction\obj\x86\Debug\ConvertFunction.csprojResolveAssemblyReference.cache
+D:\Projects\2022\TMSGoldV4\ConvertFunction\obj\x86\Debug\ConvertFunction.dll
+D:\Projects\2022\TMSGoldV4\ConvertFunction\obj\x86\Debug\ConvertFunction.pdb

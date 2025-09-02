@@ -1,0 +1,41 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DataAccess
+</name>
+</assembly>
+<members>
+<member name="T:DataAccess.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:DataAccess.DBConnection.DBConnectionDAL.CheckDatabase(System.String,System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ 
+ </summary>
+ <param name="PDatabaseName"></param>
+ <param name="pServerName"></param>
+ <param name="PUserID"></param>
+ <param name="PPassword"></param>
+ <param name="pTrustedConnection"></param>
+ <returns>0=DataBase Server OK, 1=Server Not Found, 2=Database Not Found</returns>
+ <remarks></remarks>
+</member>
+<member name="M:DataAccess.DBConnection.DBConnectionDAL.CheckAccessDatabase(System.String,System.String)">
+ <returns>0=Access Database OK, 1=File Not Found, 2=Incorrect Password, 3=Invalid Database structure</returns>
+</member>
+</members>
+</doc>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsGemsStock" targetNamespace="http://tempuri.org/dsGemsStock.xsd" xmlns:mstns="http://tempuri.org/dsGemsStock.xsd" xmlns="http://tempuri.org/dsGemsStock.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsGemsStock" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsGemsStock" msprop:Generator_UserDSName="dsGemsStock">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GemsStock" msprop:Generator_TableClassName="GemsStockDataTable" msprop:Generator_TableVarName="tableGemsStock" msprop:Generator_TablePropName="GemsStock" msprop:Generator_RowDeletingName="GemsStockRowDeleting" msprop:Generator_RowChangingName="GemsStockRowChanging" msprop:Generator_RowEvHandlerName="GemsStockRowChangeEventHandler" msprop:Generator_RowDeletedName="GemsStockRowDeleted" msprop:Generator_UserTableName="GemsStock" msprop:Generator_RowChangedName="GemsStockRowChanged" msprop:Generator_RowEvArgName="GemsStockRowChangeEvent" msprop:Generator_RowClassName="GemsStockRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GemsCategoryID" msprop:Generator_ColumnVarNameInTable="columnGemsCategoryID" msprop:Generator_ColumnPropNameInRow="GemsCategoryID" msprop:Generator_ColumnPropNameInTable="GemsCategoryIDColumn" msprop:Generator_UserColumnName="GemsCategoryID" type="xs:string" minOccurs="0" />
+              <xs:element name="GemsCategory" msprop:Generator_ColumnVarNameInTable="columnGemsCategory" msprop:Generator_ColumnPropNameInRow="GemsCategory" msprop:Generator_ColumnPropNameInTable="GemsCategoryColumn" msprop:Generator_UserColumnName="GemsCategory" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalQTY" msprop:Generator_ColumnVarNameInTable="columnTotalQTY" msprop:Generator_ColumnPropNameInRow="TotalQTY" msprop:Generator_ColumnPropNameInTable="TotalQTYColumn" msprop:Generator_UserColumnName="TotalQTY" type="xs:string" minOccurs="0" />
+              <xs:element name="SaleQTY" msprop:Generator_ColumnVarNameInTable="columnSaleQTY" msprop:Generator_ColumnPropNameInRow="SaleQTY" msprop:Generator_ColumnPropNameInTable="SaleQTYColumn" msprop:Generator_UserColumnName="SaleQTY" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalGemsTK" msprop:Generator_ColumnVarNameInTable="columnTotalGemsTK" msprop:Generator_ColumnPropNameInRow="TotalGemsTK" msprop:Generator_ColumnPropNameInTable="TotalGemsTKColumn" msprop:Generator_UserColumnName="TotalGemsTK" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalGemsTG" msprop:Generator_ColumnVarNameInTable="columnTotalGemsTG" msprop:Generator_ColumnPropNameInRow="TotalGemsTG" msprop:Generator_ColumnPropNameInTable="TotalGemsTGColumn" msprop:Generator_UserColumnName="TotalGemsTG" type="xs:string" minOccurs="0" />
+              <xs:element name="SaleGemsTK" msprop:Generator_ColumnVarNameInTable="columnSaleGemsTK" msprop:Generator_ColumnPropNameInRow="SaleGemsTK" msprop:Generator_ColumnPropNameInTable="SaleGemsTKColumn" msprop:Generator_UserColumnName="SaleGemsTK" type="xs:string" minOccurs="0" />
+              <xs:element name="SaleGemsTG" msprop:Generator_ColumnVarNameInTable="columnSaleGemsTG" msprop:Generator_ColumnPropNameInRow="SaleGemsTG" msprop:Generator_ColumnPropNameInTable="SaleGemsTGColumn" msprop:Generator_UserColumnName="SaleGemsTG" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalCarat" msprop:Generator_ColumnVarNameInTable="columnTotalCarat" msprop:Generator_ColumnPropNameInRow="TotalCarat" msprop:Generator_ColumnPropNameInTable="TotalCaratColumn" msprop:Generator_UserColumnName="TotalCarat" type="xs:string" minOccurs="0" />
+              <xs:element name="SaleCarat" msprop:Generator_ColumnVarNameInTable="columnSaleCarat" msprop:Generator_ColumnPropNameInRow="SaleCarat" msprop:Generator_ColumnPropNameInTable="SaleCaratColumn" msprop:Generator_UserColumnName="SaleCarat" type="xs:string" minOccurs="0" />
+              <xs:element name="OutDate" msprop:Generator_ColumnVarNameInTable="columnOutDate" msprop:Generator_ColumnPropNameInRow="OutDate" msprop:Generator_ColumnPropNameInTable="OutDateColumn" msprop:Generator_UserColumnName="OutDate" type="xs:string" minOccurs="0" />
+              <xs:element name="GroupDate" msprop:Generator_ColumnVarNameInTable="columnGroupDate" msprop:Generator_ColumnPropNameInRow="GroupDate" msprop:Generator_ColumnPropNameInTable="GroupDateColumn" msprop:Generator_UserColumnName="GroupDate" type="xs:string" minOccurs="0" />
+              <xs:element name="PurchaseOutDetailID" msprop:Generator_ColumnVarNameInTable="columnPurchaseOutDetailID" msprop:Generator_ColumnPropNameInRow="PurchaseOutDetailID" msprop:Generator_ColumnPropNameInTable="PurchaseOutDetailIDColumn" msprop:Generator_UserColumnName="PurchaseOutDetailID" type="xs:string" minOccurs="0" />
+              <xs:element name="PurchaseOutID" msprop:Generator_ColumnVarNameInTable="columnPurchaseOutID" msprop:Generator_ColumnPropNameInRow="PurchaseOutID" msprop:Generator_ColumnPropNameInTable="PurchaseOutIDColumn" msprop:Generator_UserColumnName="PurchaseOutID" type="xs:string" minOccurs="0" />
+              <xs:element name="GemsName" msprop:Generator_ColumnVarNameInTable="columnGemsName" msprop:Generator_ColumnPropNameInRow="GemsName" msprop:Generator_ColumnPropNameInTable="GemsNameColumn" msprop:Generator_UserColumnName="GemsName" type="xs:string" minOccurs="0" />
+              <xs:element name="DivideType" msprop:Generator_ColumnVarNameInTable="columnDivideType" msprop:Generator_ColumnPropNameInRow="DivideType" msprop:Generator_ColumnPropNameInTable="DivideTypeColumn" msprop:Generator_UserColumnName="DivideType" type="xs:string" minOccurs="0" />
+              <xs:element name="QTY" msprop:Generator_ColumnVarNameInTable="columnQTY" msprop:Generator_ColumnPropNameInRow="QTY" msprop:Generator_ColumnPropNameInTable="QTYColumn" msprop:Generator_UserColumnName="QTY" type="xs:string" minOccurs="0" />
+              <xs:element name="GemsTG" msprop:Generator_ColumnVarNameInTable="columnGemsTG" msprop:Generator_ColumnPropNameInRow="GemsTG" msprop:Generator_ColumnPropNameInTable="GemsTGColumn" msprop:Generator_UserColumnName="GemsTG" type="xs:string" minOccurs="0" />
+              <xs:element name="GemsTK" msprop:Generator_ColumnVarNameInTable="columnGemsTK" msprop:Generator_ColumnPropNameInRow="GemsTK" msprop:Generator_ColumnPropNameInTable="GemsTKColumn" msprop:Generator_UserColumnName="GemsTK" type="xs:string" minOccurs="0" />
+              <xs:element name="Carat" msprop:Generator_ColumnVarNameInTable="columnCarat" msprop:Generator_ColumnPropNameInRow="Carat" msprop:Generator_ColumnPropNameInTable="CaratColumn" msprop:Generator_UserColumnName="Carat" type="xs:string" minOccurs="0" />
+              <xs:element name="YOrCOrG" msprop:Generator_ColumnVarNameInTable="columnYOrCOrG" msprop:Generator_ColumnPropNameInRow="YOrCOrG" msprop:Generator_ColumnPropNameInTable="YOrCOrGColumn" msprop:Generator_UserColumnName="YOrCOrG" type="xs:string" minOccurs="0" />
+              <xs:element name="GemsQTY" msprop:Generator_ColumnVarNameInTable="columnGemsQTY" msprop:Generator_ColumnPropNameInRow="GemsQTY" msprop:Generator_ColumnPropNameInTable="GemsQTYColumn" msprop:Generator_UserColumnName="GemsQTY" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="CertificateNo" msprop:Generator_ColumnVarNameInTable="columnCertificateNo" msprop:Generator_ColumnPropNameInRow="CertificateNo" msprop:Generator_ColumnPropNameInTable="CertificateNoColumn" msprop:Generator_UserColumnName="CertificateNo" type="xs:string" minOccurs="0" />
+              <xs:element name="BarcodeNo" msprop:Generator_ColumnVarNameInTable="columnBarcodeNo" msprop:Generator_ColumnPropNameInRow="BarcodeNo" msprop:Generator_ColumnPropNameInTable="BarcodeNoColumn" msprop:Generator_UserColumnName="BarcodeNo" type="xs:string" minOccurs="0" />
+              <xs:element name="GemsStockID" msprop:Generator_ColumnVarNameInTable="columnGemsStockID" msprop:Generator_ColumnPropNameInRow="GemsStockID" msprop:Generator_ColumnPropNameInTable="GemsStockIDColumn" msprop:Generator_UserColumnName="GemsStockID" type="xs:string" minOccurs="0" />
+              <xs:element name="WeightR" msprop:Generator_ColumnVarNameInTable="columnWeightR" msprop:Generator_ColumnPropNameInRow="WeightR" msprop:Generator_ColumnPropNameInTable="WeightRColumn" msprop:Generator_UserColumnName="WeightR" type="xs:string" minOccurs="0" />
+              <xs:element name="WeightB" msprop:Generator_ColumnVarNameInTable="columnWeightB" msprop:Generator_ColumnPropNameInRow="WeightB" msprop:Generator_ColumnPropNameInTable="WeightBColumn" msprop:Generator_UserColumnName="WeightB" type="xs:string" minOccurs="0" />
+              <xs:element name="WeightP" msprop:Generator_ColumnVarNameInTable="columnWeightP" msprop:Generator_ColumnPropNameInRow="WeightP" msprop:Generator_ColumnPropNameInTable="WeightPColumn" msprop:Generator_UserColumnName="WeightP" type="xs:string" minOccurs="0" />
+              <xs:element name="BalanceGemsTW" msprop:Generator_ColumnVarNameInTable="columnBalanceGemsTW" msprop:Generator_ColumnPropNameInRow="BalanceGemsTW" msprop:Generator_ColumnPropNameInTable="BalanceGemsTWColumn" msprop:Generator_UserColumnName="BalanceGemsTW" type="xs:string" minOccurs="0" />
+              <xs:element name="BalanceCarat" msprop:Generator_ColumnVarNameInTable="columnBalanceCarat" msprop:Generator_ColumnPropNameInRow="BalanceCarat" msprop:Generator_ColumnPropNameInTable="BalanceCaratColumn" msprop:Generator_UserColumnName="BalanceCarat" type="xs:string" minOccurs="0" />
+              <xs:element name="BalanceQTY" msprop:Generator_ColumnVarNameInTable="columnBalanceQTY" msprop:Generator_ColumnPropNameInRow="BalanceQTY" msprop:Generator_ColumnPropNameInTable="BalanceQTYColumn" msprop:Generator_UserColumnName="BalanceQTY" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

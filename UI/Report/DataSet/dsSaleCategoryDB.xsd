@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet3" targetNamespace="http://tempuri.org/DataSet3.xsd" xmlns:mstns="http://tempuri.org/DataSet3.xsd" xmlns="http://tempuri.org/DataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet3" msprop:Generator_UserDSName="DataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtSaleCategroy" msprop:Generator_TableClassName="dtSaleCategroyDataTable" msprop:Generator_TableVarName="tabledtSaleCategroy" msprop:Generator_TablePropName="dtSaleCategroy" msprop:Generator_RowDeletingName="dtSaleCategroyRowDeleting" msprop:Generator_RowChangingName="dtSaleCategroyRowChanging" msprop:Generator_RowEvHandlerName="dtSaleCategroyRowChangeEventHandler" msprop:Generator_RowDeletedName="dtSaleCategroyRowDeleted" msprop:Generator_UserTableName="dtSaleCategroy" msprop:Generator_RowChangedName="dtSaleCategroyRowChanged" msprop:Generator_RowEvArgName="dtSaleCategroyRowChangeEvent" msprop:Generator_RowClassName="dtSaleCategroyRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SaleAmount" msprop:Generator_ColumnVarNameInTable="columnSaleAmount" msprop:Generator_ColumnPropNameInRow="SaleAmount" msprop:Generator_ColumnPropNameInTable="SaleAmountColumn" msprop:Generator_UserColumnName="SaleAmount" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemCategory" msprop:Generator_ColumnVarNameInTable="columnItemCategory" msprop:Generator_ColumnPropNameInRow="ItemCategory" msprop:Generator_ColumnPropNameInTable="ItemCategoryColumn" msprop:Generator_UserColumnName="ItemCategory" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

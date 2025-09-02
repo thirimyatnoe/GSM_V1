@@ -1,0 +1,1381 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+UI
+</name>
+</assembly>
+<members>
+<member name="T:UI.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources._1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources._11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources._17">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources._18">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources._181">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources._19">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources._5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources._7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources._8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources._9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.app_background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.app_background__Final2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.app_background_Final">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.app_logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.app_logo__2__Final">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.app_splash">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.app_splash_2__Final">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.finalmainscreen">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.finalmainscreen1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.GolbalGold_background_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.hb">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.help">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.helpboard">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.helpbook">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.helpbook1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.main_screen_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.MainScreen1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.newmainscreen">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.newSplash">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.newSplash1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.SplashScreen">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.titlebar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.titlebar1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.titlebar2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:UI.SearchControlHost.OnSelectedDataChanged(System.EventArgs)">
+ <summary>
+ Raises the <see cref="!:SelectedFontChanged"/> event.
+ </summary>
+</member>
+<member name="T:UI.dsAllCashTransaction">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsAllCashTransaction.dsAllCashTransactionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsAllCashTransaction.dsAllCashTransactionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsAllCashTransaction.dsAllCashTransactionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.BarcodeTrack">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.BarcodeTrack.BarcodeTrackDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.BarcodeTrack.BarcodeDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.BarcodeTrack.CheckStockDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.BarcodeTrack.MCheckStockDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.BarcodeTrack.ECheckStockDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.BarcodeTrack.BarcodeTrackRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.BarcodeTrack.BarcodeDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.BarcodeTrack.CheckStockRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.BarcodeTrack.MCheckStockRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.BarcodeTrack.ECheckStockRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.BarcodeTrack.BarcodeTrackRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.BarcodeTrack.BarcodeDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.BarcodeTrack.CheckStockRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.BarcodeTrack.MCheckStockRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.BarcodeTrack.ECheckStockRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsBranchTransfer1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsBranchTransfer1.BranchTransferDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsBranchTransfer1.BranchTransferRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsBranchTransfer1.BranchTransferRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.DataSet1.dsCreditDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.DataSet1.dsCashDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.DataSet1.dsCreditRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.DataSet1.dsCashRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.DataSet1.dsCreditRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.DataSet1.dsCashRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsCashInCashOut">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsCashInCashOut.CashInCashOutDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsCashInCashOut.CashInCashOutRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsCashInCashOut.CashInCashOutRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsCashReceipt">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsCashReceipt.CashReceiptDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsCashReceipt.CashReceiptRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsCashReceipt.CashReceiptRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsSaleItem">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsSaleItem.SaleItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsSaleItem.SaleItemInOutByCounterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsSaleItem.SaleItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsSaleItem.SaleItemInOutByCounterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsSaleItem.SaleItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsSaleItem.SaleItemInOutByCounterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.DataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.DataSet2.dsCheckStockDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.DataSet2.dsCheckStockRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.DataSet2.dsCheckStockRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsConsignmentSale">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsConsignmentSale.ConsignmentSaleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsConsignmentSale.ConsignmentSaleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsConsignmentSale.ConsignmentSaleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.DataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.DataSet6.dtCreditBalanceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.DataSet6.dtCreditBalanceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.DataSet6.dtCreditBalanceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsCurrentPrice">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsCurrentPrice.CurrentPriceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsCurrentPrice.CurrentPriceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsCurrentPrice.CurrentPriceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsCustomer">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsCustomer.CustomerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsCustomer.GemsCategoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsCustomer.GoldQualityDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsCustomer.ItemCategoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsCustomer.ItemNameDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsCustomer.StaffsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsCustomer.CustomerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsCustomer.GemsCategoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsCustomer.GoldQualityRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsCustomer.ItemCategoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsCustomer.ItemNameRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsCustomer.StaffsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsCustomer.CustomerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsCustomer.GemsCategoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsCustomer.GoldQualityRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsCustomer.ItemCategoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsCustomer.ItemNameRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsCustomer.StaffsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsDailyIncomeExpense">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsDailyIncomeExpense.dtDailyIncomeExpenseDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsDailyIncomeExpense.dtDailyIncomeExpenseRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsDailyIncomeExpense.dtDailyIncomeExpenseRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsDailyTransaction">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsDailyTransaction.DailyTransactionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsDailyTransaction.dtOtherCashDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsDailyTransaction.DailyTransactionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsDailyTransaction.dtOtherCashRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsDailyTransaction.DailyTransactionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsDailyTransaction.dtOtherCashRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsDamage">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsDamage.DamageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsDamage.DamageDivideDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsDamage.DamageDivideHeaderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsDamage.DamageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsDamage.DamageDivideRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsDamage.DamageDivideHeaderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsDamage.DamageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsDamage.DamageDivideRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsDamage.DamageDivideHeaderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsGemsStock">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsGemsStock.GemsStockDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsGemsStock.GemsStockRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsGemsStock.GemsStockRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsGeneralLedgerByLocation">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsGeneralLedgerByLocation.dtGeneralLedgerByLocationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsGeneralLedgerByLocation.dtGeneralLedgerByLocationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsGeneralLedgerByLocation.dtGeneralLedgerByLocationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsIntDiamondPrice">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsIntDiamondPrice.IntDiamondPriceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsIntDiamondPrice.IntDiamondPriceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsIntDiamondPrice.IntDiamondPriceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsMortgageInvoice">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsMortgageInvoice.MortgagePaybackDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsMortgageInvoice.MortgageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsMortgageInvoice.MortgageInterestDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsMortgageInvoice.MortgageReturnDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsMortgageInvoice.MortgageHistoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsMortgageInvoice.MortgagePaybackReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsMortgageInvoice.MortgageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsMortgageInvoice.MortgageInterestRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsMortgageInvoice.MortgagePaybackRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsMortgageInvoice.MortgageReturnRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsMortgageInvoice.MortgageHistoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsMortgageInvoice.MortgagePaybackReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsMortgageInvoice.MortgageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsMortgageInvoice.MortgageInterestRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsMortgageInvoice.MortgagePaybackRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsMortgageInvoice.MortgageReturnRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsMortgageInvoice.MortgageHistoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsMortgageInvoice.MortgagePaybackReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsOrderInvoice">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsOrderInvoice.OrderInvoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsOrderInvoice.OrderInvoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsOrderInvoice.OrderInvoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsOrderInvoiceItem">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsOrderInvoiceItem.OrderInvoiceItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsOrderInvoiceItem.OrderInvoiceItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsOrderInvoiceItem.OrderInvoiceItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsOtherCash">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsOtherCash.dtOtherCashDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsOtherCash.dtOtherCashRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsOtherCash.dtOtherCashRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsPurchaseGems">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsPurchaseGems.dsPurchaseGemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsPurchaseGems.dsPurchaseGemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsPurchaseGems.dsPurchaseGemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsPurchaseInvoice">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsPurchaseInvoice.PurchaseInvoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsPurchaseInvoice.PurchaseInvoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsPurchaseInvoice.PurchaseInvoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsPurchaseSupplier">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsPurchaseSupplier.PurchaseSupplierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsPurchaseSupplier.PurchaseSupplierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsPurchaseSupplier.PurchaseSupplierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsRepairReceive">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsRepairReceive.RepairVoucherDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsRepairReceive.RepairVoucherRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsRepairReceive.RepairVoucherRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsRepairReturn">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsRepairReturn.dtRepairReturnDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsRepairReturn.RepairReturnDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsRepairReturn.dtRepairReturnRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsRepairReturn.RepairReturnRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsRepairReturn.dtRepairReturnRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsRepairReturn.RepairReturnRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsReturnAdvance">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsReturnAdvance.ReturnAdvanceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsReturnAdvance.ReturnAdvanceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsReturnAdvance.ReturnAdvanceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.DataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.DataSet3.dtSaleCategroyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.DataSet3.dtSaleCategroyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.DataSet3.dtSaleCategroyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsSaleDB">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsSaleDB.dtSaleDBDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsSaleDB.dtSaleDBRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsSaleDB.dtSaleDBRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsSaleGems">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsSaleGems.SaleGemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsSaleGems.SaleGemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsSaleGems.SaleGemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsSaleInvoice">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsSaleInvoice.SaleInvoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsSaleInvoice.SaleInvoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsSaleInvoice.SaleInvoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.DataSet7">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.DataSet7.dtSaleByItemNameDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.DataSet7.dtSaleByItemNameRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.DataSet7.dtSaleByItemNameRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsSaleLooseDiamond">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsSaleLooseDiamond.dtLooseDiamondDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsSaleLooseDiamond.dtLooseDiamondRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsSaleLooseDiamond.dtLooseDiamondRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsSalesOrderInvoice">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsSalesOrderInvoice.dtSalesOrderInvoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsSalesOrderInvoice.dtSalesOrderInvoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsSalesOrderInvoice.dtSalesOrderInvoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.DataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.DataSet5.dtSaleSummaryDashboardDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.DataSet5.dtSaleSummaryDashboardRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.DataSet5.dtSaleSummaryDashboardRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsSalesVolumeInvoice">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsSalesVolumeInvoice.SalesVolumeInvoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsSalesVolumeInvoice.SalesVolumeInvoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsSalesVolumeInvoice.SalesVolumeInvoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.OrderReceiveItem">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.OrderReceiveItem.dsOrderReceiveItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.OrderReceiveItem.dtOrderTaxDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.OrderReceiveItem.dsOrderReceiveItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.OrderReceiveItem.dtOrderTaxRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.OrderReceiveItem.dsOrderReceiveItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.OrderReceiveItem.dtOrderTaxRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.DataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.DataSet4.dtStockBalanceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.DataSet4.dtStockBalanceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.DataSet4.dtStockBalanceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsTransfer">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsTransfer.TransferDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsTransfer.TransferDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsTransfer.TransferDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsTransferReturn">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsTransferReturn.TransferReturnDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsTransferReturn.TransferReturnDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsTransferReturn.TransferReturnDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsWholeSaleInvoice">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsWholeSaleInvoice.dtWholeSaleInvoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsWholeSaleInvoice.dtWholeSaleInvoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsWholeSaleInvoice.dtWholeSaleInvoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:UI.dsWholeSaleReturn">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:UI.dsWholeSaleReturn.WholeSaleReturnDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:UI.dsWholeSaleReturn.WholeSaleReturnRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:UI.dsWholeSaleReturn.WholeSaleReturnRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+</members>
+</doc>

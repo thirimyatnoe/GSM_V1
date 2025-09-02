@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C5B0740E-3B7B-4289-BF3A-83C330DA2011}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DataAccess</RootNamespace>
+    <AssemblyName>DataAccess</AssemblyName>
+    <MyType>Windows</MyType>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DataAccess.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DataAccess.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>DataAccess.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>DataAccess.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\References\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.ADOX">
+      <HintPath>..\References\Interop.ADOX.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.SQLDMO">
+      <HintPath>..\References\Interop.SQLDMO.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\References\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=e44a2bc38ed2c13c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\References\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder">
+      <HintPath>..\References\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BarcodeSetting\BarCodeSettingDA.vb" />
+    <Compile Include="BarcodeSetting\IBarcodeSettingDA.vb" />
+    <Compile Include="Branch\IBranchDA.vb" />
+    <Compile Include="Branch\BranchDA.vb" />
+    <Compile Include="CashReceipt\CashReceiptDA.vb" />
+    <Compile Include="CashReceipt\ICashReceiptDA.vb" />
+    <Compile Include="CashType\CashTypeDA.vb" />
+    <Compile Include="CashType\ICashTypeDA.vb" />
+    <Compile Include="CheckStock\CheckStockDA.vb" />
+    <Compile Include="CheckStock\ICheckStockDA.vb" />
+    <Compile Include="CompanyProfile\CompanyProfileDA.vb" />
+    <Compile Include="CompanyProfile\ICompanyProfileDA.vb" />
+    <Compile Include="ConsignmentSale\ConsignmentSaleDA.vb" />
+    <Compile Include="ConsignmentSale\IConsignmentSaleDA.vb" />
+    <Compile Include="Converter\ConverterDA.vb" />
+    <Compile Include="Converter\IConverterDA.vb" />
+    <Compile Include="CurrentPrice\CurrentPriceDA.vb" />
+    <Compile Include="CurrentPrice\ICurrentPriceDA.vb" />
+    <Compile Include="Customer\CustomerDA.vb" />
+    <Compile Include="Customer\ICustomerDA.vb" />
+    <Compile Include="CustomReport\CustomReportDA.vb" />
+    <Compile Include="CustomReport\ICustomReportDA.vb" />
+    <Compile Include="DailyIncomeExpense\DailyExpense\DailyExpenseDA.vb" />
+    <Compile Include="DailyIncomeExpense\DailyExpense\IDailyExpenseDA.vb" />
+    <Compile Include="DailyIncomeExpense\DailyIncome\DailyIncomeDA.vb" />
+    <Compile Include="DailyIncomeExpense\DailyIncome\IDailyIncomeDA.vb" />
+    <Compile Include="DALGeneralClass.vb" />
+    <Compile Include="DALGeneralModule.vb" />
+    <Compile Include="Dashboard\DashboardDA.vb" />
+    <Compile Include="Dashboard\IDashboardDA.vb" />
+    <Compile Include="DatabaseExportImport\Catalog.vb" />
+    <Compile Include="DatabaseExportImport\DatabaseExportImportDA.vb" />
+    <Compile Include="DatabaseExportImport\IDatabaseExportImportDA.vb" />
+    <Compile Include="DBConnection\DBConnectionDAL.vb" />
+    <Compile Include="EventLogs\EventLogDAL.vb" />
+    <Compile Include="ExportData\ExportdataDA.vb" />
+    <Compile Include="ExportData\IExportdataDA.vb" />
+    <Compile Include="ExportServiceLogs\ExportServiceLogsDA.vb" />
+    <Compile Include="ExportServiceLogs\IExportServiceLogsDA.vb" />
+    <Compile Include="Factory.vb" />
+    <Compile Include="GemsCategory\GemsCategoryDA.vb" />
+    <Compile Include="GemsCategory\IGemsCategoryDA.vb" />
+    <Compile Include="GeneralLedgerByLocation\GeneralLedgerByLocationDA.vb" />
+    <Compile Include="GeneralLedgerByLocation\IGeneralLedgerByLocationDA.vb" />
+    <Compile Include="General\GeneralDA.vb" />
+    <Compile Include="General\IGeneralDA.vb" />
+    <Compile Include="GenerateFormat\GenerateFormatDA.vb" />
+    <Compile Include="GenerateFormat\IGenerateFormatDA.vb" />
+    <Compile Include="GlobalSetting\IGlobalSettingDA.vb" />
+    <Compile Include="GlobalSetting\GlobalSettingDA.vb" />
+    <Compile Include="GoldQuality\GoldQualityDA.vb" />
+    <Compile Include="GoldQuality\IGoldQualityDA.vb" />
+    <Compile Include="GoldSmith\GoldSmithDA.vb" />
+    <Compile Include="GoldSmith\IGoldSmithDA.vb" />
+    <Compile Include="International Diamond\IIntDiamondPriceRateDA.vb" />
+    <Compile Include="International Diamond\IntDiamondPriceRateDA.vb" />
+    <Compile Include="ItemCategory\IItemCategoryDA.vb" />
+    <Compile Include="ItemCategory\ItemCategoryDA.vb" />
+    <Compile Include="ItemName\IItemNameDA.vb" />
+    <Compile Include="ItemName\ItemNameDA.vb" />
+    <Compile Include="Keyword\IKeywordDA.vb" />
+    <Compile Include="Keyword\KeywordDA.vb" />
+    <Compile Include="Location\ILocationDA.vb" />
+    <Compile Include="Location\LocationDA.vb" />
+    <Compile Include="Measurement\IMeasurementDA.vb" />
+    <Compile Include="Measurement\MeasurementDA.vb" />
+    <Compile Include="MortgageInterest\IMortgageInterestDA.vb" />
+    <Compile Include="MortgageInterest\MortgageInterestDA.vb" />
+    <Compile Include="MortgageInvoice\IMortgageInvoiceDA.vb" />
+    <Compile Include="MortgageInvoice\MortgageInvoiceDA.vb" />
+    <Compile Include="MortgagePayback\IMortgagePaybackDA.vb" />
+    <Compile Include="MortgagePayback\MortgagePaybackDA.vb" />
+    <Compile Include="MortgageReturn\IMortgageReturnDA.vb" />
+    <Compile Include="MortgageReturn\MortgageReturnDA.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="OrderInvoice\IOrderInvoiceDA.vb" />
+    <Compile Include="OrderInvoice\OrderInvoiceDA.vb" />
+    <Compile Include="PhotoPath\IPhotoPathDA.vb" />
+    <Compile Include="PhotoPath\PhotoPathDA.vb" />
+    <Compile Include="PurchaseGems\IPurchaseGemsDA.vb" />
+    <Compile Include="PurchaseGems\PurchaseGemsDA.vb" />
+    <Compile Include="PurchaseItem\IPurchaseItemDA.vb" />
+    <Compile Include="PurchaseItem\PurchaseItemDA.vb" />
+    <Compile Include="RepairReturn\IRepairReturnDA.vb" />
+    <Compile Include="RepairReturn\RepairReturnDA.vb" />
+    <Compile Include="Repair\IRepairDA.vb" />
+    <Compile Include="Repair\RepairDA.vb" />
+    <Compile Include="ReturnAdvance\IReturnAdvanceDA.vb" />
+    <Compile Include="ReturnAdvance\ReturnAdvanceDA.vb" />
+    <Compile Include="SaleGems\ISaleGemsDA.vb" />
+    <Compile Include="SaleGems\SaleGemsDA.vb" />
+    <Compile Include="SalesItemInvoice\ISalesItemInvoiceDA.vb" />
+    <Compile Include="SalesItemInvoice\SalesItemInvoiceDA.vb" />
+    <Compile Include="SalesItemSetup\ISalesItemDA.vb" />
+    <Compile Include="SalesItemSetup\SalesItemDA.vb" />
+    <Compile Include="SaleLooseDiamond\ISaleLooseDiamondDA.vb" />
+    <Compile Include="SaleLooseDiamond\SaleLooseDiamondDA.vb" />
+    <Compile Include="SalesVolume\ISalesVolumeDA.vb" />
+    <Compile Include="SalesVolume\SalesVolumeDA.vb" />
+    <Compile Include="Setting\ISettingDA.vb" />
+    <Compile Include="Setting\SettingAccessDA.vb" />
+    <Compile Include="Setting\SettingDA.vb" />
+    <Compile Include="Staff\IStaffDA.vb" />
+    <Compile Include="Staff\StaffDA.vb" />
+    <Compile Include="Supplier\ISupplierDA.vb" />
+    <Compile Include="Supplier\SupplierDA.vb" />
+    <Compile Include="TransferDiamond\ITransferDiamondDA.vb" />
+    <Compile Include="TransferDiamond\TransferDiamondDA.vb" />
+    <Compile Include="TransferDiamondReturn\ITransferDiamondReturnDA.vb" />
+    <Compile Include="TransferDiamondReturn\TransferDiamondReturnDA.vb" />
+    <Compile Include="TransferReturn\ITransferReturnDA.vb" />
+    <Compile Include="TransferReturn\TransferReturnDA.vb" />
+    <Compile Include="Transfer\ITransferDA.vb" />
+    <Compile Include="Transfer\TransferDA.vb" />
+    <Compile Include="UserManagement\LogInDAL.vb" />
+    <Compile Include="UserManagement\MenuBuliderDAL.vb" />
+    <Compile Include="UserManagement\UserDAL.vb" />
+    <Compile Include="UserManagement\UserLevelDAL.vb" />
+    <Compile Include="VoucherSetting\IVoucherSettingDA.vb" />
+    <Compile Include="VoucherSetting\VoucherSettingDA.vb" />
+    <Compile Include="WasteSetup\IWasteSetupDA.vb" />
+    <Compile Include="WasteSetup\WasteSetupDA.vb" />
+    <Compile Include="WholeSaleReturn\IWholeSaleReturnDA.vb" />
+    <Compile Include="WholeSaleReturn\WholeSaleReturnDA.vb" />
+    <Compile Include="WholeSale\IWholeSaleInvoiceDA.vb" />
+    <Compile Include="WholeSale\WholeSaleInvoiceDA.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonInfo\CommonInfo.vbproj">
+      <Project>{4c919cb0-7319-4173-941c-dafe9646425a}</Project>
+      <Name>CommonInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Operational\Operational.vbproj">
+      <Project>{da7378dc-dcc7-4a4d-b1eb-87ff5bde9cd7}</Project>
+      <Name>Operational</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

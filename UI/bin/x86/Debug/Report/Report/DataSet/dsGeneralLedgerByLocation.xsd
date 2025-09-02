@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsGeneralLedgerByLocation" targetNamespace="http://tempuri.org/dsGeneralLedgerByLocation.xsd" xmlns:mstns="http://tempuri.org/dsGeneralLedgerByLocation.xsd" xmlns="http://tempuri.org/dsGeneralLedgerByLocation.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsGeneralLedgerByLocation" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsGeneralLedgerByLocation" msprop:Generator_DataSetName="dsGeneralLedgerByLocation">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtGeneralLedgerByLocation" msprop:Generator_UserTableName="dtGeneralLedgerByLocation" msprop:Generator_RowDeletedName="dtGeneralLedgerByLocationRowDeleted" msprop:Generator_RowChangedName="dtGeneralLedgerByLocationRowChanged" msprop:Generator_RowClassName="dtGeneralLedgerByLocationRow" msprop:Generator_RowChangingName="dtGeneralLedgerByLocationRowChanging" msprop:Generator_RowEvArgName="dtGeneralLedgerByLocationRowChangeEvent" msprop:Generator_RowEvHandlerName="dtGeneralLedgerByLocationRowChangeEventHandler" msprop:Generator_TableClassName="dtGeneralLedgerByLocationDataTable" msprop:Generator_TableVarName="tabledtGeneralLedgerByLocation" msprop:Generator_RowDeletingName="dtGeneralLedgerByLocationRowDeleting" msprop:Generator_TablePropName="dtGeneralLedgerByLocation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CreditAmount" msprop:Generator_UserColumnName="CreditAmount" msprop:Generator_ColumnVarNameInTable="columnCreditAmount" msprop:Generator_ColumnPropNameInRow="CreditAmount" msprop:Generator_ColumnPropNameInTable="CreditAmountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DebitAmount" msprop:Generator_UserColumnName="DebitAmount" msprop:Generator_ColumnVarNameInTable="columnDebitAmount" msprop:Generator_ColumnPropNameInRow="DebitAmount" msprop:Generator_ColumnPropNameInTable="DebitAmountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Title" msprop:Generator_UserColumnName="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GLDate" msprop:Generator_UserColumnName="GLDate" msprop:Generator_ColumnVarNameInTable="columnGLDate" msprop:Generator_ColumnPropNameInRow="GLDate" msprop:Generator_ColumnPropNameInTable="GLDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Location" msprop:Generator_UserColumnName="Location" msprop:Generator_ColumnVarNameInTable="columnLocation" msprop:Generator_ColumnPropNameInRow="Location" msprop:Generator_ColumnPropNameInTable="LocationColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LocationID" msprop:Generator_UserColumnName="LocationID" msprop:Generator_ColumnVarNameInTable="columnLocationID" msprop:Generator_ColumnPropNameInRow="LocationID" msprop:Generator_ColumnPropNameInTable="LocationIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MyanTitle" msprop:Generator_UserColumnName="MyanTitle" msprop:Generator_ColumnPropNameInRow="MyanTitle" msprop:Generator_ColumnVarNameInTable="columnMyanTitle" msprop:Generator_ColumnPropNameInTable="MyanTitleColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

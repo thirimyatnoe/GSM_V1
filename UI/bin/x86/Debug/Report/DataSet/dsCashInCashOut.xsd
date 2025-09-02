@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCashInCashOut" targetNamespace="http://tempuri.org/dsCashInCashOut.xsd" xmlns:mstns="http://tempuri.org/dsCashInCashOut.xsd" xmlns="http://tempuri.org/dsCashInCashOut.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCashInCashOut" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsCashInCashOut" msprop:Generator_UserDSName="dsCashInCashOut">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CashInCashOut" msprop:Generator_TableClassName="CashInCashOutDataTable" msprop:Generator_TableVarName="tableCashInCashOut" msprop:Generator_TablePropName="CashInCashOut" msprop:Generator_RowDeletingName="CashInCashOutRowDeleting" msprop:Generator_RowChangingName="CashInCashOutRowChanging" msprop:Generator_RowEvHandlerName="CashInCashOutRowChangeEventHandler" msprop:Generator_RowDeletedName="CashInCashOutRowDeleted" msprop:Generator_UserTableName="CashInCashOut" msprop:Generator_RowChangedName="CashInCashOutRowChanged" msprop:Generator_RowEvArgName="CashInCashOutRowChangeEvent" msprop:Generator_RowClassName="CashInCashOutRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InTitle" msprop:Generator_ColumnVarNameInTable="columnInTitle" msprop:Generator_ColumnPropNameInRow="InTitle" msprop:Generator_ColumnPropNameInTable="InTitleColumn" msprop:Generator_UserColumnName="InTitle" type="xs:string" minOccurs="0" />
+              <xs:element name="InAmount" msprop:Generator_ColumnVarNameInTable="columnInAmount" msprop:Generator_ColumnPropNameInRow="InAmount" msprop:Generator_ColumnPropNameInTable="InAmountColumn" msprop:Generator_UserColumnName="InAmount" type="xs:string" minOccurs="0" />
+              <xs:element name="OutTitle" msprop:Generator_ColumnVarNameInTable="columnOutTitle" msprop:Generator_ColumnPropNameInRow="OutTitle" msprop:Generator_ColumnPropNameInTable="OutTitleColumn" msprop:Generator_UserColumnName="OutTitle" type="xs:string" minOccurs="0" />
+              <xs:element name="OutAmount" msprop:Generator_ColumnVarNameInTable="columnOutAmount" msprop:Generator_ColumnPropNameInRow="OutAmount" msprop:Generator_ColumnPropNameInTable="OutAmountColumn" msprop:Generator_UserColumnName="OutAmount" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

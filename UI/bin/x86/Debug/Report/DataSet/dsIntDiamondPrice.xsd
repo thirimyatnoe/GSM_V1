@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsIntDiamondPrice" targetNamespace="http://tempuri.org/dsIntDiamondPrice.xsd" xmlns:mstns="http://tempuri.org/dsIntDiamondPrice.xsd" xmlns="http://tempuri.org/dsIntDiamondPrice.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsIntDiamondPrice" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsIntDiamondPrice" msprop:Generator_UserDSName="dsIntDiamondPrice">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="IntDiamondPrice" msprop:Generator_UserTableName="IntDiamondPrice" msprop:Generator_RowEvArgName="IntDiamondPriceRowChangeEvent" msprop:Generator_TableVarName="tableIntDiamondPrice" msprop:Generator_TablePropName="IntDiamondPrice" msprop:Generator_RowDeletingName="IntDiamondPriceRowDeleting" msprop:Generator_RowChangingName="IntDiamondPriceRowChanging" msprop:Generator_RowDeletedName="IntDiamondPriceRowDeleted" msprop:Generator_RowEvHandlerName="IntDiamondPriceRowChangeEventHandler" msprop:Generator_TableClassName="IntDiamondPriceDataTable" msprop:Generator_RowChangedName="IntDiamondPriceRowChanged" msprop:Generator_RowClassName="IntDiamondPriceRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DefineID" msprop:Generator_ColumnVarNameInTable="columnDefineID" msprop:Generator_ColumnPropNameInRow="DefineID" msprop:Generator_ColumnPropNameInTable="DefineIDColumn" msprop:Generator_UserColumnName="DefineID" type="xs:string" minOccurs="0" />
+              <xs:element name="DefineDateTime" msprop:Generator_ColumnVarNameInTable="columnDefineDateTime" msprop:Generator_ColumnPropNameInRow="DefineDateTime" msprop:Generator_ColumnPropNameInTable="DefineDateTimeColumn" msprop:Generator_UserColumnName="DefineDateTime" type="xs:string" minOccurs="0" />
+              <xs:element name="CaratFrom" msprop:Generator_ColumnVarNameInTable="columnCaratFrom" msprop:Generator_ColumnPropNameInRow="CaratFrom" msprop:Generator_ColumnPropNameInTable="CaratFromColumn" msprop:Generator_UserColumnName="CaratFrom" type="xs:string" minOccurs="0" />
+              <xs:element name="CaratTo" msprop:Generator_ColumnVarNameInTable="columnCaratTo" msprop:Generator_ColumnPropNameInRow="CaratTo" msprop:Generator_ColumnPropNameInTable="CaratToColumn" msprop:Generator_UserColumnName="CaratTo" type="xs:string" minOccurs="0" />
+              <xs:element name="PriceRate" msprop:Generator_ColumnVarNameInTable="columnPriceRate" msprop:Generator_ColumnPropNameInRow="PriceRate" msprop:Generator_ColumnPropNameInTable="PriceRateColumn" msprop:Generator_UserColumnName="PriceRate" type="xs:string" minOccurs="0" />
+              <xs:element name="WholeSaleRate" msprop:Generator_ColumnVarNameInTable="columnWholeSaleRate" msprop:Generator_ColumnPropNameInRow="WholeSaleRate" msprop:Generator_ColumnPropNameInTable="WholeSaleRateColumn" msprop:Generator_UserColumnName="WholeSaleRate" type="xs:string" minOccurs="0" />
+              <xs:element name="PercentDirectChange" msprop:Generator_ColumnVarNameInTable="columnPercentDirectChange" msprop:Generator_ColumnPropNameInRow="PercentDirectChange" msprop:Generator_ColumnPropNameInTable="PercentDirectChangeColumn" msprop:Generator_UserColumnName="PercentDirectChange" type="xs:string" minOccurs="0" />
+              <xs:element name="PercentReturn" msprop:Generator_ColumnVarNameInTable="columnPercentReturn" msprop:Generator_ColumnPropNameInRow="PercentReturn" msprop:Generator_ColumnPropNameInTable="PercentReturnColumn" msprop:Generator_UserColumnName="PercentReturn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

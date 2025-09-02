@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsCredit" msprop:Generator_TableClassName="dsCreditDataTable" msprop:Generator_TableVarName="tabledsCredit" msprop:Generator_TablePropName="dsCredit" msprop:Generator_RowDeletingName="dsCreditRowDeleting" msprop:Generator_RowChangingName="dsCreditRowChanging" msprop:Generator_RowEvHandlerName="dsCreditRowChangeEventHandler" msprop:Generator_RowDeletedName="dsCreditRowDeleted" msprop:Generator_UserTableName="dsCredit" msprop:Generator_RowChangedName="dsCreditRowChanged" msprop:Generator_RowEvArgName="dsCreditRowChangeEvent" msprop:Generator_RowClassName="dsCreditRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SaleDate" msprop:Generator_ColumnVarNameInTable="columnSaleDate" msprop:Generator_ColumnPropNameInRow="SaleDate" msprop:Generator_ColumnPropNameInTable="SaleDateColumn" msprop:Generator_UserColumnName="SaleDate" type="xs:string" minOccurs="0" />
+              <xs:element name="SaleCashAmount" msprop:Generator_ColumnVarNameInTable="columnSaleCashAmount" msprop:Generator_ColumnPropNameInRow="SaleCashAmount" msprop:Generator_ColumnPropNameInTable="SaleCashAmountColumn" msprop:Generator_UserColumnName="SaleCashAmount" type="xs:string" minOccurs="0" />
+              <xs:element name="SaleCreditAmount" msprop:Generator_ColumnVarNameInTable="columnSaleCreditAmount" msprop:Generator_ColumnPropNameInRow="SaleCreditAmount" msprop:Generator_ColumnPropNameInTable="SaleCreditAmountColumn" msprop:Generator_UserColumnName="SaleCreditAmount" type="xs:string" minOccurs="0" />
+              <xs:element name="YSaleDate" msprop:Generator_ColumnVarNameInTable="columnYSaleDate" msprop:Generator_ColumnPropNameInRow="YSaleDate" msprop:Generator_ColumnPropNameInTable="YSaleDateColumn" msprop:Generator_UserColumnName="YSaleDate" type="xs:string" minOccurs="0" />
+              <xs:element name="MSaleDate" msprop:Generator_ColumnVarNameInTable="columnMSaleDate" msprop:Generator_ColumnPropNameInRow="MSaleDate" msprop:Generator_ColumnPropNameInTable="MSaleDateColumn" msprop:Generator_UserColumnName="MSaleDate" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dsCash" msprop:Generator_TableClassName="dsCashDataTable" msprop:Generator_TableVarName="tabledsCash" msprop:Generator_TablePropName="dsCash" msprop:Generator_RowDeletingName="dsCashRowDeleting" msprop:Generator_RowChangingName="dsCashRowChanging" msprop:Generator_RowEvHandlerName="dsCashRowChangeEventHandler" msprop:Generator_RowDeletedName="dsCashRowDeleted" msprop:Generator_UserTableName="dsCash" msprop:Generator_RowChangedName="dsCashRowChanged" msprop:Generator_RowEvArgName="dsCashRowChangeEvent" msprop:Generator_RowClassName="dsCashRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WSaleDate" msprop:Generator_ColumnVarNameInTable="columnWSaleDate" msprop:Generator_ColumnPropNameInRow="WSaleDate" msprop:Generator_ColumnPropNameInTable="WSaleDateColumn" msprop:Generator_UserColumnName="WSaleDate" type="xs:string" minOccurs="0" />
+              <xs:element name="WSaleCashAmount" msprop:Generator_ColumnVarNameInTable="columnWSaleCashAmount" msprop:Generator_ColumnPropNameInRow="WSaleCashAmount" msprop:Generator_ColumnPropNameInTable="WSaleCashAmountColumn" msprop:Generator_UserColumnName="WSaleCashAmount" type="xs:string" minOccurs="0" />
+              <xs:element name="Test" msprop:Generator_ColumnVarNameInTable="columnTest" msprop:Generator_ColumnPropNameInRow="Test" msprop:Generator_ColumnPropNameInTable="TestColumn" msprop:Generator_UserColumnName="Test" type="xs:string" minOccurs="0" />
+              <xs:element name="WSaleCreditAmount" msprop:Generator_ColumnVarNameInTable="columnWSaleCreditAmount" msprop:Generator_ColumnPropNameInRow="WSaleCreditAmount" msprop:Generator_ColumnPropNameInTable="WSaleCreditAmountColumn" msprop:Generator_UserColumnName="WSaleCreditAmount" type="xs:string" minOccurs="0" />
+              <xs:element name="Test2" msprop:Generator_ColumnVarNameInTable="columnTest2" msprop:Generator_ColumnPropNameInRow="Test2" msprop:Generator_ColumnPropNameInTable="Test2Column" msprop:Generator_UserColumnName="Test2" type="xs:string" minOccurs="0" />
+              <xs:element name="Test1" msprop:Generator_ColumnVarNameInTable="columnTest1" msprop:Generator_ColumnPropNameInRow="Test1" msprop:Generator_ColumnPropNameInTable="Test1Column" msprop:Generator_UserColumnName="Test1" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

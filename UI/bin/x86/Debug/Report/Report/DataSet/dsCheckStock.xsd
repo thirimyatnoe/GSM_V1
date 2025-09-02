@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet2" targetNamespace="http://tempuri.org/DataSet2.xsd" xmlns:mstns="http://tempuri.org/DataSet2.xsd" xmlns="http://tempuri.org/DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet2" msprop:Generator_UserDSName="DataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsCheckStock" msprop:Generator_TableClassName="dsCheckStockDataTable" msprop:Generator_TableVarName="tabledsCheckStock" msprop:Generator_TablePropName="dsCheckStock" msprop:Generator_RowDeletingName="dsCheckStockRowDeleting" msprop:Generator_RowChangingName="dsCheckStockRowChanging" msprop:Generator_RowEvHandlerName="dsCheckStockRowChangeEventHandler" msprop:Generator_RowDeletedName="dsCheckStockRowDeleted" msprop:Generator_UserTableName="dsCheckStock" msprop:Generator_RowChangedName="dsCheckStockRowChanged" msprop:Generator_RowEvArgName="dsCheckStockRowChangeEvent" msprop:Generator_RowClassName="dsCheckStockRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CheckStockID" msprop:Generator_ColumnVarNameInTable="columnCheckStockID" msprop:Generator_ColumnPropNameInRow="CheckStockID" msprop:Generator_ColumnPropNameInTable="CheckStockIDColumn" msprop:Generator_UserColumnName="CheckStockID" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckDateTime" msprop:Generator_ColumnVarNameInTable="columnCheckDateTime" msprop:Generator_ColumnPropNameInRow="CheckDateTime" msprop:Generator_ColumnPropNameInTable="CheckDateTimeColumn" msprop:Generator_UserColumnName="CheckDateTime" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemCategoryID" msprop:Generator_ColumnVarNameInTable="columnItemCategoryID" msprop:Generator_ColumnPropNameInRow="ItemCategoryID" msprop:Generator_ColumnPropNameInTable="ItemCategoryIDColumn" msprop:Generator_UserColumnName="ItemCategoryID" type="xs:string" minOccurs="0" />
+              <xs:element name="Staff" msprop:Generator_ColumnVarNameInTable="columnStaff" msprop:Generator_ColumnPropNameInRow="Staff" msprop:Generator_ColumnPropNameInTable="StaffColumn" msprop:Generator_UserColumnName="Staff" type="xs:string" minOccurs="0" />
+              <xs:element name="StaffID" msprop:Generator_ColumnVarNameInTable="columnStaffID" msprop:Generator_ColumnPropNameInRow="StaffID" msprop:Generator_ColumnPropNameInTable="StaffIDColumn" msprop:Generator_UserColumnName="StaffID" type="xs:string" minOccurs="0" />
+              <xs:element name="QTY" msprop:Generator_ColumnVarNameInTable="columnQTY" msprop:Generator_ColumnPropNameInRow="QTY" msprop:Generator_ColumnPropNameInTable="QTYColumn" msprop:Generator_UserColumnName="QTY" type="xs:string" minOccurs="0" />
+              <xs:element name="GoldTG" msprop:Generator_ColumnVarNameInTable="columnGoldTG" msprop:Generator_ColumnPropNameInRow="GoldTG" msprop:Generator_ColumnPropNameInTable="GoldTGColumn" msprop:Generator_UserColumnName="GoldTG" type="xs:string" minOccurs="0" />
+              <xs:element name="MQTY" msprop:Generator_ColumnVarNameInTable="columnMQTY" msprop:Generator_ColumnPropNameInRow="MQTY" msprop:Generator_ColumnPropNameInTable="MQTYColumn" msprop:Generator_UserColumnName="MQTY" type="xs:string" minOccurs="0" />
+              <xs:element name="FQTY" msprop:Generator_ColumnVarNameInTable="columnFQTY" msprop:Generator_ColumnPropNameInRow="FQTY" msprop:Generator_ColumnPropNameInTable="FQTYColumn" msprop:Generator_UserColumnName="FQTY" type="xs:string" minOccurs="0" />
+              <xs:element name="FGoldTG" msprop:Generator_ColumnVarNameInTable="columnFGoldTG" msprop:Generator_ColumnPropNameInRow="FGoldTG" msprop:Generator_ColumnPropNameInTable="FGoldTGColumn" msprop:Generator_UserColumnName="FGoldTG" type="xs:string" minOccurs="0" />
+              <xs:element name="Remark" msprop:Generator_ColumnVarNameInTable="columnRemark" msprop:Generator_ColumnPropNameInRow="Remark" msprop:Generator_ColumnPropNameInTable="RemarkColumn" msprop:Generator_UserColumnName="Remark" type="xs:string" minOccurs="0" />
+              <xs:element name="LocationID" msprop:Generator_ColumnVarNameInTable="columnLocationID" msprop:Generator_ColumnPropNameInRow="LocationID" msprop:Generator_ColumnPropNameInTable="LocationIDColumn" msprop:Generator_UserColumnName="LocationID" type="xs:string" minOccurs="0" />
+              <xs:element name="Location" msprop:Generator_ColumnVarNameInTable="columnLocation" msprop:Generator_ColumnPropNameInRow="Location" msprop:Generator_ColumnPropNameInTable="LocationColumn" msprop:Generator_UserColumnName="Location" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckStockItemID" msprop:Generator_ColumnVarNameInTable="columnCheckStockItemID" msprop:Generator_ColumnPropNameInRow="CheckStockItemID" msprop:Generator_ColumnPropNameInTable="CheckStockItemIDColumn" msprop:Generator_UserColumnName="CheckStockItemID" type="xs:string" minOccurs="0" />
+              <xs:element name="MBarcodeNo" msprop:Generator_ColumnVarNameInTable="columnMBarcodeNo" msprop:Generator_ColumnPropNameInRow="MBarcodeNo" msprop:Generator_ColumnPropNameInTable="MBarcodeNoColumn" msprop:Generator_UserColumnName="MBarcodeNo" type="xs:string" minOccurs="0" />
+              <xs:element name="MGoldTGD" msprop:Generator_ColumnVarNameInTable="columnMGoldTGD" msprop:Generator_ColumnPropNameInRow="MGoldTGD" msprop:Generator_ColumnPropNameInTable="MGoldTGDColumn" msprop:Generator_UserColumnName="MGoldTGD" type="xs:string" minOccurs="0" />
+              <xs:element name="MItemCategoryID" msprop:Generator_ColumnVarNameInTable="columnMItemCategoryID" msprop:Generator_ColumnPropNameInRow="MItemCategoryID" msprop:Generator_ColumnPropNameInTable="MItemCategoryIDColumn" msprop:Generator_UserColumnName="MItemCategoryID" type="xs:string" minOccurs="0" />
+              <xs:element name="ECheckStockItemID" msprop:Generator_ColumnVarNameInTable="columnECheckStockItemID" msprop:Generator_ColumnPropNameInRow="ECheckStockItemID" msprop:Generator_ColumnPropNameInTable="ECheckStockItemIDColumn" msprop:Generator_UserColumnName="ECheckStockItemID" type="xs:string" minOccurs="0" />
+              <xs:element name="EBarcodeNo" msprop:Generator_ColumnVarNameInTable="columnEBarcodeNo" msprop:Generator_ColumnPropNameInRow="EBarcodeNo" msprop:Generator_ColumnPropNameInTable="EBarcodeNoColumn" msprop:Generator_UserColumnName="EBarcodeNo" type="xs:string" minOccurs="0" />
+              <xs:element name="ExtraWeight" msprop:Generator_ColumnVarNameInTable="columnExtraWeight" msprop:Generator_ColumnPropNameInRow="ExtraWeight" msprop:Generator_ColumnPropNameInTable="ExtraWeightColumn" msprop:Generator_UserColumnName="ExtraWeight" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemCategory" msprop:Generator_ColumnVarNameInTable="columnItemCategory" msprop:Generator_ColumnPropNameInRow="ItemCategory" msprop:Generator_ColumnPropNameInTable="ItemCategoryColumn" msprop:Generator_UserColumnName="ItemCategory" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,3093 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{05CE9994-236B-4F27-8B03-340F2AEF921D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>UI.My.MyApplication</StartupObject>
+    <RootNamespace>UI</RootNamespace>
+    <AssemblyName>UI</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>UI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>UI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>UI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>UI.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Treasure Myanmar Solutions Logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.Win.C1Input.4, Version=4.0.20131.33296, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\ComponentOne\Studio for WinForms\bin\v4\C1.Win.C1Input.4.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Ribbon.4, Version=4.0.20131.440, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\ComponentOne\Studio for WinForms\bin\v4\C1.Win.C1Ribbon.4.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Sizer.4, Version=4.1.20131.72, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\ComponentOne\Studio for WinForms\bin\v4\C1.Win.C1Sizer.4.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1SplitContainer.4, Version=4.0.20131.41, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\ComponentOne\Studio for WinForms\bin\v4\C1.Win.C1SplitContainer.4.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1SuperTooltip.4, Version=4.0.20131.118, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\ComponentOne\Studio for WinForms\bin\v4\C1.Win.C1SuperTooltip.4.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1TileControl.4, Version=4.0.20131.41, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\ComponentOne\Studio for WinForms\bin\v4\C1.Win.C1TileControl.4.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1TrueDBGrid.4, Version=4.0.20131.61298, Culture=neutral, PublicKeyToken=75ae3fb0e2b1e0da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\ComponentOne\Studio for WinForms\bin\v4\C1.Win.C1TrueDBGrid.4.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\References\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.ADOX">
+      <HintPath>..\References\Interop.ADOX.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.SQLDMO">
+      <HintPath>..\References\Interop.SQLDMO.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\References\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder">
+      <HintPath>..\References\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.Common\11.0.0.0__89845dcd8080cc91\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.WinForms.v12.12.0.0.1\lib\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\References\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.DDF">
+      <HintPath>..\References\NPOI.DDF.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.HPSF">
+      <HintPath>..\References\NPOI.HPSF.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.HSSF">
+      <HintPath>..\References\NPOI.HSSF.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.POIFS">
+      <HintPath>..\References\NPOI.POIFS.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.Util">
+      <HintPath>..\References\NPOI.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="QRCode">
+      <HintPath>..\References\QRCode.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BarcodeSetting\frm_BarcodeSetting.Designer.vb">
+      <DependentUpon>frm_BarcodeSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BarcodeSetting\frm_BarcodeSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BarcodeSetting\frm_NewBarcodeSetting.Designer.vb">
+      <DependentUpon>frm_NewBarcodeSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BarcodeSetting\frm_NewBarcodeSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frm_Base.Designer.vb">
+      <DependentUpon>frm_Base.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frm_Base.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\IFormProcess.vb" />
+    <Compile Include="BranchTransfer\frm_BranchTransferDiamond .Designer.vb">
+      <DependentUpon>frm_BranchTransferDiamond .vb</DependentUpon>
+    </Compile>
+    <Compile Include="BranchTransfer\frm_BranchTransferDiamond .vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BranchTransfer\frm_BranchTransfer.Designer.vb">
+      <DependentUpon>frm_BranchTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BranchTransfer\frm_BranchTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BranchTransfer\frm_ImportBranchTransfer.Designer.vb">
+      <DependentUpon>frm_ImportBranchTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BranchTransfer\frm_ImportBranchTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Browser\frm_RSearchControlHost.designer.vb">
+      <DependentUpon>frm_RSearchControlHost.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\frm_RSearchControlHost.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Browser\frm_RSearchData.Designer.vb">
+      <DependentUpon>frm_RSearchData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\frm_RSearchData.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CashReceiptOnCredit\frm_CashReceiptOnCredit.Designer.vb">
+      <DependentUpon>frm_CashReceiptOnCredit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CashReceiptOnCredit\frm_CashReceiptOnCredit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashType\frm_CashType.Designer.vb">
+      <DependentUpon>frm_CashType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CashType\frm_CashType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckStock\frm_StockChecking.designer.vb">
+      <DependentUpon>frm_StockChecking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CheckStock\frm_StockChecking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompanyProfile\frm_CompanyProfile.Designer.vb">
+      <DependentUpon>frm_CompanyProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyProfile\frm_CompanyProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsignmentSale\frm_ConsignmentSale.designer.vb">
+      <DependentUpon>frm_ConsignmentSale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConsignmentSale\frm_ConsignmentSale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CurrentPrice\frm_CurrentPriceForGold.Designer.vb">
+      <DependentUpon>frm_CurrentPriceForGold.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CurrentPrice\frm_CurrentPriceForGold.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\frm_Customer.Designer.vb">
+      <DependentUpon>frm_Customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\frm_Customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\frm_CustomerShow.Designer.vb">
+      <DependentUpon>frm_CustomerShow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\frm_CustomerShow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomReport\frm_CustomReport.Designer.vb">
+      <DependentUpon>frm_CustomReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomReport\frm_CustomReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\frm_Dashboard.Designer.vb">
+      <DependentUpon>frm_Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\frm_Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBConnection\DatabaseExportImport\frm_DivideByLocation.Designer.vb">
+      <DependentUpon>frm_DivideByLocation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnection\DatabaseExportImport\frm_DivideByLocation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBConnection\DatabaseExportImport\frm_ExportDatabaseForBranch.Designer.vb">
+      <DependentUpon>frm_ExportDatabaseForBranch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnection\DatabaseExportImport\frm_ExportDatabaseForBranch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBConnection\DatabaseExportImport\frm_ExportDatabaseForHO.Designer.vb">
+      <DependentUpon>frm_ExportDatabaseForHO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnection\DatabaseExportImport\frm_ExportDatabaseForHO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBConnection\DatabaseExportImport\frm_ImportDatabase.Designer.vb">
+      <DependentUpon>frm_ImportDatabase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnection\DatabaseExportImport\frm_ImportDatabase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBConnection\DatabaseExportImport\frm_ImportDatabaseForBranch.Designer.vb">
+      <DependentUpon>frm_ImportDatabaseForBranch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnection\DatabaseExportImport\frm_ImportDatabaseForBranch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiamondInternationalPrice\frm_InternationalDiamondPrice.Designer.vb">
+      <DependentUpon>frm_InternationalDiamondPrice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DiamondInternationalPrice\frm_InternationalDiamondPrice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportData\frm_ExportData.designer.vb">
+      <DependentUpon>frm_ExportData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ExportData\frm_ExportData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_TermsAndConditions.Designer.vb">
+      <DependentUpon>frm_TermsAndConditions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_TermsAndConditions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerateFormat\frm_GenerateFomat.Designer.vb">
+      <DependentUpon>frm_GenerateFomat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GenerateFormat\frm_GenerateFomat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlobalSetting\frm_GlobalSetting.Designer.vb">
+      <DependentUpon>frm_GlobalSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalSetting\frm_GlobalSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoldSmith\frm_GoldSmith.Designer.vb">
+      <DependentUpon>frm_GoldSmith.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GoldSmith\frm_GoldSmith.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help\frm_Help.Designer.vb">
+      <DependentUpon>frm_Help.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Help\frm_Help.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Keyword\frm_KeyWord.Designer.vb">
+      <DependentUpon>frm_KeyWord.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Keyword\frm_KeyWord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="License\frm_License.Designer.vb">
+      <DependentUpon>frm_License.vb</DependentUpon>
+    </Compile>
+    <Compile Include="License\frm_License.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location\frm_BranchSetup.Designer.vb">
+      <DependentUpon>frm_BranchSetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Location\frm_BranchSetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\MDI.designer.vb">
+      <DependentUpon>MDI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\MDI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MortgageDisable\frm_MortgageDisable.designer.vb">
+      <DependentUpon>frm_MortgageDisable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MortgageDisable\frm_MortgageDisable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MortgageInterest\frm_MortgageInterest.designer.vb">
+      <DependentUpon>frm_MortgageInterest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MortgageInterest\frm_MortgageInterest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MortgagePayback\frm_MortgagePayback.designer.vb">
+      <DependentUpon>frm_MortgagePayback.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MortgagePayback\frm_MortgagePayback.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MortgageReceive\frm_MortgageReceive.Designer.vb">
+      <DependentUpon>frm_MortgageReceive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MortgageReceive\frm_MortgageReceive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MortgageReturn\frm_MortgageReturn.designer.vb">
+      <DependentUpon>frm_MortgageReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MortgageReturn\frm_MortgageReturn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="NewFeatures\frm_VoucherTemplate.Designer.vb">
+      <DependentUpon>frm_VoucherTemplate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewFeatures\frm_VoucherTemplate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order\frm_NewOrderInvoice.Designer.vb">
+      <DependentUpon>frm_NewOrderInvoice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Order\frm_NewOrderInvoice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhotoPath\frm_PhotoPathConfig.Designer.vb">
+      <DependentUpon>frm_PhotoPathConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoPath\frm_PhotoPathConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhotoPath\frm_PhotoPath.Designer.vb">
+      <DependentUpon>frm_PhotoPath.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoPath\frm_PhotoPath.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseItem\frm_PurchaseFromSupplier.Designer.vb">
+      <DependentUpon>frm_PurchaseFromSupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseItem\frm_PurchaseFromSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseItem\frm_PurchaseRow.Designer.vb">
+      <DependentUpon>frm_PurchaseRow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseItem\frm_PurchaseRow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Browser\Search.designer.vb">
+      <DependentUpon>Search.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\Search.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CurrentPrice\frm_CurrentPrice.Designer.vb">
+      <DependentUpon>frm_CurrentPrice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CurrentPrice\frm_CurrentPrice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DailyIncomeExpense\DailyExpense\frm_DailyExpense.Designer.vb">
+      <DependentUpon>frm_DailyExpense.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DailyIncomeExpense\DailyExpense\frm_DailyExpense.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DailyIncomeExpense\DailyIncome\frm_DailyIncome.Designer.vb">
+      <DependentUpon>frm_DailyIncome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DailyIncomeExpense\DailyIncome\frm_DailyIncome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBConnection\frm_AccessPasswordConfirm.Designer.vb">
+      <DependentUpon>frm_AccessPasswordConfirm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnection\frm_AccessPasswordConfirm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBConnection\frm_GE_Confirm.Designer.vb">
+      <DependentUpon>frm_GE_Confirm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnection\frm_GE_Confirm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBConnection\frm_GE_DBConnection.Designer.vb">
+      <DependentUpon>frm_GE_DBConnection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnection\frm_GE_DBConnection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBConnection\frm_GE_Server.Designer.vb">
+      <DependentUpon>frm_GE_Server.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnection\frm_GE_Server.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBConnection\frm_GE_SQLServer.Designer.vb">
+      <DependentUpon>frm_GE_SQLServer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnection\frm_GE_SQLServer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GemsCategory\frm_GemsCategory.Designer.vb">
+      <DependentUpon>frm_GemsCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GemsCategory\frm_GemsCategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoldQuality\frm_GoldQuality.Designer.vb">
+      <DependentUpon>frm_GoldQuality.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GoldQuality\frm_GoldQuality.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemCategory\frm_ItemCategory.Designer.vb">
+      <DependentUpon>frm_ItemCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ItemCategory\frm_ItemCategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemName\frm_ItemName.Designer.vb">
+      <DependentUpon>frm_ItemName.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ItemName\frm_ItemName.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location\frm_CurrentLocation.Designer.vb">
+      <DependentUpon>frm_CurrentLocation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Location\frm_CurrentLocation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location\frm_Location.Designer.vb">
+      <DependentUpon>frm_Location.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Location\frm_Location.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frm_GE_EventLogs.Designer.vb">
+      <DependentUpon>frm_GE_EventLogs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\frm_GE_EventLogs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frm_GE_Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\SubMain.vb" />
+    <Compile Include="Main\UseFontClass.vb" />
+    <Compile Include="Measurement\frm_Measurement.Designer.vb">
+      <DependentUpon>frm_Measurement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement\frm_Measurement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Order\frm_OrderInvoiceReturn.Designer.vb">
+      <DependentUpon>frm_OrderInvoiceReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Order\frm_OrderInvoiceReturn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.vb" />
+    <Compile Include="Repair\frm_Repair.Designer.vb">
+      <DependentUpon>frm_Repair.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Repair\frm_Repair.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Repair\frm_RepairReturn.Designer.vb">
+      <DependentUpon>frm_RepairReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Repair\frm_RepairReturn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\DataSet\dsAllCashTransaction.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAllCashTransaction.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsBarcodeTrack.Designer.vb">
+      <DependentUpon>dsBarcodeTrack.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\DataSet\dsBarcodeTrack.vb">
+      <DependentUpon>dsBarcodeTrack.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsBranchTransfer.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsBranchTransfer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsBranchTransfer.vb">
+      <DependentUpon>dsBranchTransfer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsCashCreditDB.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCashCreditDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsCashCreditDB.vb">
+      <DependentUpon>dsCashCreditDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsCashInCashOut.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCashInCashOut.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsCashReceipt.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCashReceipt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsCashReceipt.vb">
+      <DependentUpon>dsCashReceipt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsCheckStock.Designer.vb">
+      <DependentUpon>dsCheckStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsCheckStock.vb">
+      <DependentUpon>dsCheckStock.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsConsignmentSale.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsConsignmentSale.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsCreditBalanceDB.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCreditBalanceDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsCurrentPrice.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCurrentPrice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsCurrentPrice.vb">
+      <DependentUpon>dsCurrentPrice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsCustomer.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCustomer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsCustomer.vb">
+      <DependentUpon>dsCustomer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsDailyIncomeExpense.Designer.vb" />
+    <Compile Include="Report\DataSet\dsDailyTransaction.Designer.vb" />
+    <Compile Include="Report\DataSet\dsDamage.Designer.vb">
+      <DependentUpon>dsDamage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsDamage.vb">
+      <DependentUpon>dsDamage.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsGemsStock.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsGemsStock.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsGeneralLedgerByLocation.Designer.vb" />
+    <Compile Include="Report\DataSet\dsIntDiamondPrice.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsIntDiamondPrice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsMortgageInvoice.vb">
+      <DependentUpon>dsMortgageInvoice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsMortgageInvoice1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMortgageInvoice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsOrderInvoice.Designer.vb">
+      <DependentUpon>dsOrderInvoice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsOrderInvoice.vb">
+      <DependentUpon>dsOrderInvoice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsOrderInvoiceDataSet.vb">
+      <DependentUpon>dsOrderInvoiceDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsOrderInvoiceItem.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsOrderInvoiceItem.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsOtherCash.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsOtherCash.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsPurchaseGems.Designer.vb">
+      <DependentUpon>dsPurchaseGems.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsPurchaseGems.vb">
+      <DependentUpon>dsPurchaseGems.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsPurchaseInvoice.Designer.vb">
+      <DependentUpon>dsPurchaseInvoice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsPurchaseInvoice.vb">
+      <DependentUpon>dsPurchaseInvoice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsPurchaseSupplier.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPurchaseSupplier.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsPurchaseSupplier.vb">
+      <DependentUpon>dsPurchaseSupplier.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsRepairReceive.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRepairReceive.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsRepairReturn.Designer.vb">
+      <DependentUpon>dsRepairReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsRepairReturn.vb">
+      <DependentUpon>dsRepairReturn.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsReturnAdvance.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReturnAdvance.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsReturnAdvance.vb">
+      <DependentUpon>dsReturnAdvance.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsSaleCategoryDB.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSaleCategoryDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsSaleDB.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSaleDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsSaleGems.Designer.vb">
+      <DependentUpon>dsSaleGems.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsSaleGems.vb">
+      <DependentUpon>dsSaleGems.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsSaleInvoice.Designer.vb">
+      <DependentUpon>dsSaleInvoice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsSaleInvoice.vb">
+      <DependentUpon>dsSaleInvoice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsSaleItem.Designer.vb">
+      <DependentUpon>dsSaleItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsSaleItem.vb">
+      <DependentUpon>dsSaleItem.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsSaleItemNameDB.Designer.vb" />
+    <Compile Include="Report\DataSet\dsSaleLooseDiamond.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSaleLooseDiamond.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsSaleLooseDiamond.vb">
+      <DependentUpon>dsSaleLooseDiamond.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsSalesOrderInvoice.Designer.vb" />
+    <Compile Include="Report\DataSet\dsSaleSummaryDB.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSaleSummaryDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsSalesVolumeInvoice.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSalesVolumeInvoice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsSalesVolumeInvoice.vb">
+      <DependentUpon>dsSalesVolumeInvoice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsOrderReceiveItem.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsOrderReceiveItem.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsOrderReceiveItem.vb">
+      <DependentUpon>dsOrderReceiveItem.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsStockBalanceDB.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsStockBalanceDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsTransfer.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTransfer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsTransferReturn.Designer.vb">
+      <DependentUpon>dsTransferReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsTransferReturn.vb">
+      <DependentUpon>dsTransferReturn.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsWholeSaleInvoice.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWholeSaleInvoice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsWholeSaleInvoice.vb">
+      <DependentUpon>dsWholeSaleInvoice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSet\dsWholeSaleReturn.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWholeSaleReturn.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_CashInCashOut.Designer.vb">
+      <DependentUpon>frm_CashInCashOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_CashInCashOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_CashTransactionByCustomer.Designer.vb">
+      <DependentUpon>frm_rpt_CashTransactionByCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_CashTransactionByCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_CustomerTransaction.Designer.vb">
+      <DependentUpon>frm_CustomerTransaction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_CustomerTransaction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_DailyTransactionReport.designer.vb">
+      <DependentUpon>frm_DailyTransactionReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_DailyTransactionReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_MonthlyStockReport.Designer.vb">
+      <DependentUpon>frm_MonthlyStockReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_MonthlyStockReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_PurchaseSummaryReportByDate.Designer.vb">
+      <DependentUpon>frm_PurchaseSummaryReportByDate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_PurchaseSummaryReportByDate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_BarcodeTrack.Designer.vb">
+      <DependentUpon>frm_rpt_BarcodeTrack.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_BarcodeTrack.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_CheckStock.Designer.vb">
+      <DependentUpon>frm_rpt_CheckStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_CheckStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_MasterSetup.Designer.vb">
+      <DependentUpon>frm_rpt_MasterSetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_MasterSetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_CustomReport.Designer.vb">
+      <DependentUpon>frm_rpt_CustomReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_CustomReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_Mortgage.designer.vb">
+      <DependentUpon>frm_rpt_Mortgage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_Mortgage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_ProfitForSaleItem.Designer.vb">
+      <DependentUpon>frm_rpt_ProfitForSaleItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_ProfitForSaleItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_GeneralLedgerByLocation.Designer.vb">
+      <DependentUpon>frm_GeneralLedgerByLocation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_GeneralLedgerByLocation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_ReportViewer.Designer.vb">
+      <DependentUpon>frm_ReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_ReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_CashReceipt.Designer.vb">
+      <DependentUpon>frm_rpt_CashReceipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_CashReceipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_DailyExpenseIncome.Designer.vb">
+      <DependentUpon>frm_rpt_DailyExpenseIncome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_DailyExpenseIncome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_OrderInvoice.Designer.vb">
+      <DependentUpon>frm_rpt_OrderInvoice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_OrderInvoice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_ProfitFoDiamondSaleItem.Designer.vb">
+      <DependentUpon>frm_rpt_ProfitFoDiamondSaleItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_ProfitFoDiamondSaleItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_ProfitForVolumeSaleItem.Designer.vb">
+      <DependentUpon>frm_rpt_ProfitForVolumeSaleItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_ProfitForVolumeSaleItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_PurchaseFromSupplier.Designer.vb">
+      <DependentUpon>frm_rpt_PurchaseFromSupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_PurchaseFromSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_PurchaseGems.Designer.vb">
+      <DependentUpon>frm_rpt_PurchaseGems.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_PurchaseGems.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_PurchaseInvoice.Designer.vb">
+      <DependentUpon>frm_rpt_PurchaseInvoice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_PurchaseInvoice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_Repair.Designer.vb">
+      <DependentUpon>frm_rpt_Repair.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_Repair.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_ReturnAdvance.Designer.vb">
+      <DependentUpon>frm_rpt_ReturnAdvance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_ReturnAdvance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_SaleGems.Designer.vb">
+      <DependentUpon>frm_rpt_SaleGems.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_SaleGems.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_SaleInvoice.Designer.vb">
+      <DependentUpon>frm_rpt_SaleInvoice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_SaleInvoice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_SaleInvoiceSummaryReportByDate.Designer.vb">
+      <DependentUpon>frm_rpt_SaleInvoiceSummaryReportByDate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_SaleInvoiceSummaryReportByDate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_SaleInvoiceLooseDiamond.Designer.vb">
+      <DependentUpon>frm_rpt_SaleInvoiceLooseDiamond.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_SaleInvoiceLooseDiamond.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_SaleInvoiceVolume.Designer.vb">
+      <DependentUpon>frm_rpt_SaleInvoiceVolume.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_SaleInvoiceVolume.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_SaleItem.Designer.vb">
+      <DependentUpon>frm_rpt_SaleItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_SaleItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_StockCardReport.Designer.vb">
+      <DependentUpon>frm_rpt_StockCardReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_StockCardReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_Tax.Designer.vb">
+      <DependentUpon>frm_rpt_Tax.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_Tax.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_Transfer.Designer.vb">
+      <DependentUpon>frm_rpt_Transfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_Transfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_TransferReturn.Designer.vb">
+      <DependentUpon>frm_rpt_TransferReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_TransferReturn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_Voucher.Designer.vb">
+      <DependentUpon>frm_rpt_Voucher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_Voucher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_WholeSaleWG.designer.vb">
+      <DependentUpon>frm_rpt_WholeSaleWG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form\frm_rpt_WholeSaleWG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReturnAdvance\frm_ReturnAdvance.Designer.vb">
+      <DependentUpon>frm_ReturnAdvance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnAdvance\frm_ReturnAdvance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesGems\frm_SalesGems.Designer.vb">
+      <DependentUpon>frm_SalesGems.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalesGems\frm_SalesGems.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesInvoice\frm BarcodeInfo.Designer.vb">
+      <DependentUpon>frm BarcodeInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalesInvoice\frm BarcodeInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesInvoice\frm_OtherCash.Designer.vb">
+      <DependentUpon>frm_OtherCash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalesInvoice\frm_OtherCash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesInvoice\frm_PrintSecurity.Designer.vb">
+      <DependentUpon>frm_PrintSecurity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalesInvoice\frm_PrintSecurity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesInvoice\frm_SaleItemInvoice.Designer.vb">
+      <DependentUpon>frm_SaleItemInvoice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalesInvoice\frm_SaleItemInvoice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesInvoice\frm_SaleLooseDiamond.Designer.vb">
+      <DependentUpon>frm_SaleLooseDiamond.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalesInvoice\frm_SaleLooseDiamond.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesInvoice\frm_SaleVolumeInvoice.Designer.vb">
+      <DependentUpon>frm_SaleVolumeInvoice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalesInvoice\frm_SaleVolumeInvoice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesInvoice\frm_Wholesales.designer.vb">
+      <DependentUpon>frm_Wholesales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalesInvoice\frm_Wholesales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesItemSetup\frm_SaleItemSetupWithVolume.Designer.vb">
+      <DependentUpon>frm_SaleItemSetupWithVolume.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalesItemSetup\frm_SaleItemSetupWithVolume.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesItemSetup\FShowBarcodeItemData.Designer.vb">
+      <DependentUpon>FShowBarcodeItemData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalesItemSetup\FShowBarcodeItemData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\frm_Staff.Designer.vb">
+      <DependentUpon>frm_Staff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\frm_Staff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supplier\frm_Supplier.Designer.vb">
+      <DependentUpon>frm_Supplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Supplier\frm_Supplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToWeight\frm_ToWeight.Designer.vb">
+      <DependentUpon>frm_ToWeight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ToWeight\frm_ToWeight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransferReturnLooseDiamond\frm_TransferReturnLooseDiamondToHO.Designer.vb">
+      <DependentUpon>frm_TransferReturnLooseDiamondToHO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TransferReturnLooseDiamond\frm_TransferReturnLooseDiamondToHO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransferReturn\frm_TransferReturnToHO.Designer.vb">
+      <DependentUpon>frm_TransferReturnToHO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TransferReturn\frm_TransferReturnToHO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManagement\frm_Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManagement\frm_User.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManagement\frm_UserLevel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManagement\frm_UserMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VoucherSetting\frm_VoucherSetting.Designer.vb">
+      <DependentUpon>frm_VoucherSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VoucherSetting\frm_VoucherSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WasteSetup\frm_WasteSetup.designer.vb">
+      <DependentUpon>frm_WasteSetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WasteSetup\frm_WasteSetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WholeSaleReturn\frm_WholesalesReturn.designer.vb">
+      <DependentUpon>frm_WholesalesReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WholeSaleReturn\frm_WholesalesReturn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BarcodeSetting\frm_BarcodeSetting.resx">
+      <DependentUpon>frm_BarcodeSetting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BarcodeSetting\frm_NewBarcodeSetting.resx">
+      <DependentUpon>frm_NewBarcodeSetting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frm_Base.resx">
+      <DependentUpon>frm_Base.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BranchTransfer\frm_BranchTransferDiamond .resx">
+      <DependentUpon>frm_BranchTransferDiamond .vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BranchTransfer\frm_BranchTransfer.resx">
+      <DependentUpon>frm_BranchTransfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BranchTransfer\frm_ImportBranchTransfer.resx">
+      <DependentUpon>frm_ImportBranchTransfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browser\frm_RSearchControlHost.resx">
+      <DependentUpon>frm_RSearchControlHost.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browser\frm_RSearchData.resx">
+      <DependentUpon>frm_RSearchData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashReceiptOnCredit\frm_CashReceiptOnCredit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_CashReceiptOnCredit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashType\frm_CashType.resx">
+      <DependentUpon>frm_CashType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckStock\frm_StockChecking.resx">
+      <DependentUpon>frm_StockChecking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompanyProfile\frm_CompanyProfile.resx">
+      <DependentUpon>frm_CompanyProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsignmentSale\frm_ConsignmentSale.resx">
+      <DependentUpon>frm_ConsignmentSale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurrentPrice\frm_CurrentPriceForGold.resx">
+      <DependentUpon>frm_CurrentPriceForGold.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\frm_Customer.resx">
+      <DependentUpon>frm_Customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\frm_CustomerShow.resx">
+      <DependentUpon>frm_CustomerShow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomReport\frm_CustomReport.resx">
+      <DependentUpon>frm_CustomReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\frm_Dashboard.resx">
+      <DependentUpon>frm_Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBConnection\DatabaseExportImport\frm_DivideByLocation.resx">
+      <DependentUpon>frm_DivideByLocation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBConnection\DatabaseExportImport\frm_ExportDatabaseForBranch.resx">
+      <DependentUpon>frm_ExportDatabaseForBranch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBConnection\DatabaseExportImport\frm_ExportDatabaseForHO.resx">
+      <DependentUpon>frm_ExportDatabaseForHO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBConnection\DatabaseExportImport\frm_ImportDatabase.resx">
+      <DependentUpon>frm_ImportDatabase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBConnection\DatabaseExportImport\frm_ImportDatabaseForBranch.resx">
+      <DependentUpon>frm_ImportDatabaseForBranch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiamondInternationalPrice\frm_InternationalDiamondPrice.resx">
+      <DependentUpon>frm_InternationalDiamondPrice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportData\frm_ExportData.resx">
+      <DependentUpon>frm_ExportData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_TermsAndConditions.resx">
+      <DependentUpon>frm_TermsAndConditions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerateFormat\frm_GenerateFomat.resx">
+      <DependentUpon>frm_GenerateFomat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalSetting\frm_GlobalSetting.resx">
+      <DependentUpon>frm_GlobalSetting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoldSmith\frm_GoldSmith.resx">
+      <DependentUpon>frm_GoldSmith.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\frm_Help.resx">
+      <DependentUpon>frm_Help.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Keyword\frm_KeyWord.resx">
+      <DependentUpon>frm_KeyWord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="License\frm_License.resx">
+      <DependentUpon>frm_License.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location\frm_BranchSetup.resx">
+      <DependentUpon>frm_BranchSetup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\MDI.resx">
+      <DependentUpon>MDI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MortgageDisable\frm_MortgageDisable.resx">
+      <DependentUpon>frm_MortgageDisable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MortgageInterest\frm_MortgageInterest.resx">
+      <DependentUpon>frm_MortgageInterest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MortgagePayback\frm_MortgagePayback.resx">
+      <DependentUpon>frm_MortgagePayback.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MortgageReceive\frm_MortgageReceive.resx">
+      <DependentUpon>frm_MortgageReceive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MortgageReturn\frm_MortgageReturn.resx">
+      <DependentUpon>frm_MortgageReturn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="NewFeatures\frm_VoucherTemplate.resx">
+      <DependentUpon>frm_VoucherTemplate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order\frm_NewOrderInvoice.resx">
+      <DependentUpon>frm_NewOrderInvoice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhotoPath\frm_PhotoPathConfig.resx">
+      <DependentUpon>frm_PhotoPathConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhotoPath\frm_PhotoPath.resx">
+      <DependentUpon>frm_PhotoPath.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseItem\frm_PurchaseFromSupplier.resx">
+      <DependentUpon>frm_PurchaseFromSupplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseItem\frm_PurchaseRow.resx">
+      <DependentUpon>frm_PurchaseRow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browser\Search.resx">
+      <DependentUpon>Search.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurrentPrice\frm_CurrentPrice.resx">
+      <DependentUpon>frm_CurrentPrice.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyIncomeExpense\DailyExpense\frm_DailyExpense.resx">
+      <DependentUpon>frm_DailyExpense.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyIncomeExpense\DailyIncome\frm_DailyIncome.resx">
+      <DependentUpon>frm_DailyIncome.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBConnection\frm_AccessPasswordConfirm.resx">
+      <DependentUpon>frm_AccessPasswordConfirm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBConnection\frm_GE_Confirm.resx">
+      <DependentUpon>frm_GE_Confirm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBConnection\frm_GE_DBConnection.resx">
+      <DependentUpon>frm_GE_DBConnection.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBConnection\frm_GE_Server.resx">
+      <DependentUpon>frm_GE_Server.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBConnection\frm_GE_SQLServer.resx">
+      <DependentUpon>frm_GE_SQLServer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GemsCategory\frm_GemsCategory.resx">
+      <DependentUpon>frm_GemsCategory.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoldQuality\frm_GoldQuality.resx">
+      <DependentUpon>frm_GoldQuality.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemCategory\frm_ItemCategory.resx">
+      <DependentUpon>frm_ItemCategory.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemName\frm_ItemName.resx">
+      <DependentUpon>frm_ItemName.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location\frm_CurrentLocation.resx">
+      <DependentUpon>frm_CurrentLocation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location\frm_Location.resx">
+      <DependentUpon>frm_Location.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frm_GE_EventLogs.resx">
+      <DependentUpon>frm_GE_EventLogs.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frm_GE_Splash.resx">
+      <DependentUpon>frm_GE_Splash.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurement\frm_Measurement.resx">
+      <DependentUpon>frm_Measurement.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order\frm_OrderInvoiceReturn.resx">
+      <DependentUpon>frm_OrderInvoiceReturn.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_CashTransactionByCustomer.resx">
+      <DependentUpon>frm_rpt_CashTransactionByCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_BarcodeTrack.resx">
+      <DependentUpon>frm_rpt_BarcodeTrack.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_CheckStock.resx">
+      <DependentUpon>frm_rpt_CheckStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_Mortgage.resx">
+      <DependentUpon>frm_rpt_Mortgage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_ProfitFoDiamondSaleItem.resx">
+      <DependentUpon>frm_rpt_ProfitFoDiamondSaleItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_ReturnAdvance.resx">
+      <DependentUpon>frm_rpt_ReturnAdvance.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_SaleInvoiceLooseDiamond.resx">
+      <DependentUpon>frm_rpt_SaleInvoiceLooseDiamond.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_Tax.resx">
+      <DependentUpon>frm_rpt_Tax.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_TransferReturn.resx">
+      <DependentUpon>frm_rpt_TransferReturn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_WholeSaleWG.resx">
+      <DependentUpon>frm_rpt_WholeSaleWG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_BarcodeTrack.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_CashReceiptIn_PurchaseGemsCustomer.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_CashReceipt_PurchaseGemsCustomer.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_CheckStock.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_ConsignmentSaleReport_Summary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_ConsignmentSaleSummaryByDate.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_ConsignmentSaleWGReport.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_CreditCashDashboard.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_CustomerReceipt.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_AllCashTransaction.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_CustomerTransaction.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_IntDiamondPriceRate.rdlc" />
+    <None Include="packages.config" />
+    <None Include="Report\RDLC\rpt_BalanceStockForLooseDiamond_Summary.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\RDLC\rpt_SaleItemLooseDiamond_Detail.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\RDLC\rpt_SaleItem_Report_ByGoldQuality.rdl">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="Report\RDLC\rpt_ProfitForSaleDiamondItem.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_ProfitforSaleDiamond_Report_Summary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_PurchaseInvoiceByLooseDiamond_Detail.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_PurchaseInvoice_LooseDiamondSummary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleReturnSummaryByDate.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleLooseDiamondByDate_Summary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleLooseDiamondByVoucher_Detail.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_TransferReturnDiamond_Detail.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_TransferReturn_Detail.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_TransferReturnDiamond_Summary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_TransferReturn_Summary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_TransferDiamond_Detail.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_TransferDiamond_Summary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_WholeSaleReport.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_WholeSaleReport_Summary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_WholeSaleReturnReport.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_WholeSaleReturnReport_Summary.rdlc" />
+    <None Include="Report\DataSet\dsAllCashTransaction.xsc">
+      <DependentUpon>dsAllCashTransaction.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsAllCashTransaction.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAllCashTransaction.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsAllCashTransaction.xss">
+      <DependentUpon>dsAllCashTransaction.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsBarcodeTrack.xsc">
+      <DependentUpon>dsBarcodeTrack.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsBarcodeTrack.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsBarcodeTrack.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsBarcodeTrack.xss">
+      <DependentUpon>dsBarcodeTrack.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsCashCreditDB.xsc">
+      <DependentUpon>dsCashCreditDB.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsCashCreditDB.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCashCreditDB.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsCashCreditDB.xss">
+      <DependentUpon>dsCashCreditDB.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsCheckStock.xsc">
+      <DependentUpon>dsCheckStock.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsCheckStock.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCheckStock1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsCheckStock.xss">
+      <DependentUpon>dsCheckStock.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsCreditBalanceDB.xsc">
+      <DependentUpon>dsCreditBalanceDB.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsCreditBalanceDB.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCreditBalanceDB.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsCreditBalanceDB.xss">
+      <DependentUpon>dsCreditBalanceDB.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsIntDiamondPrice.xsc">
+      <DependentUpon>dsIntDiamondPrice.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsIntDiamondPrice.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsIntDiamondPrice.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsIntDiamondPrice.xss">
+      <DependentUpon>dsIntDiamondPrice.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsSaleCategoryDB.xsc">
+      <DependentUpon>dsSaleCategoryDB.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsSaleCategoryDB.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSaleCategoryDB.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsSaleCategoryDB.xss">
+      <DependentUpon>dsSaleCategoryDB.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsSaleDB.xsc">
+      <DependentUpon>dsSaleDB.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsSaleDB.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSaleDB.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsSaleDB.xss">
+      <DependentUpon>dsSaleDB.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsSaleItemNameDB.xsc">
+      <DependentUpon>dsSaleItemNameDB.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsSaleItemNameDB.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSaleItemNameDB1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsSaleItemNameDB.xss">
+      <DependentUpon>dsSaleItemNameDB.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsSaleLooseDiamond.xsc">
+      <DependentUpon>dsSaleLooseDiamond.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsSaleLooseDiamond.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSaleLooseDiamond.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsSaleLooseDiamond.xss">
+      <DependentUpon>dsSaleLooseDiamond.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsSaleSummaryDB.xsc">
+      <DependentUpon>dsSaleSummaryDB.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsSaleSummaryDB.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSaleSummaryDB.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsSaleSummaryDB.xss">
+      <DependentUpon>dsSaleSummaryDB.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsStockBalanceDB.xsc">
+      <DependentUpon>dsStockBalanceDB.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsStockBalanceDB.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsStockBalanceDB.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsStockBalanceDB.xss">
+      <DependentUpon>dsStockBalanceDB.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsTransferReturn.xsc">
+      <DependentUpon>dsTransferReturn.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsTransferReturn.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTransferReturn1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsTransferReturn.xss">
+      <DependentUpon>dsTransferReturn.xsd</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Report\RDLC\rpt_CustomerCreditBalanceDashboard.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleByLocationDashboard.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleCategoryDashboard.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleDashboard.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleGramDashboard.rdlc" />
+    <None Include="Report\RDLC\rpt_SaleInvoice_Detail.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleItemNameDashboard.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_StockBalanceDashboard.rdlc" />
+    <None Include="Report\RDLC\rpt_StockItemByLoc_Detail.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\RDLC\rpt_LooseDiamondStockByGivenDate_Summary.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\RDLC\rpt_StockItemLooseDiamond_Summary.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\RDLC\rpt_LooseDiamondBalanceStock.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_CheckStockForWG.rdl" />
+    <None Include="Report\VoucherRDL\rpt_MortgageReturn_Voucher.rdl" />
+    <None Include="Report\VoucherRDL\rpt_OrderInvoice_Print15.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_PurchaseLooseDiamond_Print.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_SaleInvoice_Print15.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="Report\RDLC\rpt_WholeSaleSummaryByDate.rdlc" />
+    <EmbeddedResource Include="SalesInvoice\frm_SaleLooseDiamond.resx">
+      <DependentUpon>frm_SaleLooseDiamond.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesInvoice\frm_Wholesales.resx">
+      <DependentUpon>frm_Wholesales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransferReturnLooseDiamond\frm_TransferReturnLooseDiamondToHO.resx">
+      <DependentUpon>frm_TransferReturnLooseDiamondToHO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransferReturn\frm_TransferReturnToHO.resx">
+      <DependentUpon>frm_TransferReturnToHO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WholeSaleReturn\frm_WholesalesReturn.resx">
+      <DependentUpon>frm_WholesalesReturn.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="Report\RDLC\rpt_MortgageDisable.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_MortgageInterest.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_MortgagePayback.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_MortgageAll.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_MortgageHistory.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_MortgageReceive.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_MortgageReturn.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_OrderTax_Report_Detail.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_OrderTax_Report_Summary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_ReturnAdvance_Summary.rdlc">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_ReturnAdvance_Detail.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleItem_Detail1 - Copy.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleTax_Report_Detail.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleTax_Report_Summary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_Tax_Report_Detail.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_Tax_Report_Summary.rdlc" />
+    <None Include="Report\DataSet\dsConsignmentSale.xsc">
+      <DependentUpon>dsConsignmentSale.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsConsignmentSale.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsConsignmentSale.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsConsignmentSale.xss">
+      <DependentUpon>dsConsignmentSale.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsMortgageInvoice.xsc">
+      <DependentUpon>dsMortgageInvoice.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsMortgageInvoice.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMortgageInvoice1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsMortgageInvoice.xss">
+      <DependentUpon>dsMortgageInvoice.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsWholeSaleInvoice.xsc">
+      <DependentUpon>dsWholeSaleInvoice.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsWholeSaleInvoice.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWholeSaleInvoice.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsWholeSaleInvoice.xss">
+      <DependentUpon>dsWholeSaleInvoice.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsWholeSaleReturn.xsc">
+      <DependentUpon>dsWholeSaleReturn.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsWholeSaleReturn.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWholeSaleReturn.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsWholeSaleReturn.xss">
+      <DependentUpon>dsWholeSaleReturn.xsd</DependentUpon>
+    </None>
+    <None Include="Report\RDLC\rpt_SaleItem_Detail.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_CashReceipt_Print.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_MortgagePayback_Voucher.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_MortgageInterest_Voucher.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_MortgageInvoice_Voucher.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_RepairReturnVoucher.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_ReturnAdvance_Print .rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_SaleGems_Print.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_ConsignmentSaleForWGVou.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_SalePrintByItemName.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_SaleLooseDiamondInvoice_Print.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_WholeSalePrint.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_WholeSaleReturnPrint.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="ReturnAdvance\frm_ReturnAdvance.resx">
+      <DependentUpon>frm_ReturnAdvance.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesInvoice\frm BarcodeInfo.resx">
+      <DependentUpon>frm BarcodeInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesInvoice\frm_OtherCash.resx">
+      <DependentUpon>frm_OtherCash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesInvoice\frm_PrintSecurity.resx">
+      <DependentUpon>frm_PrintSecurity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesInvoice\frm_SaleItemInvoice.resx">
+      <DependentUpon>frm_SaleItemInvoice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesInvoice\frm_SaleVolumeInvoice.resx">
+      <DependentUpon>frm_SaleVolumeInvoice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WasteSetup\frm_WasteSetup.resx">
+      <DependentUpon>frm_WasteSetup.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Files\GlobalGoldFAQ.pdf" />
+    <None Include="Files\Terms And Condition.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\Terms And Condition.pdf" />
+    <None Include="Files\User Manual.docx" />
+    <None Include="Files\User Manual.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Style\MM3_0.TTF" />
+    <None Include="HelpBook\Style\myanmar3.eot" />
+    <None Include="HelpBook\Style\myanmar3.ttf" />
+    <None Include="HelpBook\Style\ZawgyiOne2008.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="Repair\frm_Repair.resx">
+      <DependentUpon>frm_Repair.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repair\frm_RepairReturn.resx">
+      <DependentUpon>frm_RepairReturn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_CashInCashOut.resx">
+      <DependentUpon>frm_CashInCashOut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_CustomerTransaction.resx">
+      <DependentUpon>frm_CustomerTransaction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_DailyTransactionReport.resx">
+      <DependentUpon>frm_DailyTransactionReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_GeneralLedgerByLocation.resx">
+      <DependentUpon>frm_GeneralLedgerByLocation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_MonthlyStockReport.resx">
+      <DependentUpon>frm_MonthlyStockReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_PurchaseSummaryReportByDate.resx">
+      <DependentUpon>frm_PurchaseSummaryReportByDate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_ReportViewer.resx">
+      <DependentUpon>frm_ReportViewer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_CashReceipt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_rpt_CashReceipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_MasterSetup.resx">
+      <DependentUpon>frm_rpt_MasterSetup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_CustomReport.resx">
+      <DependentUpon>frm_rpt_CustomReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_DailyExpenseIncome.resx">
+      <DependentUpon>frm_rpt_DailyExpenseIncome.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_OrderInvoice.resx">
+      <DependentUpon>frm_rpt_OrderInvoice.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_ProfitForSaleItem.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_rpt_ProfitForSaleItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_ProfitForVolumeSaleItem.resx">
+      <DependentUpon>frm_rpt_ProfitForVolumeSaleItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_PurchaseFromSupplier.resx">
+      <DependentUpon>frm_rpt_PurchaseFromSupplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_PurchaseGems.resx">
+      <DependentUpon>frm_rpt_PurchaseGems.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_PurchaseInvoice.resx">
+      <DependentUpon>frm_rpt_PurchaseInvoice.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_Repair.resx">
+      <DependentUpon>frm_rpt_Repair.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_SaleGems.resx">
+      <DependentUpon>frm_rpt_SaleGems.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_SaleInvoice.resx">
+      <DependentUpon>frm_rpt_SaleInvoice.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_SaleInvoiceSummaryReportByDate.resx">
+      <DependentUpon>frm_rpt_SaleInvoiceSummaryReportByDate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_SaleInvoiceVolume.resx">
+      <DependentUpon>frm_rpt_SaleInvoiceVolume.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_SaleItem.resx">
+      <DependentUpon>frm_rpt_SaleItem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Report\DataSet\dsCashInCashOut.xsc">
+      <DependentUpon>dsCashInCashOut.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsCashInCashOut.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCashInCashOut.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsCashInCashOut.xss">
+      <DependentUpon>dsCashInCashOut.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsCustomer.xsc">
+      <DependentUpon>dsCustomer.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsCustomer.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCustomer.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsCustomer.xss">
+      <DependentUpon>dsCustomer.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsDailyTransaction.xsc">
+      <DependentUpon>dsDailyTransaction.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsDailyTransaction.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDailyTransaction1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsDailyTransaction.xss">
+      <DependentUpon>dsDailyTransaction.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsOrderReceiveItem.xsc">
+      <DependentUpon>dsOrderReceiveItem.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsOrderReceiveItem.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsOrderReceiveItem.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsOrderReceiveItem.xss">
+      <DependentUpon>dsOrderReceiveItem.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsOtherCash.xsc">
+      <DependentUpon>dsOtherCash.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsOtherCash.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsOtherCash.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsOtherCash.xss">
+      <DependentUpon>dsOtherCash.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsRepairReceive.xsc">
+      <DependentUpon>dsRepairReceive.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsRepairReceive.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRepairReceive.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsRepairReceive.xss">
+      <DependentUpon>dsRepairReceive.xsd</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Report\Form\frm_rpt_StockCardReport.resx">
+      <DependentUpon>frm_rpt_StockCardReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_Transfer.resx">
+      <DependentUpon>frm_rpt_Transfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form\frm_rpt_Voucher.resx">
+      <DependentUpon>frm_rpt_Voucher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_PurchaseInvoiceWG_Summary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_MonthlyStockReport.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Report\RDLC\rpt_BalanceStockByValue.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="Report\RDLC\rpt_NewMostSaleItem.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_PurchaseInvoiceWG_Detail.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_PurchaseSummaryReportByDate.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_PurchaseSummaryReportByItemName.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_DailyTransaction.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_PurchaseIsChange.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_RepairReceiveReport_Detail.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_RepairReceiveReport_Summary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_RepairReturnDetail.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_RepairReturnSummary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleGems_Detail.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleInvoiceSummaryReportByDate.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_CashReceipt_Print.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="Report\DataSet\dsRepairReturn.xsc">
+      <DependentUpon>dsRepairReturn.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsRepairReturn.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRepairReturn1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsRepairReturn.xss">
+      <DependentUpon>dsRepairReturn.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsReturnAdvance.xsc">
+      <DependentUpon>dsReturnAdvance.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsReturnAdvance.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReturnAdvance.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsReturnAdvance.xss">
+      <DependentUpon>dsReturnAdvance.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsTransfer.xsc">
+      <DependentUpon>dsTransfer.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsTransfer.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTransfer.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsTransfer.xss">
+      <DependentUpon>dsTransfer.xsd</DependentUpon>
+    </None>
+    <None Include="Report\RDLC\rpt_BalanceStockForVolume_Summary.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\RDLC\rpt_Customer.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\RDLC\rpt_GemsCategory.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\RDLC\rpt_ItemCategory.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\RDLC\rpt_ItemName.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="Report\RDLC\rpt_CashReceipt_Report.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_NewOnlyPurchaseSummaryReport.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_OrderInvoice_ReturnSummary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_PurchaseGems_Print.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_PurchaseInvoice_Print.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_RepairReceive_Voucher.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_BalanceStockForVolume_Summary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_CashInCashOut.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_DailyIncomeExpenseReport.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_DailyIncomeExpenseReport_Summary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_GoldQuality.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_OrderInvoice_Detail.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_OrderInvoice_ReturnDetail.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_PofitforSlaeItem_Report_Summary.rdlc" />
+    <None Include="Report\RDLC\rpt_ProfitForBalanceStock_Report_Summary.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleInvoice_Report_Summary.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Report\RDLC\rpt_ProfitForSaleItem_Detail.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\RDLC\rpt_ProfitForSaleItem_Summary_Report.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="Report\RDLC\rpt_ProfitForSaleVolumeItem.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_ProfitforSaleVolume_Report_Summary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_PurchaseInvoiceBy_Summary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_PurchaseInvoice_Detail.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_PurchaseInvoice_GemSummary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleInvoiceSummaryReportByItemName.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleReportByChart.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_SalesPercentageReport.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_SalesVolumeByVoucher_Detail.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleVolumeByDate_Summary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleVolumeInvoice_Print.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_StockCardReport.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Report\RDLC\rpt_StockItemByDate_Summary1.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="Report\RDLC\rpt_StockItemOverViewSummary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_StockItemVolume_Summary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_StockItem_Summary1.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_Transfer_Detail.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_Transfer_Summary.rdlc" />
+    <EmbeddedResource Include="Report\RDLC\rpt_VolumeStockByGivenDate_Summary.rdlc" />
+    <None Include="Report\RDLC\rpt_SaleItemVolume_Detail.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\RDLC\rpt_SaleItem_Detail_Diamond.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\RDLC\rpt_SaleItem_Detail_Platinum.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\RDLC\rpt_SalePrintByItemNameWithPhoto.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="Supplier\frm_Supplier.resx">
+      <DependentUpon>frm_Supplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VoucherSetting\frm_VoucherSetting.resx">
+      <DependentUpon>frm_VoucherSetting.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Report\DataSet\dsCurrentPrice.xsc">
+      <DependentUpon>dsCurrentPrice.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsCurrentPrice.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCurrentPrice.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsCurrentPrice.xss">
+      <DependentUpon>dsCurrentPrice.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsGemsStock.xsc">
+      <DependentUpon>dsGemsStock.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsGemsStock.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsGemsStock.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsGemsStock.xss">
+      <DependentUpon>dsGemsStock.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsOrderInvoiceItem.xsc">
+      <DependentUpon>dsOrderInvoiceItem.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsOrderInvoiceItem.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsOrderInvoiceItem.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsOrderInvoiceItem.xss">
+      <DependentUpon>dsOrderInvoiceItem.xsd</DependentUpon>
+    </None>
+    <EmbeddedResource Include="SalesGems\frm_SalesGems.resx">
+      <DependentUpon>frm_SalesGems.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesItemSetup\frm_SaleItemSetupWithVolume.resx">
+      <DependentUpon>frm_SaleItemSetupWithVolume.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesItemSetup\FShowBarcodeItemData.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FShowBarcodeItemData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\frm_Staff.resx">
+      <DependentUpon>frm_Staff.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToWeight\frm_ToWeight.resx">
+      <DependentUpon>frm_ToWeight.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManagement\frm_Login.resx">
+      <DependentUpon>frm_Login.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManagement\frm_User.resx">
+      <DependentUpon>frm_User.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManagement\frm_UserLevel.resx">
+      <DependentUpon>frm_UserLevel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManagement\frm_UserMenu.resx">
+      <DependentUpon>frm_UserMenu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsBranchTransfer.xsc">
+      <DependentUpon>dsBranchTransfer.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsBranchTransfer.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsBranchTransfer.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsBranchTransfer.xss">
+      <DependentUpon>dsBranchTransfer.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsDailyIncomeExpense.xsc">
+      <DependentUpon>dsDailyIncomeExpense.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsDailyIncomeExpense.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsDailyIncomeExpense.xss">
+      <DependentUpon>dsDailyIncomeExpense.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsDamage.xsc">
+      <DependentUpon>dsDamage.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsDamage.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsDamage.xss">
+      <DependentUpon>dsDamage.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsGeneralLedgerByLocation.xsc">
+      <DependentUpon>dsGeneralLedgerByLocation.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsGeneralLedgerByLocation.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsGeneralLedgerByLocation.xss">
+      <DependentUpon>dsGeneralLedgerByLocation.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsOrderInvoice.xsc">
+      <DependentUpon>dsOrderInvoice.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsOrderInvoice.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsOrderInvoice.xss">
+      <DependentUpon>dsOrderInvoice.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsOrderInvoiceDataSet.xsc">
+      <DependentUpon>dsOrderInvoiceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsOrderInvoiceDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsOrderInvoiceDataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsOrderInvoiceDataSet.xss">
+      <DependentUpon>dsOrderInvoiceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsPurchaseGems.xsc">
+      <DependentUpon>dsPurchaseGems.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsPurchaseGems.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsPurchaseGems.xss">
+      <DependentUpon>dsPurchaseGems.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsPurchaseInvoice.xsc">
+      <DependentUpon>dsPurchaseInvoice.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsPurchaseInvoice.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsPurchaseInvoice.xss">
+      <DependentUpon>dsPurchaseInvoice.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsSaleGems.xsc">
+      <DependentUpon>dsSaleGems.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsSaleGems.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsSaleGems.xss">
+      <DependentUpon>dsSaleGems.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsSaleInvoice.xsc">
+      <DependentUpon>dsSaleInvoice.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsSaleInvoice.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsSaleInvoice.xss">
+      <DependentUpon>dsSaleInvoice.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsSaleItem.xsc">
+      <DependentUpon>dsSaleItem.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsSaleItem.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsSaleItem.xss">
+      <DependentUpon>dsSaleItem.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsSalesOrderInvoice.xsc">
+      <DependentUpon>dsSalesOrderInvoice.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsSalesOrderInvoice.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DataSet\dsSalesOrderInvoice.xss">
+      <DependentUpon>dsSalesOrderInvoice.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Report\DataSet\dsSalesVolumeInvoice.xsc">
+      <DependentUpon>dsSalesVolumeInvoice.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsSalesVolumeInvoice.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSalesVolumeInvoice.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsSalesVolumeInvoice.xss">
+      <DependentUpon>dsSalesVolumeInvoice.xsd</DependentUpon>
+    </None>
+    <None Include="Report\RDLC\rpt_BarcodeTrackForVolume.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="Report\RDLC\rpt_CashReceiptIn_PurchaseGems.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_CashReceipt_PurchaseGems.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="Report\RDLC\rpt_CurrentPrice.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="Report\RDLC\rpt_GemsStockItemByDate_Detail.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_GemsStockReport_Detail.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_GeneralLedgerByLocation.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_OrderInvoice_Summary.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_RepairReturnVoucher.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="Report\RDLC\rpt_PrintPreview.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\RDLC\rpt_ProfitForBalanceItem_Detail.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="Report\RDLC\rpt_PurchaseGems_Detail.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_PurchaseGems_Summary.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_PurchaseInvoiceByGems_Detail.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleGems_Print.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleGems_Summary.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleItemVolume_Detail.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_BalanceStockByDate.rdlc" />
+    <None Include="Report\RDLC\rpt_Staff.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="Report\RDLC\rpt_VolumeBalanceStock.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RDLC\rpt_SaleInvoice_Print15.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="Report\RDLC\rpt_StockItemByDate_Summary.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\RDLC\rpt_StockItemOverViewSummary.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\RDLC\rpt_StockItemVolume_Summary.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\RDLC\rpt_StockItem_Summary.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\RDLC\rpt_VolumeBalanceStock.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\RDLC\rpt_VolumeStockByGivenDate_Summary.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_OrderReceiveItemName_Print.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_OrderReceiveVoucher_Print.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_OrderReturnByItemName.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_PurchaseGems_Print.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_PurchaseInvoice_Print.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_RepairReceive_Voucher.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_SalePrintByItemNameWithPhoto.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Report\VoucherRDL\rpt_SaleVolumeInvoice_Print.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\background.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\app_splash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titlebar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titlebar1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titlebar2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Report\DataSet\dsCashReceipt.xsc">
+      <DependentUpon>dsCashReceipt.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsCashReceipt.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCashReceipt.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsCashReceipt.xss">
+      <DependentUpon>dsCashReceipt.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsPurchaseSupplier.xsc">
+      <DependentUpon>dsPurchaseSupplier.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSet\dsPurchaseSupplier.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPurchaseSupplier.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\DataSet\dsPurchaseSupplier.xss">
+      <DependentUpon>dsPurchaseSupplier.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\app_logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Treasure Myanmar Solutions Logo.ico" />
+    <None Include="HelpBook\GoldQuantity\GoldQuality.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Waste\Waste.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Waste\Waste.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\DefineGoldPrice\DefineGoldPrice.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\DefineGoldPrice\DefineGoldPrice.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\StockCardReport\StockCardReport.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\StockCardReport\StockCardReport.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\StockTransactionReport\StockTransactionReport.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\StockTransactionReport\StockTransactionReport.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Sales Invoice Report\salestockrpt.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\PurchaseFromSupplier\purchasegemsummary.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\PurchaseFromSupplier\PurchaseFromSupplier.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\OrderReport\OrderReport.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\OrderReport\OrderReceive.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\GoldSmith\GoldSmith.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\GoldSmith\GoldSmith.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\ReturnAdvance\ReturnAdvance.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\ReturnAdvance\ReturnAdvance.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\CashType\CashType.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\CashType\CashType.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="HelpBook\ExportData\ExportData1.jpg" />
+    <Content Include="HelpBook\ExportData\ExportData1a.jpg" />
+    <Content Include="HelpBook\ExportData\ExportData2.jpg" />
+    <Content Include="HelpBook\ExportData\ExportData2a.jpg" />
+    <None Include="HelpBook\ExportData\ExportData.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\WholeInvoice\wholesaleinvoice.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\WholeInvoice\wholesaleStock.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\WholeReturn\wholesalereturn.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\WholeReturn\wholesalereturn.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\ConsignmentSale\consignmentsale.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\ConsignmentSale\consignmentsale.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Supplier\Supplier.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Supplier\Supplier.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\MainScreen1.jpg" />
+    <None Include="Resources\SplashScreen.jpg" />
+    <Content Include="Script\AccessScriptExportData\AccessScriptCurrentPrice.sql" />
+    <Content Include="Script\AccessScriptExportData\AccessScriptCustomer,SalePerson.sql" />
+    <Content Include="Script\AccessScriptExportData\AccessScriptExpenseIncome.sql" />
+    <Content Include="Script\AccessScriptExportData\AccessScriptMasterData.sql" />
+    <Content Include="Script\AccessScriptExportData\AccessScriptOtherTransaction.sql" />
+    <Content Include="Script\AccessScriptExportData\AccessScriptStock.sql" />
+    <Content Include="Script\AccessScriptExportData\AccessScriptTransfer.sql" />
+    <Content Include="Script\AccessScriptExportData\AccessScriptTransferReturn.sql" />
+    <Content Include="Script\ClearAllTransactions.sql" />
+    <Content Include="Script\DivideByLocation.sql" />
+    <Content Include="Script\ResetDatabase.sql" />
+    <Content Include="Script\UpdateSqlScripts\3.5001.sql" />
+    <Content Include="Script\UpdateSqlScripts\3.5004.sql" />
+    <Content Include="Script\UpdateSqlScripts\3.5003.sql" />
+    <Content Include="Script\UpdateSqlScripts\3.5002.sql" />
+    <Content Include="Script\UpdateSqlScripts\4.0000.sql" />
+    <Content Include="Script\UpdateSqlScripts\3.5005.sql" />
+    <Content Include="Script\UpdateSqlScripts\4.0002.sql" />
+    <Content Include="Script\UpdateSqlScripts\4.1000.sql" />
+    <Content Include="Script\UpdateSqlScripts\4.2000.sql" />
+    <Content Include="Script\UpdateSqlScripts\4.3000.sql" />
+    <Content Include="Script\UpdateSqlScripts\4.4000.sql" />
+    <Content Include="Script\UpdateSqlScripts\4.5000.sql" />
+    <Content Include="Script\UpdateSqlScripts\4.6000.sql" />
+    <Content Include="Script\UpdateSqlScripts\4.7000.sql" />
+    <Content Include="Script\UpdateSqlScripts\4.8000.sql" />
+    <Content Include="Script\UpdateSqlScripts\4.9000.sql" />
+    <Content Include="Script\UpdateSqlScripts\5.0000.sql" />
+    <Content Include="Script\UpdateSqlScripts\5.1000.sql" />
+    <Content Include="Script\UpdateSqlScripts\5.2000.sql" />
+    <Content Include="Script\UpdateSqlScripts\5.3000.sql" />
+    <Content Include="Script\UpdateSqlScripts\5.4000.sql" />
+    <Content Include="Script\UpdateSqlScripts\5.5000.sql" />
+    <Content Include="Script\UpdateSqlScripts\5.6000.sql" />
+    <Content Include="Script\UpdateSqlScripts\5.7000.sql" />
+    <Content Include="Script\UpdateSqlScripts\5.8000.sql" />
+    <Content Include="Script\UpdateSqlScripts\5.9000.sql" />
+    <Content Include="Script\UpdateSqlScripts\6.4200.sql" />
+    <Content Include="Script\UpdateSqlScripts\6.0000.sql" />
+    <Content Include="Script\UpdateSqlScripts\6.1000.sql" />
+    <Content Include="Script\UpdateSqlScripts\6.2000.sql" />
+    <Content Include="Script\UpdateSqlScripts\6.3000.sql" />
+    <Content Include="Script\UpdateSqlScripts\6.4000.sql" />
+    <Content Include="Script\UpdateSqlScripts\6.4100.sql" />
+    <Content Include="Script\UpdateSqlScripts\6.4300.sql" />
+    <Content Include="Script\UpdateSqlScripts\6.4400.sql" />
+    <Content Include="Script\UpdateSqlScripts\6.4500.sql" />
+    <None Include="Script\UpdateSqlScripts\6.4900.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Script\UpdateSqlScripts\6.4800.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Script\UpdateSqlScripts\6.4700.sql" />
+    <Content Include="Script\UpdateSqlScripts\6.4600.sql" />
+    <None Include="HelpBook\Cashreceiptreport\cashincashoutreport.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Cashreceiptreport\cashreceiptleftreport.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\DailyReport\dailyincomeexpensedetailrpt.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\DailyReport\dailyincomeexpensereport.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Daily Income\DailyIncome1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\DailyTransaction\dailytransaction.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\DailyTransaction\DailyTransaction.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\OrderInvoiceReport\OrderReceive1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\OrderInvoiceReport\OrderReceive2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\OrderInvoiceReport\OrderReturn1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\OrderInvoiceReport\OrderReturn2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\OrderInvoice\OrderReceive.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\ProfitVolume\ProfitStockVolume.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\PurchaseReport\purchasegemsummary.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\PurchaseReport\purchasestockrep.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\PurchaseRaw\purchaseraw.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\PurchaseStock\PurchaseStock.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\PurchaseStock\PurchaseStockGems.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\PurchaseStock\PurchaseStockGoldShop.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\PurchasebyDate\PurchaseSummaryByDate.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\RepairReceive\RepairReceive.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\RepairReceive\RepairStock.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\RepairReport\RepairReceive.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\RepairReport\RepairReceive.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\RepairReport\RepairReturn.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\RepairReport\RepairReturn.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\RepairReturn\RepairReturn.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\RepairReturn\RepairReturnStock.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\SaleInvoiceVolume\SaleStockVolume.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\SaleInvoice\SaleStock.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Measurement\measurement.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="HelpBook\OrderInvoiceReport\OrderReceive.html" />
+    <Content Include="HelpBook\OrderInvoiceReport\OrderReturn.html" />
+    <None Include="HelpBook\PurchaseStock\purchasegem.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\PurchaseStock\purchasestock.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\PurchaseStock\purchasestockfromshop.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\PurchasebyDate\purchasesummarybydate1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\PurchasebyDate\purchasesummarybydate2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\ProfitStock\profitstockitem.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="HelpBook\SalePercentage\salepercentage.html" />
+    <None Include="HelpBook\SalePercentage\SalePercentage1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\SalePercentage\SalePercentage2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Sales Invoice Report\SaleStockrpt.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\SalesGemsReport\SaleGems.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\StockItemsReport\StockItemReport.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\SalebyDate\SalesSummaybyDate.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\SaleVolumeReport\salestockreportsummary.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\StockItemsReport\StockItemReport.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Resources\main-screen_3.jpg" />
+    <Content Include="Resources\newmainscreen.jpg" />
+    <Content Include="Resources\newSplash.jpg" />
+    <None Include="HelpBook\Location\Location.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HelpBook\Location\Location.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Customer\Customer.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Customer\Customer.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\SaleStaffs\SaleStaffs.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\SaleStaffs\SaleStaffs.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\GoldQuantity\GoldQuantity.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\ItemCategory\ItemCategory.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\ItemCategory\ItemCategory.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Item Name\itemname.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Item Name\itemname.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Gem Category\gem category.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Gem Category\gemcategory.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Current Price\currentprice.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Current Price\currentprice.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Photo path\photopath.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Photo path\photopath.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Sale Gems\salegems.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Sale Gems\salegems.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\SaleInvoice\saleinvoice.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\SaleInvoiceVolume\saleinvoicevolume.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\OrderInvoice\orderinvoice.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\OrderInvoiceReturn\orderinvoicereturn.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\OrderInvoiceReturn\orderinvoicereturn.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Cashreceipt\cashreceiptoncredit.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Cashreceipt\cashreceiptoncredit.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Daily Income\dailyincome.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\DailyExpense\dailyexpense.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\DailyExpense\dailyexpense.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\BarcodeSetting\barcodesetting.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\BarcodeSetting\barcodesetting.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\CompanyProfile\companyprofile.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\CompanyProfile\companyprofile.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\DatabaseUtilities\databaseutilities.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\DatabaseUtilities\databaseutilities.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\PurchaseReport\PurchaseInvoiceReport.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\PurchaseReport\PurchaseInvoiceReportGems.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\SalebyDate\salesinvoicesummary.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\SaleVolumeReport\salesinvoicevolume.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\SalesGemsReport\SalesGemsReport.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Barcode Info\barcodeinfo.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Barcode Info\barcodeinfo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Cashreceiptreport\cashreceiveoncredit.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\DailyReport\dailyincomeenpense.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\GemsStockItemReport\GemsStockItem.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\GemsStockItemReport\GemsStockItem1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\GemsStockItemReport\GemsStockItem2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\ProfitVolume\profitvolumeitems.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\ProfitStock\ProfitStockItems.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Style\style.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Style\style.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\UserMenu\usermenu.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\UserMenu\usermenu.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\User\user.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\User\user.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\VoucherSetting\vouchersetting.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\VoucherSetting\vouchersetting.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\DatabaseUtilities\databasemaintenance.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\DatabaseUtilities\databasemaintenance.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Vouchers Report\vouchersreport.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Vouchers Report\vouchersreport.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\EventLogs\eventlogs.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\EventLogs\eventlogs.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\GenerateFormat\generateformat.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\GenerateFormat\generateformat.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\GeneralLedger\GeneralLedger.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\GeneralLedger\GeneralLedger.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\MasterSetupReport\MasterSetupRpt.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\MasterSetupReport\MasterSetupRpt.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\CashInCashOut\CashInCashOut.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\CashInCashOut\cashincashout.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\Measurement\measurement.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HelpBook\PurchaseRaw\PurchaseRaw.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Resources\app_background  Final2.jpg" />
+    <Content Include="Resources\cube_yellow.ico" />
+    <Content Include="Resources\finalmainscreen.jpg" />
+    <Content Include="Resources\GoldSmith.ico" />
+    <None Include="Resources\hb.jpg" />
+    <None Include="Resources\helpboard.jpg" />
+    <None Include="Resources\helpbook.jpg" />
+    <None Include="Script\InstallSqlScript.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Resources\app_background.jpg" />
+    <Content Include="Resources\1.jpg" />
+    <None Include="Resources\18.jpg" />
+    <Content Include="Resources\5.jpg" />
+    <Content Include="Resources\8.jpg" />
+    <Content Include="Resources\9.jpg" />
+    <Content Include="Resources\Checked.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessRule\BusinessRule.vbproj">
+      <Project>{c25c7df6-4a6e-4a23-9d7d-f43b4d46ef8e}</Project>
+      <Name>BusinessRule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonInfo\CommonInfo.vbproj">
+      <Project>{4c919cb0-7319-4173-941c-dafe9646425a}</Project>
+      <Name>CommonInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonInfo\CommonInfo.vbproj">
+      <Project>{4c919cb0-7319-4173-941c-dafe9646425a}</Project>
+      <Name>CommonInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccess\DataAccess.vbproj">
+      <Project>{c5b0740e-3b7b-4289-bf3a-83c330da2011}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Operational\Operational.vbproj">
+      <Project>{da7378dc-dcc7-4a4d-b1eb-87ff5bde9cd7}</Project>
+      <Name>Operational</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
