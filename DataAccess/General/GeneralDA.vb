@@ -274,7 +274,7 @@ Namespace General
                     strCommandText = "UPDATE tbl_key_generate SET generateid = generateid + 1 WHERE generateformat = @generateformat AND GenerateKeyType = @GenerateKeyType and GenerateOn=@GenerateOn"
                 Else
                     intGenerateID = 1
-                    strCommandText = "INSERT INTO tbl_key_generate VALUES (@GenerateKeyType, @generateformat, 1, @GenerateOn)"
+                    strCommandText = "INSERT INTO tbl_key_generate VALUES (@GenerateKeyType, @generateformat, 1, @GenerateOn,@LocationID)"
                 End If
 
                 retStr = intGenerateID.ToString(GenerateFormat)
@@ -289,6 +289,7 @@ Namespace General
                 DB.AddInParameter(DBComm, "@generateformat", DbType.String, strFormat)
                 DB.AddInParameter(DBComm, "@GenerateKeyType", DbType.String, KeyType)
                 DB.AddInParameter(DBComm, "@GenerateOn", DbType.String, GenerateOn)
+                DB.AddInParameter(DBComm, "@LocationID", DbType.String, Global_CurrentLocationID)
                 DB.ExecuteNonQuery(DBComm)
             End If
             Return retStr
