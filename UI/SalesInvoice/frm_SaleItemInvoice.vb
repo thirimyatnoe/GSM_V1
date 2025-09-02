@@ -2243,8 +2243,8 @@ Public Class frm_SaleItemInvoice
             _IsGemInDB = True
             _IsUpdateHeader = True
             _SalesInvoiceID = DataItem.Item("VoucherNo").ToString()
-            InvoiceStatus = DataItem.Item("InvoiceStatus")
-            IsRedeemInvoice = DataItem.Item("IsRedeemInvoice")
+            'InvoiceStatus = DataItem.Item("InvoiceStatus")
+            'IsRedeemInvoice = DataItem.Item("IsRedeemInvoice")
             objSaleItemHeader = objSalesInvoiceController.GetSaleInvoiceHeaderByID(_SalesInvoiceID)
 
             _dtItemBarcode.Rows.Clear()

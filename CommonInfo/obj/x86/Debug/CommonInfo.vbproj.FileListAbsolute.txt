@@ -35,3 +35,13 @@ D:\Projects\2022\TMSGoldV4\CommonInfo\obj\x86\Debug\CommonInfo.vbproj.CoreCompil
 D:\Projects\2022\TMSGoldV4\CommonInfo\obj\x86\Debug\CommonInfo.dll
 D:\Projects\2022\TMSGoldV4\CommonInfo\obj\x86\Debug\CommonInfo.xml
 D:\Projects\2022\TMSGoldV4\CommonInfo\obj\x86\Debug\CommonInfo.pdb
+D:\Projects\2022\GSM_V1\CommonInfo\bin\x86\Debug\CommonInfo.dll
+D:\Projects\2022\GSM_V1\CommonInfo\bin\x86\Debug\CommonInfo.pdb
+D:\Projects\2022\GSM_V1\CommonInfo\bin\x86\Debug\CommonInfo.xml
+D:\Projects\2022\GSM_V1\CommonInfo\obj\x86\Debug\CommonInfo.vbproj.AssemblyReference.cache
+D:\Projects\2022\GSM_V1\CommonInfo\obj\x86\Debug\CommonInfo.Resources.resources
+D:\Projects\2022\GSM_V1\CommonInfo\obj\x86\Debug\CommonInfo.vbproj.GenerateResource.cache
+D:\Projects\2022\GSM_V1\CommonInfo\obj\x86\Debug\CommonInfo.vbproj.CoreCompileInputs.cache
+D:\Projects\2022\GSM_V1\CommonInfo\obj\x86\Debug\CommonInfo.dll
+D:\Projects\2022\GSM_V1\CommonInfo\obj\x86\Debug\CommonInfo.xml
+D:\Projects\2022\GSM_V1\CommonInfo\obj\x86\Debug\CommonInfo.pdb

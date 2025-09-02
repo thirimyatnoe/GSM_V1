@@ -7,6 +7,7 @@
         <DataProvider>SQL</DataProvider>
         <ConnectString>User ID=sa;Password=global;Initial Catalog=SaKyarShweYee;Data Source=ayethet</ConnectString>
       </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>2020be96-c668-4ece-9791-23e65be57584</rd:DataSourceID>
     </DataSource>
     <DataSource Name="dsOrderInvoiceDataSet">
@@ -14,6 +15,7 @@
         <DataProvider>System.Data.DataSet</DataProvider>
         <ConnectString>/* Local Connection */</ConnectString>
       </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>310e6e33-6205-4b01-94c9-fa770a561731</rd:DataSourceID>
     </DataSource>
   </DataSources>
@@ -436,26 +438,10 @@
           <DataField>Remark</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="CustomerCode">
-          <DataField>CustomerCode</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="GoldSmith">
-          <DataField>GoldSmith</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="OriginalCode">
-          <DataField>OriginalCode</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="QRCode">
-          <DataField>QRCode</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>dsOrderInvoiceDataSet</rd:DataSetName>
-        <rd:SchemaPath>D:\Working\vb.net 2012\GlobalGoldV1.2\UI\Report\DataSet\dsOrderInvoiceDataSet.xsd</rd:SchemaPath>
+        <rd:SchemaPath>E:\Working\vb.net 2012\GlobalGoldV1.2\UI\Report\DataSet\dsOrderInvoiceDataSet.xsd</rd:SchemaPath>
         <rd:TableName>dtOrderReturn</rd:TableName>
         <rd:TableAdapterFillMethod />
         <rd:TableAdapterGetDataMethod />
@@ -1056,9 +1042,9 @@
               </Paragraph>
             </Paragraphs>
             <Top>0.2464in</Top>
-            <Left>0.0544in</Left>
+            <Left>1.5544in</Left>
             <Height>0.23in</Height>
-            <Width>7.87514in</Width>
+            <Width>4.05502in</Width>
             <Style>
               <VerticalAlign>Middle</VerticalAlign>
               <PaddingLeft>2pt</PaddingLeft>
@@ -1088,9 +1074,9 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox55</rd:DefaultName>
-            <Left>0.05677in</Left>
+            <Left>1.55677in</Left>
             <Height>0.20473in</Height>
-            <Width>7.87306in</Width>
+            <Width>4.03181in</Width>
             <ZIndex>1</ZIndex>
             <Style>
               <Border>
@@ -1114,7 +1100,7 @@
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>0.13521in</Height>
+                  <Height>0.17035in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -1125,7 +1111,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ပိုငွေလျော့ငွေ</Value>
+                                  <Value>             ပိုငွေလျော့ငွေ     </Value>
                                   <Style>
                                     <FontFamily>Myanmar3</FontFamily>
                                     <FontSize>9pt</FontSize>
@@ -1134,7 +1120,7 @@
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Left</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -1201,7 +1187,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Discount လျှော့ငွေ</Value>
+                                  <Value>       Discount လျှော့ငွေ</Value>
                                   <Style>
                                     <FontFamily>Myanmar3</FontFamily>
                                     <FontSize>9pt</FontSize>
@@ -1210,7 +1196,7 @@
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Left</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -1277,7 +1263,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ကျသင့်ငွေ</Value>
+                                  <Value>                 ကျသင့်ငွေ</Value>
                                   <Style>
                                     <FontFamily>Myanmar3</FontFamily>
                                     <FontSize>9pt</FontSize>
@@ -1286,7 +1272,7 @@
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Left</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -1342,7 +1328,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.13521in</Height>
+                  <Height>0.11028in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -1353,6 +1339,14 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
+                                  <Value xml:space="preserve">                  </Value>
+                                  <Style>
+                                    <FontFamily>Myanmar3</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
                                   <Value>=IIF(Fields!AdvanceAmount.Value &lt;0,"ကြွေးကျန်ငွေ", "စရံငွေ")</Value>
                                   <Style>
                                     <FontFamily>Myanmar3</FontFamily>
@@ -1362,7 +1356,7 @@
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Left</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -1429,7 +1423,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ပေးရွှေမှ ရငွေ</Value>
+                                  <Value>            ပေးရွှေမှ ရငွေ</Value>
                                   <Style>
                                     <FontFamily>Myanmar3</FontFamily>
                                     <FontSize>9pt</FontSize>
@@ -1438,7 +1432,7 @@
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Left</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -1494,7 +1488,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.13521in</Height>
+                  <Height>0.24112in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -1505,7 +1499,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>စိုက်ငွေ</Value>
+                                  <Value>   လက်ငင်းရ/ပေးငွေ</Value>
                                   <Style>
                                     <FontFamily>Myanmar3</FontFamily>
                                     <FontSize>9pt</FontSize>
@@ -1514,7 +1508,7 @@
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Left</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -1581,7 +1575,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>အမ်းငွေ</Value>
+                                  <Value>                  အမ်းငွေ</Value>
                                   <Style>
                                     <FontFamily>Myanmar3</FontFamily>
                                     <FontSize>9pt</FontSize>
@@ -1590,7 +1584,7 @@
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Left</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -1646,7 +1640,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.13521in</Height>
+                  <Height>0.20854in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -1657,7 +1651,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ကျန်ငွေ</Value>
+                                  <Value>                ကျန်ငွေ</Value>
                                   <Style>
                                     <FontFamily>Myanmar3</FontFamily>
                                     <FontSize>9pt</FontSize>
@@ -1666,7 +1660,7 @@
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Left</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -1771,9 +1765,9 @@
             </TablixRowHierarchy>
             <KeepTogether>true</KeepTogether>
             <DataSetName>dsOrderInvoiceDataSet_dtOrderReturn</DataSetName>
-            <Top>2.39197in</Top>
-            <Left>5.2206in</Left>
-            <Height>1.11349in</Height>
+            <Top>3.24092in</Top>
+            <Left>4.3873in</Left>
+            <Height>1.30294in</Height>
             <Width>2.6452in</Width>
             <ZIndex>2</ZIndex>
             <Style>
@@ -2047,8 +2041,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>dsOrderInvoiceDataSet_OrderInvoice</DataSetName>
-            <Top>2.04648in</Top>
-            <Left>0.06206in</Left>
+            <Top>2.79648in</Top>
+            <Left>0.20247in</Left>
             <Height>0.75in</Height>
             <Width>2.53125in</Width>
             <ZIndex>3</ZIndex>
@@ -2062,22 +2056,22 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>0.39364in</Width>
+                  <Width>0.29642in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.6829in</Width>
+                  <Width>0.58568in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.9474in</Width>
+                  <Width>1.85018in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>2.10793in</Width>
+                  <Width>2.01071in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.33329in</Width>
+                  <Width>0.85065in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.31896in</Width>
+                  <Width>1.22174in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -2169,7 +2163,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>သင့်ငွေ</Value>
+                                  <Value>သင့်ငွေ</Value>
                                   <Style>
                                     <FontFamily>Myanmar3</FontFamily>
                                     <FontSize>9pt</FontSize>
@@ -2379,10 +2373,10 @@
                           <TablixBody>
                             <TablixColumns>
                               <TablixColumn>
-                                <Width>1.01566in</Width>
+                                <Width>0.96705in</Width>
                               </TablixColumn>
                               <TablixColumn>
-                                <Width>1.09226in</Width>
+                                <Width>1.04365in</Width>
                               </TablixColumn>
                             </TablixColumns>
                             <TablixRows>
@@ -2437,7 +2431,7 @@
                                           <Paragraph>
                                             <TextRuns>
                                               <TextRun>
-                                                <Value>=IIF(Fields!IsGramRate.Value=0,Fields!ItemK.Value &amp; " - " &amp; Fields!ItemP.Value &amp; " - " &amp; Microsoft.VisualBasic.Strings.Format(Fields!ItemY.Value, "0.0"),Microsoft.VisualBasic.Strings.Format(Fields!GoldTG.Value, "0.000") &amp; " G")</Value>
+                                                <Value>=IIF(Fields!IsGramRate.Value=0,Fields!ItemK.Value &amp; " - " &amp; Fields!ItemP.Value &amp; " - " &amp; Microsoft.VisualBasic.Strings.Format(Fields!ItemY.Value, "0.00"),Microsoft.VisualBasic.Strings.Format(Fields!GoldTG.Value, "0.000") &amp; " G")</Value>
                                                 <Style>
                                                   <FontFamily>Tahoma</FontFamily>
                                                   <FontSize>9pt</FontSize>
@@ -2609,7 +2603,7 @@
                                           <Paragraph>
                                             <TextRuns>
                                               <TextRun>
-                                                <Value>=IIF(Fields!IsGramRate.Value=0,Fields!GoldK.Value &amp; " - " &amp; Fields!GoldP.Value &amp; " - " &amp; Microsoft.VisualBasic.Strings.Format(Fields!GoldY.Value, "0.0"),Microsoft.VisualBasic.Strings.Format(Fields!GoldTG.Value, "0.000") &amp; " G")</Value>
+                                                <Value>=IIF(Fields!IsGramRate.Value=0,Fields!GoldK.Value &amp; " - " &amp; Fields!GoldP.Value &amp; " - " &amp; Microsoft.VisualBasic.Strings.Format(Fields!GoldY.Value, "0.00"),Microsoft.VisualBasic.Strings.Format(Fields!GoldTG.Value, "0.000") &amp; " G")</Value>
                                                 <Style>
                                                   <FontFamily>Tahoma</FontFamily>
                                                   <FontSize>9pt</FontSize>
@@ -2693,7 +2687,7 @@
                                           <Paragraph>
                                             <TextRuns>
                                               <TextRun>
-                                                <Value>=IIF(Fields!IsGramRate.Value=0,Fields!WasteK.Value &amp; " - " &amp; Fields!WasteP.Value &amp; " - " &amp; Microsoft.VisualBasic.Strings.Format(Fields!WasteY.Value, "0.0"),Microsoft.VisualBasic.Strings.Format(Fields!WasteTG.Value, "0.000") &amp; " G")</Value>
+                                                <Value>=IIF(Fields!IsGramRate.Value=0,Fields!WasteK.Value &amp; " - " &amp; Fields!WasteP.Value &amp; " - " &amp; Microsoft.VisualBasic.Strings.Format(Fields!WasteY.Value, "0.00"),Microsoft.VisualBasic.Strings.Format(Fields!WasteTG.Value, "0.000") &amp; " G")</Value>
                                                 <Style>
                                                   <FontFamily>Tahoma</FontFamily>
                                                   <FontSize>9pt</FontSize>
@@ -2777,7 +2771,7 @@
                                           <Paragraph>
                                             <TextRuns>
                                               <TextRun>
-                                                <Value>=IIF(Fields!IsGramRate.Value=0,Fields!TotalK.Value &amp; " - " &amp; Fields!TotalP.Value &amp; " - " &amp; Microsoft.VisualBasic.Strings.Format(Fields!TotalY.Value, "0.0"),Microsoft.VisualBasic.Strings.Format(Fields!TotalTG.Value, "0.000") &amp; " G")</Value>
+                                                <Value>=IIF(Fields!IsGramRate.Value=0,Fields!TotalK.Value &amp; " - " &amp; Fields!TotalP.Value &amp; " - " &amp; Microsoft.VisualBasic.Strings.Format(Fields!TotalY.Value, "0.00"),Microsoft.VisualBasic.Strings.Format(Fields!TotalTG.Value, "0.000") &amp; " G")</Value>
                                                 <Style>
                                                   <FontFamily>Tahoma</FontFamily>
                                                   <FontSize>9pt</FontSize>
@@ -3024,25 +3018,25 @@
                           <TablixBody>
                             <TablixColumns>
                               <TablixColumn>
-                                <Width>1.43022in</Width>
+                                <Width>1.51733in</Width>
                               </TablixColumn>
                               <TablixColumn>
-                                <Width>0.94026in</Width>
+                                <Width>0.91853in</Width>
                               </TablixColumn>
                               <TablixColumn>
-                                <Width>0.99621in</Width>
+                                <Width>0.96705in</Width>
                               </TablixColumn>
                               <TablixColumn>
-                                <Width>0.99783in</Width>
+                                <Width>1.04365in</Width>
                               </TablixColumn>
                               <TablixColumn>
-                                <Width>0.99783in</Width>
+                                <Width>0.85066in</Width>
                               </TablixColumn>
                               <TablixColumn>
-                                <Width>1.01478in</Width>
+                                <Width>0.98617in</Width>
                               </TablixColumn>
                               <TablixColumn>
-                                <Width>1.01358in</Width>
+                                <Width>0.23557in</Width>
                               </TablixColumn>
                             </TablixColumns>
                             <TablixRows>
@@ -3238,7 +3232,7 @@
                                           <Paragraph>
                                             <TextRuns>
                                               <TextRun>
-                                                <Value>သင့်ငွေ</Value>
+                                                <Value>သင့်ငွေ</Value>
                                                 <Style>
                                                   <FontFamily>Myanmar3</FontFamily>
                                                   <FontSize>8pt</FontSize>
@@ -3379,25 +3373,25 @@
                           <TablixBody>
                             <TablixColumns>
                               <TablixColumn>
-                                <Width>1.43022in</Width>
+                                <Width>1.51733in</Width>
                               </TablixColumn>
                               <TablixColumn>
-                                <Width>0.94026in</Width>
+                                <Width>0.91853in</Width>
                               </TablixColumn>
                               <TablixColumn>
-                                <Width>0.99621in</Width>
+                                <Width>0.96705in</Width>
                               </TablixColumn>
                               <TablixColumn>
-                                <Width>0.99783in</Width>
+                                <Width>1.04365in</Width>
                               </TablixColumn>
                               <TablixColumn>
-                                <Width>0.99783in</Width>
+                                <Width>0.85066in</Width>
                               </TablixColumn>
                               <TablixColumn>
-                                <Width>1.01478in</Width>
+                                <Width>0.98617in</Width>
                               </TablixColumn>
                               <TablixColumn>
-                                <Width>1.01358in</Width>
+                                <Width>0.23557in</Width>
                               </TablixColumn>
                             </TablixColumns>
                             <TablixRows>
@@ -3745,10 +3739,10 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>dsOrderInvoiceDataSet_dtOrderReturn</DataSetName>
-            <Top>0.58172in</Top>
-            <Left>0.08169in</Left>
+            <Top>1.33172in</Top>
+            <Left>0.20669in</Left>
             <Height>1.40328in</Height>
-            <Width>7.78412in</Width>
+            <Width>6.81538in</Width>
             <ZIndex>4</ZIndex>
             <Style>
               <Border>
@@ -3791,7 +3785,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>စုစုပေါင်းကျသင့်ငွေ</Value>
+                                  <Value> စုစုပေါင်းကျသင့်ငွေ     </Value>
                                   <Style>
                                     <FontFamily>Myanmar3</FontFamily>
                                     <FontSize>9pt</FontSize>
@@ -3867,8 +3861,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>dsOrderInvoiceDataSet_dtOrderReturn</DataSetName>
-            <Top>2.04648in</Top>
-            <Left>5.21356in</Left>
+            <Top>2.94926in</Top>
+            <Left>4.38002in</Left>
             <Height>0.25in</Height>
             <Width>2.65248in</Width>
             <ZIndex>5</ZIndex>
@@ -4003,8 +3997,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>dsOrderInvoiceDataSet_dtVoucherTax</DataSetName>
-            <Top>2.23078in</Top>
-            <Left>5.2206in</Left>
+            <Top>3.10578in</Top>
+            <Left>4.37687in</Left>
             <Height>0.15656in</Height>
             <Width>2.6452in</Width>
             <ZIndex>6</ZIndex>
@@ -4017,6 +4011,390 @@
               </Border>
             </Style>
           </Tablix>
+          <Textbox Name="Textbox32">
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>="တာ၀န်ခံ၀န်ထမ်း  ။ ။  " &amp; First(Fields!Staff.Value, "dsOrderInvoiceDataSet_dtOrderReturn")</Value>
+                    <Style>
+                      <FontFamily>Myanmar3</FontFamily>
+                      <FontSize>9pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox30</rd:DefaultName>
+            <Top>4.2138in</Top>
+            <Left>0.30417in</Left>
+            <Height>0.21527in</Height>
+            <Width>2.65938in</Width>
+            <ZIndex>7</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox3">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Signature</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Top>4.44296in</Top>
+            <Left>0.30417in</Left>
+            <Height>0.25in</Height>
+            <Width>2.42955in</Width>
+            <ZIndex>8</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Line Name="Line1">
+            <Top>4.81796in</Top>
+            <Left>1.08879in</Left>
+            <Height>0in</Height>
+            <Width>1.4375in</Width>
+            <ZIndex>9</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Textbox Name="Textbox6">
+            <CanGrow>true</CanGrow>
+            <CanShrink>true</CanShrink>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Parameters!Remark15.Value</Value>
+                    <Style>
+                      <FontFamily>Myanmar3</FontFamily>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Parameters!RemarkDone.Value</Value>
+                    <Style>
+                      <FontFamily>Myanmar3</FontFamily>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox5</rd:DefaultName>
+            <Top>3.98274in</Top>
+            <Left>0.31296in</Left>
+            <Height>0.18556in</Height>
+            <Width>2.65059in</Width>
+            <ZIndex>10</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+          </Textbox>
+          <Textbox Name="textbox1">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=First(Fields!CustomerName.Value, "dsOrderInvoiceDataSet_dtOrderReturn")</Value>
+                    <Style>
+                      <FontFamily>Myanmar3</FontFamily>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>textbox1</rd:DefaultName>
+            <Top>0.61746in</Top>
+            <Left>0.96616in</Left>
+            <Height>0.26042in</Height>
+            <Width>1.84301in</Width>
+            <ZIndex>11</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="textbox2">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=First(Fields!CustomerAddress.Value, "dsOrderInvoiceDataSet_dtOrderReturn")</Value>
+                    <Style>
+                      <FontFamily>Myanmar3</FontFamily>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>textbox1</rd:DefaultName>
+            <Top>0.94822in</Top>
+            <Left>0.98005in</Left>
+            <Height>0.26042in</Height>
+            <Width>1.82912in</Width>
+            <ZIndex>12</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="textbox45">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Format(First(Fields!ReturnDate.Value, "dsOrderInvoiceDataSet_dtOrderReturn"),"dd-MM-yyyy hh:mm tt")</Value>
+                    <Style>
+                      <FontFamily>Zawgyi-One</FontFamily>
+                      <FontSize>9pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>0.61746in</Top>
+            <Left>5.14732in</Left>
+            <Height>0.26042in</Height>
+            <Width>1.88918in</Width>
+            <ZIndex>13</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="textbox47">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value xml:space="preserve"> </Value>
+                    <Style>
+                      <FontFamily>Myanmar3</FontFamily>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!CustomerTel.Value, "dsOrderInvoiceDataSet_dtOrderReturn")</Value>
+                    <Style>
+                      <FontFamily>Myanmar3</FontFamily>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>0.92245in</Top>
+            <Left>5.13842in</Left>
+            <Height>0.26042in</Height>
+            <Width>1.89808in</Width>
+            <ZIndex>14</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="SDate_3">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>ဖုန်းနံပါတ်</Value>
+                    <Style>
+                      <FontFamily>Myanmar3</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Right</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>SDate_1</rd:DefaultName>
+            <Top>0.92245in</Top>
+            <Left>4.37856in</Left>
+            <Height>0.26042in</Height>
+            <Width>0.73208in</Width>
+            <ZIndex>15</ZIndex>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="SDate_4">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>အမည်</Value>
+                    <Style>
+                      <FontFamily>Myanmar3</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Right</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>SDate_1</rd:DefaultName>
+            <Top>0.63473in</Top>
+            <Left>0.20247in</Left>
+            <Height>0.26042in</Height>
+            <Width>0.61908in</Width>
+            <ZIndex>16</ZIndex>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="SDate_5">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>လိပ်စာ</Value>
+                    <Style>
+                      <FontFamily>Myanmar3</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Right</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>SDate_1</rd:DefaultName>
+            <Top>0.96875in</Top>
+            <Left>0.20669in</Left>
+            <Height>0.26042in</Height>
+            <Width>0.5704in</Width>
+            <ZIndex>17</ZIndex>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="SDate_6">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>နေ့စွဲ</Value>
+                    <Style>
+                      <FontFamily>Myanmar3</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Right</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>SDate_1</rd:DefaultName>
+            <Top>0.61746in</Top>
+            <Left>4.25313in</Left>
+            <Height>0.26042in</Height>
+            <Width>0.82155in</Width>
+            <ZIndex>18</ZIndex>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
           <Textbox Name="textbox48">
             <CanGrow>true</CanGrow>
             <KeepTogether>true</KeepTogether>
@@ -4041,11 +4419,11 @@
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>2.82031in</Top>
-            <Left>0.05677in</Left>
-            <Height>0.57265in</Height>
-            <Width>4.95016in</Width>
-            <ZIndex>7</ZIndex>
+            <Top>3.58559in</Top>
+            <Left>0.20247in</Left>
+            <Height>0.36937in</Height>
+            <Width>2.76108in</Width>
+            <ZIndex>19</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -4056,70 +4434,47 @@
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
-          <Tablix Name="Tablix5">
-            <TablixBody>
-              <TablixColumns>
-                <TablixColumn>
-                  <Width>1in</Width>
-                </TablixColumn>
-              </TablixColumns>
-              <TablixRows>
-                <TablixRow>
-                  <Height>0.88542in</Height>
-                  <TablixCells>
-                    <TablixCell>
-                      <CellContents>
-                        <Image Name="Image9">
-                          <Source>Database</Source>
-                          <Value>=System.Convert.FromBase64String(Fields!QRCode.Value)</Value>
-                          <MIMEType>image/png</MIMEType>
-                          <Sizing>FitProportional</Sizing>
-                          <Style>
-                            <Border>
-                              <Style>None</Style>
-                            </Border>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>0.3pt</PaddingRight>
-                            <PaddingTop>3pt</PaddingTop>
-                            <PaddingBottom>0.3pt</PaddingBottom>
-                          </Style>
-                        </Image>
-                      </CellContents>
-                    </TablixCell>
-                  </TablixCells>
-                </TablixRow>
-              </TablixRows>
-            </TablixBody>
-            <TablixColumnHierarchy>
-              <TablixMembers>
-                <TablixMember />
-              </TablixMembers>
-            </TablixColumnHierarchy>
-            <TablixRowHierarchy>
-              <TablixMembers>
-                <TablixMember />
-              </TablixMembers>
-            </TablixRowHierarchy>
-            <DataSetName>dsOrderInvoiceDataSet_dtOrderReturn</DataSetName>
-            <Top>3.57096in</Top>
-            <Left>0.59331in</Left>
-            <Height>0.88542in</Height>
-            <Width>1in</Width>
-            <ZIndex>8</ZIndex>
+          <Textbox Name="SDate_7">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>ဆိုင်အမှတ်-၂</Value>
+                    <Style>
+                      <FontFamily>Myanmar3</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>SDate_1</rd:DefaultName>
+            <Top>0.30922in</Top>
+            <Left>5.72993in</Left>
+            <Height>0.25268in</Height>
+            <Width>1.29214in</Width>
+            <ZIndex>20</ZIndex>
             <Style>
-              <Border>
-                <Style>None</Style>
-              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>1pt</PaddingTop>
+              <PaddingBottom>1pt</PaddingBottom>
             </Style>
-          </Tablix>
+          </Textbox>
         </ReportItems>
-        <Height>4.45638in</Height>
+        <Height>5.69296in</Height>
         <Style />
       </Body>
-      <Width>7.98394in</Width>
+      <Width>7.46355in</Width>
       <Page>
         <PageHeader>
-          <Height>4.01112in</Height>
+          <Height>2.30756in</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
@@ -4180,10 +4535,10 @@
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox10</rd:DefaultName>
-              <Top>0.7993in</Top>
+              <Top>0.80902in</Top>
               <Left>0.10793in</Left>
               <Height>1.13196in</Height>
-              <Width>7.78411in</Width>
+              <Width>7.17453in</Width>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -4221,7 +4576,7 @@
               <Top>0.50868in</Top>
               <Left>0.10793in</Left>
               <Height>0.28645in</Height>
-              <Width>7.78411in</Width>
+              <Width>7.12579in</Width>
               <ZIndex>1</ZIndex>
               <Style>
                 <Border>
@@ -4259,274 +4614,12 @@
               <Top>0.10417in</Top>
               <Left>0.10793in</Left>
               <Height>0.39062in</Height>
-              <Width>7.78411in</Width>
+              <Width>7.17453in</Width>
               <ZIndex>2</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
                 </Border>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
-              </Style>
-            </Textbox>
-            <Textbox Name="textbox1">
-              <CanGrow>true</CanGrow>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>=First(Fields!CustomerName.Value, "dsOrderInvoiceDataSet_dtOrderReturn")</Value>
-                      <Style>
-                        <FontFamily>Myanmar3</FontFamily>
-                        <FontWeight>Bold</FontWeight>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-              </Paragraphs>
-              <rd:DefaultName>textbox1</rd:DefaultName>
-              <Top>3.25835in</Top>
-              <Left>1.89166in</Left>
-              <Height>0.28909in</Height>
-              <Width>2.72843in</Width>
-              <ZIndex>3</ZIndex>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
-              </Style>
-            </Textbox>
-            <Textbox Name="textbox2">
-              <CanGrow>true</CanGrow>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>=First(Fields!CustomerAddress.Value, "dsOrderInvoiceDataSet_dtOrderReturn")</Value>
-                      <Style>
-                        <FontFamily>Myanmar3</FontFamily>
-                        <FontWeight>Bold</FontWeight>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-              </Paragraphs>
-              <rd:DefaultName>textbox1</rd:DefaultName>
-              <Top>3.58911in</Top>
-              <Left>1.90555in</Left>
-              <Height>0.22862in</Height>
-              <Width>2.72843in</Width>
-              <ZIndex>4</ZIndex>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
-              </Style>
-            </Textbox>
-            <Textbox Name="textbox45">
-              <CanGrow>true</CanGrow>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>=Format(First(Fields!ReturnDate.Value, "dsOrderInvoiceDataSet_dtOrderReturn"),"dd-MM-yyyy hh:mm tt")</Value>
-                      <Style>
-                        <FontFamily>Zawgyi-One</FontFamily>
-                        <FontSize>9pt</FontSize>
-                        <FontWeight>Bold</FontWeight>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-              </Paragraphs>
-              <Top>3.25835in</Top>
-              <Left>5.91032in</Left>
-              <Height>0.25777in</Height>
-              <Width>1.88918in</Width>
-              <ZIndex>5</ZIndex>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
-              </Style>
-            </Textbox>
-            <Textbox Name="textbox47">
-              <CanGrow>true</CanGrow>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value xml:space="preserve"> </Value>
-                      <Style>
-                        <FontFamily>Myanmar3</FontFamily>
-                        <FontWeight>Bold</FontWeight>
-                      </Style>
-                    </TextRun>
-                    <TextRun>
-                      <Value>=First(Fields!CustomerTel.Value, "dsOrderInvoiceDataSet_dtOrderReturn")</Value>
-                      <Style>
-                        <FontFamily>Myanmar3</FontFamily>
-                        <FontWeight>Bold</FontWeight>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-              </Paragraphs>
-              <Top>3.56334in</Top>
-              <Left>5.90142in</Left>
-              <Height>0.24326in</Height>
-              <Width>1.89808in</Width>
-              <ZIndex>6</ZIndex>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
-              </Style>
-            </Textbox>
-            <Textbox Name="SDate_3">
-              <CanGrow>true</CanGrow>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>ဖုန်းနံပါတ်</Value>
-                      <Style>
-                        <FontFamily>Myanmar3</FontFamily>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Right</TextAlign>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <rd:DefaultName>SDate_1</rd:DefaultName>
-              <Top>3.56334in</Top>
-              <Left>5.14156in</Left>
-              <Height>0.25022in</Height>
-              <Width>0.73208in</Width>
-              <ZIndex>7</ZIndex>
-              <Style>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
-              </Style>
-            </Textbox>
-            <Textbox Name="SDate_4">
-              <CanGrow>true</CanGrow>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>အမည်</Value>
-                      <Style>
-                        <FontFamily>Myanmar3</FontFamily>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Right</TextAlign>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <rd:DefaultName>SDate_1</rd:DefaultName>
-              <Top>3.27562in</Top>
-              <Left>0.86244in</Left>
-              <Height>0.2405in</Height>
-              <Width>0.82155in</Width>
-              <ZIndex>8</ZIndex>
-              <Style>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
-              </Style>
-            </Textbox>
-            <Textbox Name="SDate_5">
-              <CanGrow>true</CanGrow>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>လိပ်စာ</Value>
-                      <Style>
-                        <FontFamily>Myanmar3</FontFamily>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Right</TextAlign>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <rd:DefaultName>SDate_1</rd:DefaultName>
-              <Top>3.60964in</Top>
-              <Left>0.87437in</Left>
-              <Height>0.2405in</Height>
-              <Width>0.77709in</Width>
-              <ZIndex>9</ZIndex>
-              <Style>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
-              </Style>
-            </Textbox>
-            <Textbox Name="SDate_6">
-              <CanGrow>true</CanGrow>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>နေ့စွဲ</Value>
-                      <Style>
-                        <FontFamily>Myanmar3</FontFamily>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Right</TextAlign>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <rd:DefaultName>SDate_1</rd:DefaultName>
-              <Top>3.25835in</Top>
-              <Left>5.01613in</Left>
-              <Height>0.2405in</Height>
-              <Width>0.82155in</Width>
-              <ZIndex>10</ZIndex>
-              <Style>
                 <PaddingLeft>2pt</PaddingLeft>
                 <PaddingRight>2pt</PaddingRight>
                 <PaddingTop>2pt</PaddingTop>
@@ -4545,131 +4638,8 @@
           </Style>
         </PageHeader>
         <PageFooter>
-          <Height>1.98751in</Height>
+          <Height>0.01042in</Height>
           <PrintOnLastPage>true</PrintOnLastPage>
-          <ReportItems>
-            <Textbox Name="Textbox32">
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>="တာ၀န်ခံ၀န်ထမ်း  ။ ။  " &amp; First(Fields!Staff.Value, "dsOrderInvoiceDataSet_dtOrderReturn")</Value>
-                      <Style>
-                        <FontFamily>Myanmar3</FontFamily>
-                        <FontSize>9pt</FontSize>
-                        <FontWeight>Bold</FontWeight>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Right</TextAlign>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <rd:DefaultName>Textbox30</rd:DefaultName>
-              <Top>0.46634in</Top>
-              <Left>5.32456in</Left>
-              <Height>0.21527in</Height>
-              <Width>2.65938in</Width>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
-              </Style>
-            </Textbox>
-            <Textbox Name="Textbox3">
-              <CanGrow>true</CanGrow>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>Signature</Value>
-                      <Style />
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-              </Paragraphs>
-              <rd:DefaultName>Textbox3</rd:DefaultName>
-              <Top>0.91816in</Top>
-              <Left>5.55439in</Left>
-              <Height>0.25in</Height>
-              <Width>2.42955in</Width>
-              <ZIndex>1</ZIndex>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
-              </Style>
-            </Textbox>
-            <Line Name="Line1">
-              <Top>1.06399in</Top>
-              <Left>6.25916in</Left>
-              <Height>0in</Height>
-              <Width>1.4375in</Width>
-              <ZIndex>2</ZIndex>
-              <Style>
-                <Border>
-                  <Style>Solid</Style>
-                </Border>
-              </Style>
-            </Line>
-            <Textbox Name="Textbox6">
-              <CanGrow>true</CanGrow>
-              <CanShrink>true</CanShrink>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>=Parameters!Remark15.Value</Value>
-                      <Style>
-                        <FontFamily>Myanmar3</FontFamily>
-                        <FontSize>9pt</FontSize>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>=Parameters!RemarkDone.Value</Value>
-                      <Style>
-                        <FontFamily>Myanmar3</FontFamily>
-                        <FontSize>9pt</FontSize>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-              </Paragraphs>
-              <rd:DefaultName>Textbox5</rd:DefaultName>
-              <Top>0.06944in</Top>
-              <Left>0.08169in</Left>
-              <Height>0.41425in</Height>
-              <Width>5.0891in</Width>
-              <ZIndex>3</ZIndex>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-              </Style>
-            </Textbox>
-          </ReportItems>
           <Style>
             <Border>
               <Style>None</Style>
@@ -4678,8 +4648,7 @@
         </PageFooter>
         <PageHeight>11.69in</PageHeight>
         <PageWidth>8.27in</PageWidth>
-        <LeftMargin>0.1in</LeftMargin>
-        <RightMargin>0.1in</RightMargin>
+        <LeftMargin>0.4in</LeftMargin>
         <TopMargin>0.1in</TopMargin>
         <BottomMargin>0.2in</BottomMargin>
         <Style />

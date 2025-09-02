@@ -470,7 +470,7 @@ Namespace SalesItemInvoice
             Dim DBComm As DbCommand
             Dim dtResult As DataTable
             Try
-                strCommandText = " select CustomerName As [Customer_], SaleInvoiceHeaderID  AS VoucherNo, convert(varchar(10),SaleDate,105) as SaleDate, H.CustomerID As [@CustomerID], H.StaffID AS [@StaffID], Staff As [Staff_], H.IsAdvance AS [$IsAdvance], TotalAmount, AddOrSub, DiscountAmount, PaidAmount, H.Remark As [Remark_], H.PromotionDiscount,SaleDate as [@SDate], PurchaseHeaderID, PurchaseAmount, convert(varchar(10),EntryAdvanceDate,105) as AdvanceDate, AllAdvanceAmount AS AdvanceAmount, H.IsOtherCash AS [$IsOtherCash], H.OtherCashAmount ,H.AllTaxAmt,H.SRTaxPer,H.SRTaxAmt,H.MemberDis,H.MemberDiscountAmt,H.InvoiceStatus,H.IsRedeemInvoice "
+                strCommandText = " select CustomerName As [Customer_], SaleInvoiceHeaderID  AS VoucherNo, convert(varchar(10),SaleDate,105) as SaleDate, H.CustomerID As [@CustomerID], H.StaffID AS [@StaffID], Staff As [Staff_], H.IsAdvance AS [$IsAdvance], TotalAmount, AddOrSub, DiscountAmount, PaidAmount, H.Remark As [Remark_], H.PromotionDiscount,SaleDate as [@SDate], PurchaseHeaderID, PurchaseAmount, convert(varchar(10),EntryAdvanceDate,105) as AdvanceDate, AllAdvanceAmount AS AdvanceAmount, H.IsOtherCash AS [$IsOtherCash], H.OtherCashAmount ,H.AllTaxAmt,H.SRTaxPer,H.SRTaxAmt "
                 strCommandText += " from tbl_SaleInvoiceHeader H left join tbl_Staff S on H.StaffID=S.StaffID left join tbl_Customer C on H.CustomerID=C.CustomerID WHERE H.IsDelete=0 order by [@SDate] desc "
 
                 DBComm = DB.GetSqlStringCommand(strCommandText)
@@ -549,19 +549,19 @@ Namespace SalesItemInvoice
                         .AllTaxAmt = drResult("AllTaxAmt")
                         .SRTaxPer = drResult("SRTaxPer")
                         .SRTaxAmt = drResult("SRTaxAmt")
-                        .MemberID = drResult("MemberID")
-                        .MemberCode = drResult("MemberCode")
-                        .MemberName = drResult("MemberName")
-                        .RedeemID = drResult("RedeemID")
-                        .RedeemPoint = drResult("RedeemPoint")
-                        .RedeemValue = drResult("RedeemValue")
-                        .TopupPoint = drResult("TopupPoint")
-                        .TopupValue = drResult("TopupValue")
-                        '.ProcessFees = drResult("ProcessFees")
-                        .MemberDiscountAmt = drResult("MemberDiscountAmt")
-                        .MemberDis = drResult("MemberDis")
-                        .InvoiceStatus = drResult("InvoiceStatus")
-                        .IsRedeemInvoice = drResult("IsRedeemInvoice")
+                        '.MemberID = drResult("MemberID")
+                        '.MemberCode = drResult("MemberCode")
+                        '.MemberName = drResult("MemberName")
+                        '.RedeemID = drResult("RedeemID")
+                        '.RedeemPoint = drResult("RedeemPoint")
+                        '.RedeemValue = drResult("RedeemValue")
+                        '.TopupPoint = drResult("TopupPoint")
+                        '.TopupValue = drResult("TopupValue")
+                        ''.ProcessFees = drResult("ProcessFees")
+                        '.MemberDiscountAmt = drResult("MemberDiscountAmt")
+                        '.MemberDis = drResult("MemberDis")
+                        '.InvoiceStatus = drResult("InvoiceStatus")
+                        '.IsRedeemInvoice = drResult("IsRedeemInvoice")
                         .TransactionID = IIf(IsDBNull(drResult("TransactionID")), "", drResult("TransactionID"))
 
                     End With

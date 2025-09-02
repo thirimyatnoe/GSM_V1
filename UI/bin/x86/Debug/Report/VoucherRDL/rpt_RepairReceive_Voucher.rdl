@@ -186,10 +186,10 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox25</rd:DefaultName>
-            <Top>0.0706in</Top>
-            <Left>0.08581in</Left>
+            <Top>0.08508in</Top>
+            <Left>0.1385in</Left>
             <Height>0.25in</Height>
-            <Width>7.82699in</Width>
+            <Width>6.98468in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -222,7 +222,7 @@
             </Paragraphs>
             <rd:DefaultName>Textbox55</rd:DefaultName>
             <Top>0.39004in</Top>
-            <Left>6.17552in</Left>
+            <Left>5.3699in</Left>
             <Height>0.25674in</Height>
             <Width>1.73728in</Width>
             <ZIndex>1</ZIndex>
@@ -260,7 +260,7 @@
               </Paragraph>
             </Paragraphs>
             <Top>0.68845in</Top>
-            <Left>6.17552in</Left>
+            <Left>5.3699in</Left>
             <Height>0.22167in</Height>
             <Width>1.73728in</Width>
             <ZIndex>2</ZIndex>
@@ -297,8 +297,8 @@
                 <Style />
               </Paragraph>
             </Paragraphs>
-            <Top>0.96012in</Top>
-            <Left>6.17552in</Left>
+            <Top>0.97509in</Top>
+            <Left>5.34698in</Left>
             <Height>0.2425in</Height>
             <Width>1.73728in</Width>
             <ZIndex>3</ZIndex>
@@ -336,7 +336,7 @@
             </Paragraphs>
             <rd:DefaultName>textbox1</rd:DefaultName>
             <Top>0.37675in</Top>
-            <Left>0.93056in</Left>
+            <Left>0.12494in</Left>
             <Height>0.30299in</Height>
             <Width>3.94254in</Width>
             <ZIndex>4</ZIndex>
@@ -375,7 +375,7 @@
             </Paragraphs>
             <rd:DefaultName>SDate_1</rd:DefaultName>
             <Top>0.67456in</Top>
-            <Left>5.41705in</Left>
+            <Left>4.61143in</Left>
             <Height>0.22167in</Height>
             <Width>0.73208in</Width>
             <ZIndex>5</ZIndex>
@@ -406,7 +406,7 @@
             </Paragraphs>
             <rd:DefaultName>SDate_1</rd:DefaultName>
             <Top>0.96012in</Top>
-            <Left>5.39673in</Left>
+            <Left>4.57861in</Left>
             <Height>0.2425in</Height>
             <Width>0.7524in</Width>
             <ZIndex>6</ZIndex>
@@ -437,7 +437,7 @@
             </Paragraphs>
             <rd:DefaultName>SDate_1</rd:DefaultName>
             <Top>0.97709in</Top>
-            <Left>0.14831in</Left>
+            <Left>0.15519in</Left>
             <Height>0.2405in</Height>
             <Width>0.77709in</Width>
             <ZIndex>7</ZIndex>
@@ -468,7 +468,7 @@
               </Paragraph>
             </Paragraphs>
             <Top>0.9778in</Top>
-            <Left>0.95318in</Left>
+            <Left>0.96006in</Left>
             <Height>0.24326in</Height>
             <Width>2.50602in</Width>
             <ZIndex>8</ZIndex>
@@ -506,7 +506,7 @@
             </Paragraphs>
             <rd:DefaultName>Textbox176</rd:DefaultName>
             <Top>0.70752in</Top>
-            <Left>0.95596in</Left>
+            <Left>0.15034in</Left>
             <Height>0.22861in</Height>
             <Width>3.91714in</Width>
             <ZIndex>9</ZIndex>
@@ -543,7 +543,7 @@
             </Paragraphs>
             <rd:DefaultName>SDate_1</rd:DefaultName>
             <Top>0.39004in</Top>
-            <Left>5.00247in</Left>
+            <Left>4.19685in</Left>
             <Height>0.24285in</Height>
             <Width>1.17305in</Width>
             <ZIndex>10</ZIndex>
@@ -561,13 +561,13 @@
                   <Width>0.39188in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>2.64577in</Width>
+                  <Width>2.43135in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>2.80367in</Width>
+                  <Width>2.40784in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.92525in</Width>
+                  <Width>1.71401in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -696,7 +696,7 @@
                           <TablixBody>
                             <TablixColumns>
                               <TablixColumn>
-                                <Width>2.64577in</Width>
+                                <Width>2.43135in</Width>
                               </TablixColumn>
                             </TablixColumns>
                             <TablixRows>
@@ -861,7 +861,7 @@
                                                 </Style>
                                               </TextRun>
                                               <TextRun>
-                                                <Value>=Fields!GoldQuality.Value &amp;" (" &amp; Fields!CurrentPrice.Value &amp; ")"</Value>
+                                                <Value>=Fields!GoldQuality.Value</Value>
                                                 <Style>
                                                   <FontFamily>Myanmar3</FontFamily>
                                                   <FontSize>9pt</FontSize>
@@ -978,10 +978,10 @@
                           <TablixBody>
                             <TablixColumns>
                               <TablixColumn>
-                                <Width>1.50715in</Width>
+                                <Width>1.30923in</Width>
                               </TablixColumn>
                               <TablixColumn>
-                                <Width>1.29652in</Width>
+                                <Width>1.0986in</Width>
                               </TablixColumn>
                             </TablixColumns>
                             <TablixRows>
@@ -1222,9 +1222,9 @@
             </TablixRowHierarchy>
             <DataSetName>dsRepairReceive_RepairVoucher</DataSetName>
             <Top>1.29676in</Top>
-            <Left>0.14622in</Left>
+            <Left>0.1781in</Left>
             <Height>1.0625in</Height>
-            <Width>7.76657in</Width>
+            <Width>6.94508in</Width>
             <ZIndex>11</ZIndex>
             <Style>
               <Border>
@@ -1234,9 +1234,9 @@
           </Tablix>
           <Line Name="Line1">
             <Top>2.35926in</Top>
-            <Left>0.14622in</Left>
+            <Left>0.1781in</Left>
             <Height>0in</Height>
-            <Width>7.76658in</Width>
+            <Width>6.90162in</Width>
             <ZIndex>12</ZIndex>
             <Style>
               <Border>
@@ -1276,9 +1276,9 @@
             </Paragraphs>
             <rd:DefaultName>Textbox5</rd:DefaultName>
             <Top>2.45833in</Top>
-            <Left>0.1418in</Left>
+            <Left>0.17368in</Left>
             <Height>0.48611in</Height>
-            <Width>5.23549in</Width>
+            <Width>3.8938in</Width>
             <ZIndex>13</ZIndex>
             <Style>
               <Border>
@@ -1320,7 +1320,7 @@
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Left</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -1397,7 +1397,7 @@
             </TablixRowHierarchy>
             <DataSetName>dsRepairReceive_RepairVoucher</DataSetName>
             <Top>2.37593in</Top>
-            <Left>5.44673in</Left>
+            <Left>4.65361in</Left>
             <Height>0.25in</Height>
             <Width>2.4636in</Width>
             <ZIndex>14</ZIndex>
@@ -1407,11 +1407,81 @@
               </Border>
             </Style>
           </Tablix>
+          <Textbox Name="Textbox56">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>ဝယ်ယူအားပေးမှုအတွက် အထူးကျေးဇူးတင်ရှိပါသည်။</Value>
+                    <Style>
+                      <FontFamily>Myanmar3</FontFamily>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>Red</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox55</rd:DefaultName>
+            <Top>3.49653in</Top>
+            <Height>0.25in</Height>
+            <Width>7.07209in</Width>
+            <ZIndex>15</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox32">
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>="တာ၀န်ခံ၀န်ထမ်း  ။ ။  " &amp; First(Fields!Staff.Value, "dsRepairReceive_RepairVoucher")</Value>
+                    <Style>
+                      <FontFamily>Myanmar3</FontFamily>
+                      <FontSize>9pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox30</rd:DefaultName>
+            <Top>3.18612in</Top>
+            <Left>4.57861in</Left>
+            <Height>0.21527in</Height>
+            <Width>2.45599in</Width>
+            <ZIndex>16</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
         </ReportItems>
-        <Height>3in</Height>
+        <Height>3.76042in</Height>
         <Style />
       </Body>
-      <Width>7.99718in</Width>
+      <Width>7.15406in</Width>
       <Page>
         <PageHeader>
           <Height>1.96875in</Height>
@@ -1476,9 +1546,9 @@
               </Paragraphs>
               <rd:DefaultName>Textbox10</rd:DefaultName>
               <Top>0.78437in</Top>
-              <Left>0.10662in</Left>
+              <Left>0.1385in</Left>
               <Height>1.11494in</Height>
-              <Width>7.75551in</Width>
+              <Width>6.98468in</Width>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -1514,9 +1584,9 @@
               </Paragraphs>
               <rd:DefaultName>Textbox10</rd:DefaultName>
               <Top>0.45625in</Top>
-              <Left>0.10662in</Left>
+              <Left>0.1385in</Left>
               <Height>0.28645in</Height>
-              <Width>7.75551in</Width>
+              <Width>6.98468in</Width>
               <ZIndex>1</ZIndex>
               <Style>
                 <Border>
@@ -1552,9 +1622,9 @@
               </Paragraphs>
               <rd:DefaultName>Textbox10</rd:DefaultName>
               <Top>0.05174in</Top>
-              <Left>0.10662in</Left>
+              <Left>0.1385in</Left>
               <Height>0.39062in</Height>
-              <Width>7.75551in</Width>
+              <Width>6.98468in</Width>
               <ZIndex>2</ZIndex>
               <Style>
                 <Border>
@@ -1578,81 +1648,9 @@
           </Style>
         </PageHeader>
         <PageFooter>
-          <Height>0.77083in</Height>
+          <Height>1.17708in</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
-          <ReportItems>
-            <Textbox Name="Textbox56">
-              <CanGrow>true</CanGrow>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>ဝယ်ယူအားပေးမှုအတွက် အထူးကျေးဇူးတင်ရှိပါသည်။</Value>
-                      <Style>
-                        <FontFamily>Myanmar3</FontFamily>
-                        <FontWeight>Bold</FontWeight>
-                        <Color>Red</Color>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Center</TextAlign>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <rd:DefaultName>Textbox55</rd:DefaultName>
-              <Top>0.36771in</Top>
-              <Left>0.01324in</Left>
-              <Height>0.25in</Height>
-              <Width>7.98394in</Width>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
-              </Style>
-            </Textbox>
-            <Textbox Name="Textbox32">
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>="တာ၀န်ခံ၀န်ထမ်း  ။ ။  " &amp; First(Fields!Staff.Value, "dsRepairReceive_RepairVoucher")</Value>
-                      <Style>
-                        <FontFamily>Myanmar3</FontFamily>
-                        <FontSize>9pt</FontSize>
-                        <FontWeight>Bold</FontWeight>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Right</TextAlign>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <rd:DefaultName>Textbox30</rd:DefaultName>
-              <Top>0.0573in</Top>
-              <Left>5.40435in</Left>
-              <Height>0.21527in</Height>
-              <Width>2.45599in</Width>
-              <ZIndex>1</ZIndex>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
-              </Style>
-            </Textbox>
-          </ReportItems>
           <Style>
             <Border>
               <Style>None</Style>
@@ -1661,7 +1659,7 @@
         </PageFooter>
         <PageHeight>11.69in</PageHeight>
         <PageWidth>8.27in</PageWidth>
-        <LeftMargin>0.1in</LeftMargin>
+        <LeftMargin>0.5in</LeftMargin>
         <RightMargin>0.1in</RightMargin>
         <TopMargin>0.1in</TopMargin>
         <BottomMargin>0.3in</BottomMargin>

@@ -36,3 +36,13 @@ D:\Projects\2022\TMSGoldV4\Operational\obj\x86\Debug\Operational.vbproj.CoreComp
 D:\Projects\2022\TMSGoldV4\Operational\obj\x86\Debug\Operational.dll
 D:\Projects\2022\TMSGoldV4\Operational\obj\x86\Debug\SMS.Operational.xml
 D:\Projects\2022\TMSGoldV4\Operational\obj\x86\Debug\Operational.pdb
+D:\Projects\2022\GSM_V1\Operational\bin\x86\Debug\Operational.dll
+D:\Projects\2022\GSM_V1\Operational\bin\x86\Debug\Operational.pdb
+D:\Projects\2022\GSM_V1\Operational\bin\x86\Debug\SMS.Operational.xml
+D:\Projects\2022\GSM_V1\Operational\obj\x86\Debug\Operational.vbproj.AssemblyReference.cache
+D:\Projects\2022\GSM_V1\Operational\obj\x86\Debug\Operational.Resources.resources
+D:\Projects\2022\GSM_V1\Operational\obj\x86\Debug\Operational.vbproj.GenerateResource.cache
+D:\Projects\2022\GSM_V1\Operational\obj\x86\Debug\Operational.vbproj.CoreCompileInputs.cache
+D:\Projects\2022\GSM_V1\Operational\obj\x86\Debug\Operational.dll
+D:\Projects\2022\GSM_V1\Operational\obj\x86\Debug\SMS.Operational.xml
+D:\Projects\2022\GSM_V1\Operational\obj\x86\Debug\Operational.pdb

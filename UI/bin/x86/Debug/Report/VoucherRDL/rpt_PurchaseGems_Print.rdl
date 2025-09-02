@@ -7,6 +7,7 @@
         <DataProvider>SQL</DataProvider>
         <ConnectString>User ID=sa;Password=global;Initial Catalog=SaKyarTest;Data Source=ayethet</ConnectString>
       </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>aa79d556-1c3b-4964-9680-9d09ded611f2</rd:DataSourceID>
     </DataSource>
     <DataSource Name="dsPurchaseInvoice">
@@ -14,6 +15,7 @@
         <DataProvider>System.Data.DataSet</DataProvider>
         <ConnectString>/* Local Connection */</ConnectString>
       </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>cbc95dbc-f8fe-49dd-80dd-a574fd5b7734</rd:DataSourceID>
     </DataSource>
   </DataSources>
@@ -2423,7 +2425,7 @@
         </PageFooter>
         <PageHeight>11.69in</PageHeight>
         <PageWidth>8.27in</PageWidth>
-        <LeftMargin>0.1in</LeftMargin>
+        <LeftMargin>0.5in</LeftMargin>
         <RightMargin>0.1in</RightMargin>
         <TopMargin>0.1in</TopMargin>
         <BottomMargin>0.2in</BottomMargin>

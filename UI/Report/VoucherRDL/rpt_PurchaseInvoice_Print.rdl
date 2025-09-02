@@ -7,6 +7,7 @@
         <DataProvider>SQL</DataProvider>
         <ConnectString>User ID=sa;Password=global;Initial Catalog=SaKyarShweYee;Data Source=ayethet</ConnectString>
       </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>fa774fff-2c08-41d8-8c4e-15f4891a66ea</rd:DataSourceID>
     </DataSource>
     <DataSource Name="dsPurchaseInvoice">
@@ -14,6 +15,7 @@
         <DataProvider>System.Data.DataSet</DataProvider>
         <ConnectString>/* Local Connection */</ConnectString>
       </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>a4234286-50b8-43a8-bd5a-3358f1cda875</rd:DataSourceID>
     </DataSource>
   </DataSources>
@@ -872,7 +874,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Microsoft.VisualBasic.Strings.format(Fields!BalanceAmount.Value, "#,##0")</Value>
+                                  <Value>=Microsoft.VisualBasic.Strings.format(Fields!NetAmount.Value-(Fields!PaidAmount.Value+Fields!AdvanceAmount.Value+Fields!PurchaseAmount.Value+Fields!OtherCashAmount.Value+Fields!DiscountAmount.Value+Fields!PromotionAmount.Value), "#,##0")</Value>
                                   <Style>
                                     <FontFamily>Tahoma</FontFamily>
                                     <FontWeight>Bold</FontWeight>
