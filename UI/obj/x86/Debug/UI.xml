@@ -72,6 +72,11 @@ UI
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:UI.My.Resources.Resources._New">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:UI.My.Resources.Resources.app_background">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -108,6 +113,16 @@ UI
 </summary>
 </member>
 <member name="P:UI.My.Resources.Resources.background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.Cancel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.Delete">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -173,6 +188,11 @@ UI
 </summary>
 </member>
 <member name="P:UI.My.Resources.Resources.newSplash1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.My.Resources.Resources.Sav">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

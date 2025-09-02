@@ -77,9 +77,9 @@ Public Class frmLogin
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.TxtPassword)
         Me.GroupBox1.Controls.Add(Me.Panel1)
-        Me.GroupBox1.Location = New System.Drawing.Point(31, 19)
+        Me.GroupBox1.Location = New System.Drawing.Point(20, 12)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(530, 154)
+        Me.GroupBox1.Size = New System.Drawing.Size(337, 97)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         '
@@ -87,44 +87,44 @@ Public Class frmLogin
         '
         Me.CboUserList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.CboUserList.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.CboUserList.Location = New System.Drawing.Point(160, 35)
+        Me.CboUserList.Location = New System.Drawing.Point(102, 22)
         Me.CboUserList.Name = "CboUserList"
-        Me.CboUserList.Size = New System.Drawing.Size(341, 35)
+        Me.CboUserList.Size = New System.Drawing.Size(217, 25)
         Me.CboUserList.TabIndex = 1
         '
         'Label2
         '
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Location = New System.Drawing.Point(20, 100)
+        Me.Label2.Location = New System.Drawing.Point(13, 63)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(132, 35)
+        Me.Label2.Size = New System.Drawing.Size(84, 22)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Password :"
         '
         'Label1
         '
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Location = New System.Drawing.Point(6, 38)
+        Me.Label1.Location = New System.Drawing.Point(4, 24)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(148, 35)
+        Me.Label1.Size = New System.Drawing.Size(94, 22)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "User Name :"
         '
         'TxtPassword
         '
         Me.TxtPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TxtPassword.Location = New System.Drawing.Point(159, 92)
+        Me.TxtPassword.Location = New System.Drawing.Point(101, 58)
         Me.TxtPassword.Name = "TxtPassword"
         Me.TxtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.TxtPassword.Size = New System.Drawing.Size(347, 34)
+        Me.TxtPassword.Size = New System.Drawing.Size(221, 24)
         Me.TxtPassword.TabIndex = 2
         '
         'Panel1
         '
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel1.Location = New System.Drawing.Point(159, 33)
+        Me.Panel1.Location = New System.Drawing.Point(101, 21)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(347, 45)
+        Me.Panel1.Size = New System.Drawing.Size(221, 28)
         Me.Panel1.TabIndex = 6
         '
         'CmdExit
@@ -132,9 +132,9 @@ Public Class frmLogin
         Me.CmdExit.BackColor = System.Drawing.Color.SteelBlue
         Me.CmdExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CmdExit.ForeColor = System.Drawing.Color.White
-        Me.CmdExit.Location = New System.Drawing.Point(413, 187)
+        Me.CmdExit.Location = New System.Drawing.Point(263, 118)
         Me.CmdExit.Name = "CmdExit"
-        Me.CmdExit.Size = New System.Drawing.Size(150, 48)
+        Me.CmdExit.Size = New System.Drawing.Size(95, 30)
         Me.CmdExit.TabIndex = 4
         Me.CmdExit.Text = "Cancel"
         Me.CmdExit.UseVisualStyleBackColor = False
@@ -144,9 +144,9 @@ Public Class frmLogin
         Me.Cmdsave.BackColor = System.Drawing.Color.SteelBlue
         Me.Cmdsave.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Cmdsave.ForeColor = System.Drawing.Color.White
-        Me.Cmdsave.Location = New System.Drawing.Point(255, 187)
+        Me.Cmdsave.Location = New System.Drawing.Point(162, 118)
         Me.Cmdsave.Name = "Cmdsave"
-        Me.Cmdsave.Size = New System.Drawing.Size(149, 48)
+        Me.Cmdsave.Size = New System.Drawing.Size(95, 30)
         Me.Cmdsave.TabIndex = 3
         Me.Cmdsave.Text = "OK"
         Me.Cmdsave.UseVisualStyleBackColor = False
@@ -157,17 +157,17 @@ Public Class frmLogin
         Me.lblversion.BackColor = System.Drawing.Color.Transparent
         Me.lblversion.Font = New System.Drawing.Font("Tahoma", 8.0!)
         Me.lblversion.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.lblversion.Location = New System.Drawing.Point(27, 208)
+        Me.lblversion.Location = New System.Drawing.Point(17, 131)
         Me.lblversion.Name = "lblversion"
-        Me.lblversion.Size = New System.Drawing.Size(166, 27)
+        Me.lblversion.Size = New System.Drawing.Size(105, 17)
         Me.lblversion.TabIndex = 6
         Me.lblversion.Text = "Version- 6.4900"
         '
         'frmLogin
         '
-        Me.AutoScaleBaseSize = New System.Drawing.Size(11, 27)
-        Me.BackgroundImage = Global.UI.My.Resources.Resources.background
-        Me.ClientSize = New System.Drawing.Size(646, 289)
+        Me.AutoScaleBaseSize = New System.Drawing.Size(7, 17)
+        Me.BackColor = System.Drawing.SystemColors.InactiveBorder
+        Me.ClientSize = New System.Drawing.Size(391, 173)
         Me.Controls.Add(Me.lblversion)
         Me.Controls.Add(Me.CmdExit)
         Me.Controls.Add(Me.Cmdsave)

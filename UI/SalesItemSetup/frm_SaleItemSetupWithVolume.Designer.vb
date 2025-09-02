@@ -106,6 +106,7 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label85 = New System.Windows.Forms.Label()
         Me.Label86 = New System.Windows.Forms.Label()
         Me.TabStockItem = New System.Windows.Forms.TabPage()
+        Me.cboItemName = New System.Windows.Forms.ComboBox()
         Me.txtTotalCost = New System.Windows.Forms.TextBox()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.lnkColor = New System.Windows.Forms.LinkLabel()
@@ -284,7 +285,6 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.cboDCategory = New System.Windows.Forms.ComboBox()
         Me.Label105 = New System.Windows.Forms.Label()
         Me.chkisNormal = New System.Windows.Forms.RadioButton()
-        Me.cboItemName = New System.Windows.Forms.ComboBox()
         Me.TabVolumeStock.SuspendLayout()
         Me.GroupBox6.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
@@ -311,9 +311,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtSellingPrice.BackColor = System.Drawing.Color.White
         Me.txtSellingPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSellingPrice.Font = New System.Drawing.Font("Tahoma", 8.5!)
-        Me.txtSellingPrice.Location = New System.Drawing.Point(883, 30)
+        Me.txtSellingPrice.Location = New System.Drawing.Point(1177, 37)
+        Me.txtSellingPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtSellingPrice.Name = "txtSellingPrice"
-        Me.txtSellingPrice.Size = New System.Drawing.Size(31, 21)
+        Me.txtSellingPrice.Size = New System.Drawing.Size(41, 25)
         Me.txtSellingPrice.TabIndex = 7
         Me.txtSellingPrice.TabStop = False
         Me.txtSellingPrice.Visible = False
@@ -326,9 +327,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.btnPrint.ForeColor = System.Drawing.Color.DarkRed
         Me.btnPrint.Image = CType(resources.GetObject("btnPrint.Image"), System.Drawing.Image)
         Me.btnPrint.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnPrint.Location = New System.Drawing.Point(866, 71)
+        Me.btnPrint.Location = New System.Drawing.Point(1155, 87)
+        Me.btnPrint.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnPrint.Name = "btnPrint"
-        Me.btnPrint.Size = New System.Drawing.Size(92, 31)
+        Me.btnPrint.Size = New System.Drawing.Size(123, 38)
         Me.btnPrint.TabIndex = 14
         Me.btnPrint.TabStop = False
         Me.btnPrint.Text = "Print"
@@ -339,9 +341,10 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.cboLocation.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboLocation.FormattingEnabled = True
-        Me.cboLocation.Location = New System.Drawing.Point(866, 34)
+        Me.cboLocation.Location = New System.Drawing.Point(1155, 42)
+        Me.cboLocation.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboLocation.Name = "cboLocation"
-        Me.cboLocation.Size = New System.Drawing.Size(50, 23)
+        Me.cboLocation.Size = New System.Drawing.Size(65, 26)
         Me.cboLocation.TabIndex = 6
         Me.cboLocation.Visible = False
         '
@@ -362,9 +365,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.Label3.Location = New System.Drawing.Point(78, 36)
+        Me.Label3.Location = New System.Drawing.Point(104, 44)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(34, 20)
+        Me.Label3.Size = New System.Drawing.Size(41, 25)
         Me.Label3.TabIndex = 1081
         Me.Label3.Text = "နေ့စွဲ"
         '
@@ -374,9 +378,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.SearchButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.SearchButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SearchButton.Image = CType(resources.GetObject("SearchButton.Image"), System.Drawing.Image)
-        Me.SearchButton.Location = New System.Drawing.Point(244, 5)
+        Me.SearchButton.Location = New System.Drawing.Point(325, 6)
+        Me.SearchButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.SearchButton.Name = "SearchButton"
-        Me.SearchButton.Size = New System.Drawing.Size(45, 21)
+        Me.SearchButton.Size = New System.Drawing.Size(60, 26)
         Me.SearchButton.TabIndex = 4
         Me.SearchButton.UseVisualStyleBackColor = False
         '
@@ -384,10 +389,11 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.txtStockID.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.txtStockID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtStockID.Location = New System.Drawing.Point(125, 5)
+        Me.txtStockID.Location = New System.Drawing.Point(167, 6)
+        Me.txtStockID.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtStockID.Name = "txtStockID"
         Me.txtStockID.ReadOnly = True
-        Me.txtStockID.Size = New System.Drawing.Size(117, 20)
+        Me.txtStockID.Size = New System.Drawing.Size(155, 22)
         Me.txtStockID.TabIndex = 14
         Me.txtStockID.TabStop = False
         '
@@ -396,9 +402,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Myanmar3", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label9.Location = New System.Drawing.Point(56, 5)
+        Me.Label9.Location = New System.Drawing.Point(75, 6)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(56, 17)
+        Me.Label9.Size = New System.Drawing.Size(66, 22)
         Me.Label9.TabIndex = 1080
         Me.Label9.Text = "Stock #"
         '
@@ -407,9 +414,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label10.AutoSize = True
         Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.Label10.Location = New System.Drawing.Point(8, 71)
+        Me.Label10.Location = New System.Drawing.Point(11, 87)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(104, 20)
+        Me.Label10.Size = New System.Drawing.Size(122, 25)
         Me.Label10.TabIndex = 1085
         Me.Label10.Text = "တာဝန်ခံဝန်ထမ်း"
         '
@@ -417,9 +425,10 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.cboStaff.Font = New System.Drawing.Font("Myanmar3", 9.5!)
         Me.cboStaff.FormattingEnabled = True
-        Me.cboStaff.Location = New System.Drawing.Point(125, 64)
+        Me.cboStaff.Location = New System.Drawing.Point(167, 79)
+        Me.cboStaff.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboStaff.Name = "cboStaff"
-        Me.cboStaff.Size = New System.Drawing.Size(193, 27)
+        Me.cboStaff.Size = New System.Drawing.Size(256, 31)
         Me.cboStaff.TabIndex = 6
         '
         'lblOrderDate
@@ -428,9 +437,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.lblOrderDate.BackColor = System.Drawing.Color.Transparent
         Me.lblOrderDate.Font = New System.Drawing.Font("Myanmar3", 9.5!, System.Drawing.FontStyle.Bold)
         Me.lblOrderDate.ForeColor = System.Drawing.Color.Indigo
-        Me.lblOrderDate.Location = New System.Drawing.Point(761, 61)
+        Me.lblOrderDate.Location = New System.Drawing.Point(1015, 75)
+        Me.lblOrderDate.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblOrderDate.Name = "lblOrderDate"
-        Me.lblOrderDate.Size = New System.Drawing.Size(82, 19)
+        Me.lblOrderDate.Size = New System.Drawing.Size(100, 23)
         Me.lblOrderDate.TabIndex = 1063
         Me.lblOrderDate.Text = "Order Date"
         '
@@ -440,9 +450,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.lblOrderInvoiceiD.BackColor = System.Drawing.Color.Transparent
         Me.lblOrderInvoiceiD.Font = New System.Drawing.Font("Myanmar3", 9.5!, System.Drawing.FontStyle.Bold)
         Me.lblOrderInvoiceiD.ForeColor = System.Drawing.Color.Indigo
-        Me.lblOrderInvoiceiD.Location = New System.Drawing.Point(546, 66)
+        Me.lblOrderInvoiceiD.Location = New System.Drawing.Point(728, 81)
+        Me.lblOrderInvoiceiD.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblOrderInvoiceiD.Name = "lblOrderInvoiceiD"
-        Me.lblOrderInvoiceiD.Size = New System.Drawing.Size(121, 19)
+        Me.lblOrderInvoiceiD.Size = New System.Drawing.Size(150, 23)
         Me.lblOrderInvoiceiD.TabIndex = 1062
         Me.lblOrderInvoiceiD.Text = "OrderVoucherNo"
         '
@@ -451,9 +462,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.btnOrderVoucherSearch.BackColor = System.Drawing.Color.Lavender
         Me.btnOrderVoucherSearch.Font = New System.Drawing.Font("Myanmar3", 9.0!, System.Drawing.FontStyle.Bold)
         Me.btnOrderVoucherSearch.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.btnOrderVoucherSearch.Location = New System.Drawing.Point(418, 63)
+        Me.btnOrderVoucherSearch.Location = New System.Drawing.Point(557, 78)
+        Me.btnOrderVoucherSearch.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnOrderVoucherSearch.Name = "btnOrderVoucherSearch"
-        Me.btnOrderVoucherSearch.Size = New System.Drawing.Size(120, 27)
+        Me.btnOrderVoucherSearch.Size = New System.Drawing.Size(160, 33)
         Me.btnOrderVoucherSearch.TabIndex = 11
         Me.btnOrderVoucherSearch.Text = "အော်ဒါဘောက်ချာ"
         Me.btnOrderVoucherSearch.UseVisualStyleBackColor = False
@@ -464,9 +476,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.chkIsClosed.BackColor = System.Drawing.Color.Transparent
         Me.chkIsClosed.Font = New System.Drawing.Font("Myanmar3", 9.0!, System.Drawing.FontStyle.Bold)
         Me.chkIsClosed.ForeColor = System.Drawing.Color.Red
-        Me.chkIsClosed.Location = New System.Drawing.Point(427, 37)
+        Me.chkIsClosed.Location = New System.Drawing.Point(569, 46)
+        Me.chkIsClosed.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkIsClosed.Name = "chkIsClosed"
-        Me.chkIsClosed.Size = New System.Drawing.Size(82, 21)
+        Me.chkIsClosed.Size = New System.Drawing.Size(97, 26)
         Me.chkIsClosed.TabIndex = 9
         Me.chkIsClosed.Text = "IsClosed"
         Me.chkIsClosed.UseVisualStyleBackColor = False
@@ -477,9 +490,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.chkIsOrder.BackColor = System.Drawing.Color.Transparent
         Me.chkIsOrder.Font = New System.Drawing.Font("Myanmar3", 9.5!, System.Drawing.FontStyle.Bold)
         Me.chkIsOrder.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.chkIsOrder.Location = New System.Drawing.Point(319, 36)
+        Me.chkIsOrder.Location = New System.Drawing.Point(425, 44)
+        Me.chkIsOrder.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkIsOrder.Name = "chkIsOrder"
-        Me.chkIsOrder.Size = New System.Drawing.Size(69, 23)
+        Me.chkIsOrder.Size = New System.Drawing.Size(81, 27)
         Me.chkIsOrder.TabIndex = 10
         Me.chkIsOrder.Text = "အော်ဒါ"
         Me.chkIsOrder.UseVisualStyleBackColor = False
@@ -490,9 +504,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.chk.BackColor = System.Drawing.Color.Transparent
         Me.chk.Font = New System.Drawing.Font("Myanmar3", 9.0!, System.Drawing.FontStyle.Bold)
         Me.chk.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.chk.Location = New System.Drawing.Point(1086, 81)
+        Me.chk.Location = New System.Drawing.Point(1448, 100)
+        Me.chk.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chk.Name = "chk"
-        Me.chk.Size = New System.Drawing.Size(77, 21)
+        Me.chk.Size = New System.Drawing.Size(91, 26)
         Me.chk.TabIndex = 8
         Me.chk.Text = "Volume"
         Me.chk.UseVisualStyleBackColor = False
@@ -535,9 +550,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.lblLogInUserName.BackColor = System.Drawing.Color.Transparent
         Me.lblLogInUserName.Font = New System.Drawing.Font("Myanmar3", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblLogInUserName.ForeColor = System.Drawing.Color.Violet
-        Me.lblLogInUserName.Location = New System.Drawing.Point(752, 7)
+        Me.lblLogInUserName.Location = New System.Drawing.Point(1003, 9)
+        Me.lblLogInUserName.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblLogInUserName.Name = "lblLogInUserName"
-        Me.lblLogInUserName.Size = New System.Drawing.Size(90, 22)
+        Me.lblLogInUserName.Size = New System.Drawing.Size(113, 27)
         Me.lblLogInUserName.TabIndex = 1099
         Me.lblLogInUserName.Text = "LogInUser"
         '
@@ -548,9 +564,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.btnHelpbook.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.btnHelpbook.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.btnHelpbook.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnHelpbook.Location = New System.Drawing.Point(1148, 2)
+        Me.btnHelpbook.Location = New System.Drawing.Point(1531, 2)
+        Me.btnHelpbook.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnHelpbook.Name = "btnHelpbook"
-        Me.btnHelpbook.Size = New System.Drawing.Size(33, 32)
+        Me.btnHelpbook.Size = New System.Drawing.Size(44, 39)
         Me.btnHelpbook.TabIndex = 1448
         Me.btnHelpbook.UseVisualStyleBackColor = False
         '
@@ -559,11 +576,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtGoldTK.BackColor = System.Drawing.Color.Linen
         Me.txtGoldTK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtGoldTK.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtGoldTK.Location = New System.Drawing.Point(891, 39)
+        Me.txtGoldTK.Location = New System.Drawing.Point(1188, 48)
+        Me.txtGoldTK.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtGoldTK.MaxLength = 6
         Me.txtGoldTK.Name = "txtGoldTK"
         Me.txtGoldTK.ReadOnly = True
-        Me.txtGoldTK.Size = New System.Drawing.Size(19, 21)
+        Me.txtGoldTK.Size = New System.Drawing.Size(25, 24)
         Me.txtGoldTK.TabIndex = 853
         Me.txtGoldTK.TabStop = False
         Me.txtGoldTK.Text = "0"
@@ -575,11 +593,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtGemsTK.BackColor = System.Drawing.Color.Linen
         Me.txtGemsTK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtGemsTK.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtGemsTK.Location = New System.Drawing.Point(884, 37)
+        Me.txtGemsTK.Location = New System.Drawing.Point(1179, 46)
+        Me.txtGemsTK.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtGemsTK.MaxLength = 6
         Me.txtGemsTK.Name = "txtGemsTK"
         Me.txtGemsTK.ReadOnly = True
-        Me.txtGemsTK.Size = New System.Drawing.Size(27, 21)
+        Me.txtGemsTK.Size = New System.Drawing.Size(35, 24)
         Me.txtGemsTK.TabIndex = 851
         Me.txtGemsTK.TabStop = False
         Me.txtGemsTK.Text = "0"
@@ -591,11 +610,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtItemTK.BackColor = System.Drawing.Color.Linen
         Me.txtItemTK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtItemTK.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtItemTK.Location = New System.Drawing.Point(884, 44)
+        Me.txtItemTK.Location = New System.Drawing.Point(1179, 54)
+        Me.txtItemTK.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtItemTK.MaxLength = 6
         Me.txtItemTK.Name = "txtItemTK"
         Me.txtItemTK.ReadOnly = True
-        Me.txtItemTK.Size = New System.Drawing.Size(28, 21)
+        Me.txtItemTK.Size = New System.Drawing.Size(37, 24)
         Me.txtItemTK.TabIndex = 844
         Me.txtItemTK.TabStop = False
         Me.txtItemTK.Text = "0"
@@ -607,11 +627,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtWasteTK.BackColor = System.Drawing.Color.Linen
         Me.txtWasteTK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtWasteTK.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtWasteTK.Location = New System.Drawing.Point(883, 35)
+        Me.txtWasteTK.Location = New System.Drawing.Point(1177, 43)
+        Me.txtWasteTK.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtWasteTK.MaxLength = 6
         Me.txtWasteTK.Name = "txtWasteTK"
         Me.txtWasteTK.ReadOnly = True
-        Me.txtWasteTK.Size = New System.Drawing.Size(29, 21)
+        Me.txtWasteTK.Size = New System.Drawing.Size(38, 24)
         Me.txtWasteTK.TabIndex = 845
         Me.txtWasteTK.TabStop = False
         Me.txtWasteTK.Text = "0"
@@ -623,11 +644,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtTotalTK.BackColor = System.Drawing.Color.Linen
         Me.txtTotalTK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTotalTK.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTotalTK.Location = New System.Drawing.Point(884, 33)
+        Me.txtTotalTK.Location = New System.Drawing.Point(1179, 41)
+        Me.txtTotalTK.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtTotalTK.MaxLength = 6
         Me.txtTotalTK.Name = "txtTotalTK"
         Me.txtTotalTK.ReadOnly = True
-        Me.txtTotalTK.Size = New System.Drawing.Size(28, 21)
+        Me.txtTotalTK.Size = New System.Drawing.Size(37, 24)
         Me.txtTotalTK.TabIndex = 848
         Me.txtTotalTK.TabStop = False
         Me.txtTotalTK.Text = "0"
@@ -640,9 +662,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.lblCustomer.BackColor = System.Drawing.Color.Transparent
         Me.lblCustomer.Font = New System.Drawing.Font("Myanmar3", 9.5!, System.Drawing.FontStyle.Bold)
         Me.lblCustomer.ForeColor = System.Drawing.Color.Indigo
-        Me.lblCustomer.Location = New System.Drawing.Point(617, 96)
+        Me.lblCustomer.Location = New System.Drawing.Point(823, 118)
+        Me.lblCustomer.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblCustomer.Name = "lblCustomer"
-        Me.lblCustomer.Size = New System.Drawing.Size(110, 19)
+        Me.lblCustomer.Size = New System.Drawing.Size(135, 23)
         Me.lblCustomer.TabIndex = 1449
         Me.lblCustomer.Text = "CustomerName"
         '
@@ -651,11 +674,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtRemark.BackColor = System.Drawing.Color.White
         Me.txtRemark.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtRemark.Font = New System.Drawing.Font("Myanmar3", 9.0!)
-        Me.txtRemark.Location = New System.Drawing.Point(922, 6)
+        Me.txtRemark.Location = New System.Drawing.Point(1229, 7)
+        Me.txtRemark.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtRemark.Multiline = True
         Me.txtRemark.Name = "txtRemark"
         Me.txtRemark.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtRemark.Size = New System.Drawing.Size(224, 59)
+        Me.txtRemark.Size = New System.Drawing.Size(298, 72)
         Me.txtRemark.TabIndex = 12
         '
         'Label63
@@ -663,9 +687,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label63.AutoSize = True
         Me.Label63.BackColor = System.Drawing.Color.Transparent
         Me.Label63.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.Label63.Location = New System.Drawing.Point(857, 8)
+        Me.Label63.Location = New System.Drawing.Point(1143, 10)
+        Me.Label63.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(59, 20)
+        Me.Label63.Size = New System.Drawing.Size(71, 25)
         Me.Label63.TabIndex = 1451
         Me.Label63.Text = "မှတ်ချက်"
         '
@@ -675,9 +700,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.chkIsDiamond.BackColor = System.Drawing.Color.Transparent
         Me.chkIsDiamond.Font = New System.Drawing.Font("Myanmar3", 9.0!, System.Drawing.FontStyle.Bold)
         Me.chkIsDiamond.ForeColor = System.Drawing.Color.DeepPink
-        Me.chkIsDiamond.Location = New System.Drawing.Point(319, 14)
+        Me.chkIsDiamond.Location = New System.Drawing.Point(425, 17)
+        Me.chkIsDiamond.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkIsDiamond.Name = "chkIsDiamond"
-        Me.chkIsDiamond.Size = New System.Drawing.Size(96, 21)
+        Me.chkIsDiamond.Size = New System.Drawing.Size(114, 26)
         Me.chkIsDiamond.TabIndex = 7
         Me.chkIsDiamond.Text = "IsDiamond"
         Me.chkIsDiamond.UseVisualStyleBackColor = False
@@ -686,10 +712,11 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.dtpGivenDate.CustomFormat = "dd-MM-yyyy hh:mm tt"
         Me.dtpGivenDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtpGivenDate.Location = New System.Drawing.Point(125, 34)
+        Me.dtpGivenDate.Location = New System.Drawing.Point(167, 42)
+        Me.dtpGivenDate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.dtpGivenDate.Name = "dtpGivenDate"
         Me.dtpGivenDate.RightToLeftLayout = True
-        Me.dtpGivenDate.Size = New System.Drawing.Size(151, 20)
+        Me.dtpGivenDate.Size = New System.Drawing.Size(200, 22)
         Me.dtpGivenDate.TabIndex = 5
         '
         'chkDouble
@@ -698,9 +725,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.chkDouble.BackColor = System.Drawing.Color.Transparent
         Me.chkDouble.Font = New System.Drawing.Font("Myanmar3", 9.5!)
         Me.chkDouble.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.chkDouble.Location = New System.Drawing.Point(978, 76)
+        Me.chkDouble.Location = New System.Drawing.Point(1304, 94)
+        Me.chkDouble.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkDouble.Name = "chkDouble"
-        Me.chkDouble.Size = New System.Drawing.Size(69, 23)
+        Me.chkDouble.Size = New System.Drawing.Size(85, 27)
         Me.chkDouble.TabIndex = 1453
         Me.chkDouble.Text = "Double"
         Me.chkDouble.UseVisualStyleBackColor = False
@@ -711,9 +739,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.chkIsVolume.BackColor = System.Drawing.Color.Transparent
         Me.chkIsVolume.Font = New System.Drawing.Font("Myanmar3", 9.0!, System.Drawing.FontStyle.Bold)
         Me.chkIsVolume.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.chkIsVolume.Location = New System.Drawing.Point(524, 12)
+        Me.chkIsVolume.Location = New System.Drawing.Point(699, 15)
+        Me.chkIsVolume.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkIsVolume.Name = "chkIsVolume"
-        Me.chkIsVolume.Size = New System.Drawing.Size(76, 21)
+        Me.chkIsVolume.Size = New System.Drawing.Size(90, 26)
         Me.chkIsVolume.TabIndex = 1454
         Me.chkIsVolume.TabStop = True
         Me.chkIsVolume.Text = "Volume"
@@ -725,9 +754,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.chkIsLooseDiamond.BackColor = System.Drawing.Color.Transparent
         Me.chkIsLooseDiamond.Font = New System.Drawing.Font("Myanmar3", 9.0!, System.Drawing.FontStyle.Bold)
         Me.chkIsLooseDiamond.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.chkIsLooseDiamond.Location = New System.Drawing.Point(618, 12)
+        Me.chkIsLooseDiamond.Location = New System.Drawing.Point(824, 15)
+        Me.chkIsLooseDiamond.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkIsLooseDiamond.Name = "chkIsLooseDiamond"
-        Me.chkIsLooseDiamond.Size = New System.Drawing.Size(126, 21)
+        Me.chkIsLooseDiamond.Size = New System.Drawing.Size(148, 26)
         Me.chkIsLooseDiamond.TabIndex = 1455
         Me.chkIsLooseDiamond.TabStop = True
         Me.chkIsLooseDiamond.Text = "Loose Diamond"
@@ -779,10 +809,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.TabVolumeStock.Controls.Add(Me.Label85)
         Me.TabVolumeStock.Controls.Add(Me.Label86)
         Me.TabVolumeStock.Font = New System.Drawing.Font("Myanmar3", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabVolumeStock.Location = New System.Drawing.Point(4, 26)
+        Me.TabVolumeStock.Location = New System.Drawing.Point(4, 31)
+        Me.TabVolumeStock.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabVolumeStock.Name = "TabVolumeStock"
-        Me.TabVolumeStock.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabVolumeStock.Size = New System.Drawing.Size(1170, 491)
+        Me.TabVolumeStock.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabVolumeStock.Size = New System.Drawing.Size(1563, 606)
         Me.TabVolumeStock.TabIndex = 1
         Me.TabVolumeStock.Text = "Volume Stock"
         '
@@ -792,9 +823,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.ChkIsSolidVolume.BackColor = System.Drawing.Color.Lavender
         Me.ChkIsSolidVolume.Font = New System.Drawing.Font("Myanmar3", 9.0!, System.Drawing.FontStyle.Bold)
         Me.ChkIsSolidVolume.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.ChkIsSolidVolume.Location = New System.Drawing.Point(510, 16)
+        Me.ChkIsSolidVolume.Location = New System.Drawing.Point(680, 20)
+        Me.ChkIsSolidVolume.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ChkIsSolidVolume.Name = "ChkIsSolidVolume"
-        Me.ChkIsSolidVolume.Size = New System.Drawing.Size(115, 21)
+        Me.ChkIsSolidVolume.Size = New System.Drawing.Size(136, 26)
         Me.ChkIsSolidVolume.TabIndex = 1458
         Me.ChkIsSolidVolume.Text = "Solid Volume"
         Me.ChkIsSolidVolume.UseVisualStyleBackColor = False
@@ -803,9 +835,10 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.radVGramPrice.AutoSize = True
         Me.radVGramPrice.Checked = True
-        Me.radVGramPrice.Location = New System.Drawing.Point(757, 288)
+        Me.radVGramPrice.Location = New System.Drawing.Point(1009, 354)
+        Me.radVGramPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.radVGramPrice.Name = "radVGramPrice"
-        Me.radVGramPrice.Size = New System.Drawing.Size(87, 20)
+        Me.radVGramPrice.Size = New System.Drawing.Size(106, 24)
         Me.radVGramPrice.TabIndex = 11
         Me.radVGramPrice.TabStop = True
         Me.radVGramPrice.Text = "၁ ဂရမ္ေစ်း"
@@ -816,17 +849,19 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.cboVItemName.Font = New System.Drawing.Font("Myanmar3", 9.5!)
         Me.cboVItemName.FormattingEnabled = True
-        Me.cboVItemName.Location = New System.Drawing.Point(198, 82)
+        Me.cboVItemName.Location = New System.Drawing.Point(264, 101)
+        Me.cboVItemName.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboVItemName.Name = "cboVItemName"
-        Me.cboVItemName.Size = New System.Drawing.Size(254, 27)
+        Me.cboVItemName.Size = New System.Drawing.Size(337, 31)
         Me.cboVItemName.TabIndex = 1
         '
         'radVKPrice
         '
         Me.radVKPrice.AutoSize = True
-        Me.radVKPrice.Location = New System.Drawing.Point(757, 317)
+        Me.radVKPrice.Location = New System.Drawing.Point(1009, 390)
+        Me.radVKPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.radVKPrice.Name = "radVKPrice"
-        Me.radVKPrice.Size = New System.Drawing.Size(94, 20)
+        Me.radVKPrice.Size = New System.Drawing.Size(116, 24)
         Me.radVKPrice.TabIndex = 13
         Me.radVKPrice.Text = "၁ က်ပ္သားေစ်း"
         Me.radVKPrice.UseVisualStyleBackColor = False
@@ -837,9 +872,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtQTY.BackColor = System.Drawing.Color.White
         Me.txtQTY.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtQTY.Font = New System.Drawing.Font("Tahoma", 8.5!)
-        Me.txtQTY.Location = New System.Drawing.Point(198, 153)
+        Me.txtQTY.Location = New System.Drawing.Point(264, 188)
+        Me.txtQTY.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtQTY.Name = "txtQTY"
-        Me.txtQTY.Size = New System.Drawing.Size(85, 21)
+        Me.txtQTY.Size = New System.Drawing.Size(113, 25)
         Me.txtQTY.TabIndex = 3
         Me.txtQTY.Text = "0"
         Me.txtQTY.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -849,9 +885,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtVOriginalPriceKyat.BackColor = System.Drawing.Color.White
         Me.txtVOriginalPriceKyat.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVOriginalPriceKyat.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVOriginalPriceKyat.Location = New System.Drawing.Point(880, 321)
+        Me.txtVOriginalPriceKyat.Location = New System.Drawing.Point(1173, 395)
+        Me.txtVOriginalPriceKyat.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtVOriginalPriceKyat.Name = "txtVOriginalPriceKyat"
-        Me.txtVOriginalPriceKyat.Size = New System.Drawing.Size(97, 21)
+        Me.txtVOriginalPriceKyat.Size = New System.Drawing.Size(129, 24)
         Me.txtVOriginalPriceKyat.TabIndex = 14
         Me.txtVOriginalPriceKyat.Text = "0"
         Me.txtVOriginalPriceKyat.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -862,9 +899,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtVOriginalOtherPrice.BackColor = System.Drawing.Color.White
         Me.txtVOriginalOtherPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVOriginalOtherPrice.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVOriginalOtherPrice.Location = New System.Drawing.Point(880, 380)
+        Me.txtVOriginalOtherPrice.Location = New System.Drawing.Point(1173, 468)
+        Me.txtVOriginalOtherPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtVOriginalOtherPrice.Name = "txtVOriginalOtherPrice"
-        Me.txtVOriginalOtherPrice.Size = New System.Drawing.Size(97, 21)
+        Me.txtVOriginalOtherPrice.Size = New System.Drawing.Size(129, 24)
         Me.txtVOriginalOtherPrice.TabIndex = 16
         Me.txtVOriginalOtherPrice.Text = "0"
         Me.txtVOriginalOtherPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -875,9 +913,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtVSellingPrice.BackColor = System.Drawing.Color.White
         Me.txtVSellingPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVSellingPrice.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVSellingPrice.Location = New System.Drawing.Point(850, 420)
+        Me.txtVSellingPrice.Location = New System.Drawing.Point(1133, 517)
+        Me.txtVSellingPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtVSellingPrice.Name = "txtVSellingPrice"
-        Me.txtVSellingPrice.Size = New System.Drawing.Size(141, 21)
+        Me.txtVSellingPrice.Size = New System.Drawing.Size(187, 24)
         Me.txtVSellingPrice.TabIndex = 17
         Me.txtVSellingPrice.Visible = False
         '
@@ -886,9 +925,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtVOriginalGemPrice.BackColor = System.Drawing.Color.White
         Me.txtVOriginalGemPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVOriginalGemPrice.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVOriginalGemPrice.Location = New System.Drawing.Point(880, 351)
+        Me.txtVOriginalGemPrice.Location = New System.Drawing.Point(1173, 432)
+        Me.txtVOriginalGemPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtVOriginalGemPrice.Name = "txtVOriginalGemPrice"
-        Me.txtVOriginalGemPrice.Size = New System.Drawing.Size(97, 21)
+        Me.txtVOriginalGemPrice.Size = New System.Drawing.Size(129, 24)
         Me.txtVOriginalGemPrice.TabIndex = 15
         Me.txtVOriginalGemPrice.Text = "0"
         Me.txtVOriginalGemPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -899,9 +939,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtVOriginalPriceGram.BackColor = System.Drawing.Color.White
         Me.txtVOriginalPriceGram.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVOriginalPriceGram.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVOriginalPriceGram.Location = New System.Drawing.Point(880, 292)
+        Me.txtVOriginalPriceGram.Location = New System.Drawing.Point(1173, 359)
+        Me.txtVOriginalPriceGram.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtVOriginalPriceGram.Name = "txtVOriginalPriceGram"
-        Me.txtVOriginalPriceGram.Size = New System.Drawing.Size(97, 21)
+        Me.txtVOriginalPriceGram.Size = New System.Drawing.Size(129, 24)
         Me.txtVOriginalPriceGram.TabIndex = 12
         Me.txtVOriginalPriceGram.Text = "0"
         Me.txtVOriginalPriceGram.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -912,11 +953,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtVItemTK.BackColor = System.Drawing.Color.Linen
         Me.txtVItemTK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVItemTK.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVItemTK.Location = New System.Drawing.Point(532, 280)
+        Me.txtVItemTK.Location = New System.Drawing.Point(709, 345)
+        Me.txtVItemTK.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtVItemTK.MaxLength = 6
         Me.txtVItemTK.Name = "txtVItemTK"
         Me.txtVItemTK.ReadOnly = True
-        Me.txtVItemTK.Size = New System.Drawing.Size(63, 21)
+        Me.txtVItemTK.Size = New System.Drawing.Size(83, 24)
         Me.txtVItemTK.TabIndex = 844
         Me.txtVItemTK.TabStop = False
         Me.txtVItemTK.Text = "0"
@@ -927,10 +969,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtVItemK.BackColor = System.Drawing.Color.White
         Me.txtVItemK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVItemK.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVItemK.Location = New System.Drawing.Point(198, 280)
+        Me.txtVItemK.Location = New System.Drawing.Point(264, 345)
+        Me.txtVItemK.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtVItemK.MaxLength = 3
         Me.txtVItemK.Name = "txtVItemK"
-        Me.txtVItemK.Size = New System.Drawing.Size(51, 21)
+        Me.txtVItemK.Size = New System.Drawing.Size(67, 24)
         Me.txtVItemK.TabIndex = 8
         Me.txtVItemK.Text = "0"
         Me.txtVItemK.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -940,10 +983,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtVItemP.BackColor = System.Drawing.Color.White
         Me.txtVItemP.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVItemP.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVItemP.Location = New System.Drawing.Point(276, 280)
+        Me.txtVItemP.Location = New System.Drawing.Point(368, 345)
+        Me.txtVItemP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtVItemP.MaxLength = 2
         Me.txtVItemP.Name = "txtVItemP"
-        Me.txtVItemP.Size = New System.Drawing.Size(51, 21)
+        Me.txtVItemP.Size = New System.Drawing.Size(67, 24)
         Me.txtVItemP.TabIndex = 9
         Me.txtVItemP.Text = "0"
         Me.txtVItemP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -953,9 +997,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtVFixedPrice.BackColor = System.Drawing.Color.White
         Me.txtVFixedPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVFixedPrice.Font = New System.Drawing.Font("Tahoma", 9.0!)
-        Me.txtVFixedPrice.Location = New System.Drawing.Point(198, 311)
+        Me.txtVFixedPrice.Location = New System.Drawing.Point(264, 383)
+        Me.txtVFixedPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtVFixedPrice.Name = "txtVFixedPrice"
-        Me.txtVFixedPrice.Size = New System.Drawing.Size(141, 22)
+        Me.txtVFixedPrice.Size = New System.Drawing.Size(187, 26)
         Me.txtVFixedPrice.TabIndex = 12
         Me.txtVFixedPrice.Text = "0"
         Me.txtVFixedPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -965,10 +1010,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtVItemY.BackColor = System.Drawing.Color.White
         Me.txtVItemY.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVItemY.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVItemY.Location = New System.Drawing.Point(352, 280)
+        Me.txtVItemY.Location = New System.Drawing.Point(469, 345)
+        Me.txtVItemY.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtVItemY.MaxLength = 3
         Me.txtVItemY.Name = "txtVItemY"
-        Me.txtVItemY.Size = New System.Drawing.Size(47, 21)
+        Me.txtVItemY.Size = New System.Drawing.Size(62, 24)
         Me.txtVItemY.TabIndex = 10
         Me.txtVItemY.Text = "0"
         Me.txtVItemY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -978,11 +1024,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtVItemTG.BackColor = System.Drawing.Color.Linen
         Me.txtVItemTG.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVItemTG.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVItemTG.Location = New System.Drawing.Point(425, 280)
+        Me.txtVItemTG.Location = New System.Drawing.Point(567, 345)
+        Me.txtVItemTG.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtVItemTG.MaxLength = 6
         Me.txtVItemTG.Name = "txtVItemTG"
         Me.txtVItemTG.ReadOnly = True
-        Me.txtVItemTG.Size = New System.Drawing.Size(63, 21)
+        Me.txtVItemTG.Size = New System.Drawing.Size(83, 24)
         Me.txtVItemTG.TabIndex = 11
         Me.txtVItemTG.Text = "0"
         Me.txtVItemTG.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -992,9 +1039,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtVWidth.BackColor = System.Drawing.Color.White
         Me.txtVWidth.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVWidth.Font = New System.Drawing.Font("Myanmar3", 9.5!)
-        Me.txtVWidth.Location = New System.Drawing.Point(198, 246)
+        Me.txtVWidth.Location = New System.Drawing.Point(264, 303)
+        Me.txtVWidth.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtVWidth.Name = "txtVWidth"
-        Me.txtVWidth.Size = New System.Drawing.Size(243, 27)
+        Me.txtVWidth.Size = New System.Drawing.Size(323, 32)
         Me.txtVWidth.TabIndex = 6
         '
         'txtVItemCode
@@ -1002,9 +1050,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtVItemCode.BackColor = System.Drawing.Color.White
         Me.txtVItemCode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVItemCode.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVItemCode.Location = New System.Drawing.Point(198, 183)
+        Me.txtVItemCode.Location = New System.Drawing.Point(264, 225)
+        Me.txtVItemCode.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtVItemCode.Name = "txtVItemCode"
-        Me.txtVItemCode.Size = New System.Drawing.Size(243, 22)
+        Me.txtVItemCode.Size = New System.Drawing.Size(323, 26)
         Me.txtVItemCode.TabIndex = 4
         '
         'txtVLength
@@ -1012,9 +1061,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtVLength.BackColor = System.Drawing.Color.White
         Me.txtVLength.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVLength.Font = New System.Drawing.Font("Myanmar3", 9.5!)
-        Me.txtVLength.Location = New System.Drawing.Point(198, 214)
+        Me.txtVLength.Location = New System.Drawing.Point(264, 263)
+        Me.txtVLength.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtVLength.Name = "txtVLength"
-        Me.txtVLength.Size = New System.Drawing.Size(243, 27)
+        Me.txtVLength.Size = New System.Drawing.Size(323, 32)
         Me.txtVLength.TabIndex = 5
         '
         'Label4
@@ -1023,9 +1073,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Zawgyi-One", 9.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label4.Location = New System.Drawing.Point(753, 380)
+        Me.Label4.Location = New System.Drawing.Point(1004, 468)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(89, 21)
+        Me.Label4.Size = New System.Drawing.Size(108, 26)
         Me.Label4.TabIndex = 881
         Me.Label4.Text = "အၿခားအဖုိးအခ"
         Me.Label4.Visible = False
@@ -1035,9 +1086,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.Label7.Location = New System.Drawing.Point(114, 153)
+        Me.Label7.Location = New System.Drawing.Point(152, 188)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(81, 20)
+        Me.Label7.Size = New System.Drawing.Size(100, 25)
         Me.Label7.TabIndex = 1094
         Me.Label7.Text = "အရေအတွက်"
         '
@@ -1047,9 +1099,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Zawgyi-One", 9.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label5.Location = New System.Drawing.Point(753, 351)
+        Me.Label5.Location = New System.Drawing.Point(1004, 432)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(127, 21)
+        Me.Label5.Size = New System.Drawing.Size(155, 26)
         Me.Label5.TabIndex = 880
         Me.Label5.Text = "စိန္ / ေက်ာက္ဝယ္ေစ်း"
         Me.Label5.Visible = False
@@ -1060,9 +1113,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Myanmar3", 9.5!, System.Drawing.FontStyle.Bold)
         Me.Label2.ForeColor = System.Drawing.Color.Navy
-        Me.Label2.Location = New System.Drawing.Point(62, 332)
+        Me.Label2.Location = New System.Drawing.Point(83, 409)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(110, 19)
+        Me.Label2.Size = New System.Drawing.Size(132, 23)
         Me.Label2.TabIndex = 1092
         Me.Label2.Text = "(For One Item)"
         '
@@ -1071,9 +1125,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Zawgyi-One", 9.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(750, 420)
+        Me.Label6.Location = New System.Drawing.Point(1000, 517)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(80, 21)
+        Me.Label6.Size = New System.Drawing.Size(98, 26)
         Me.Label6.TabIndex = 1091
         Me.Label6.Text = "Selling Price"
         Me.Label6.Visible = False
@@ -1085,9 +1140,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.GroupBox6.Controls.Add(Me.chkVIsOriginalFixedPrice)
         Me.GroupBox6.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.GroupBox6.ForeColor = System.Drawing.Color.Navy
-        Me.GroupBox6.Location = New System.Drawing.Point(486, 58)
+        Me.GroupBox6.Location = New System.Drawing.Point(648, 71)
+        Me.GroupBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(295, 88)
+        Me.GroupBox6.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox6.Size = New System.Drawing.Size(393, 108)
         Me.GroupBox6.TabIndex = 16
         Me.GroupBox6.TabStop = False
         Me.GroupBox6.Text = "ဝယ်ရင်းစျေး"
@@ -1098,9 +1155,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label56.BackColor = System.Drawing.Color.Transparent
         Me.Label56.Font = New System.Drawing.Font("Myanmar3", 9.5!, System.Drawing.FontStyle.Bold)
         Me.Label56.ForeColor = System.Drawing.Color.Navy
-        Me.Label56.Location = New System.Drawing.Point(17, 52)
+        Me.Label56.Location = New System.Drawing.Point(23, 64)
+        Me.Label56.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(136, 19)
+        Me.Label56.Size = New System.Drawing.Size(164, 23)
         Me.Label56.TabIndex = 1093
         Me.Label56.Text = "(For ALL Volume)"
         '
@@ -1109,9 +1167,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtVOriginalFixPrice.BackColor = System.Drawing.Color.White
         Me.txtVOriginalFixPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVOriginalFixPrice.Font = New System.Drawing.Font("Tahoma", 9.0!)
-        Me.txtVOriginalFixPrice.Location = New System.Drawing.Point(139, 27)
+        Me.txtVOriginalFixPrice.Location = New System.Drawing.Point(185, 33)
+        Me.txtVOriginalFixPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtVOriginalFixPrice.Name = "txtVOriginalFixPrice"
-        Me.txtVOriginalFixPrice.Size = New System.Drawing.Size(141, 22)
+        Me.txtVOriginalFixPrice.Size = New System.Drawing.Size(187, 26)
         Me.txtVOriginalFixPrice.TabIndex = 1
         Me.txtVOriginalFixPrice.Text = "0"
         Me.txtVOriginalFixPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1122,9 +1181,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.chkVIsOriginalFixedPrice.BackColor = System.Drawing.Color.Lavender
         Me.chkVIsOriginalFixedPrice.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.chkVIsOriginalFixedPrice.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.chkVIsOriginalFixedPrice.Location = New System.Drawing.Point(24, 27)
+        Me.chkVIsOriginalFixedPrice.Location = New System.Drawing.Point(32, 33)
+        Me.chkVIsOriginalFixedPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkVIsOriginalFixedPrice.Name = "chkVIsOriginalFixedPrice"
-        Me.chkVIsOriginalFixedPrice.Size = New System.Drawing.Size(113, 24)
+        Me.chkVIsOriginalFixedPrice.Size = New System.Drawing.Size(133, 29)
         Me.chkVIsOriginalFixedPrice.TabIndex = 0
         Me.chkVIsOriginalFixedPrice.Text = "ဝယ်ရင်းတန်ဖိုး"
         Me.chkVIsOriginalFixedPrice.UseVisualStyleBackColor = False
@@ -1134,9 +1194,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.chkVIsOriginalPriceGram.AutoSize = True
         Me.chkVIsOriginalPriceGram.Font = New System.Drawing.Font("Zawgyi-One", 9.25!)
         Me.chkVIsOriginalPriceGram.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.chkVIsOriginalPriceGram.Location = New System.Drawing.Point(828, 292)
+        Me.chkVIsOriginalPriceGram.Location = New System.Drawing.Point(1104, 359)
+        Me.chkVIsOriginalPriceGram.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkVIsOriginalPriceGram.Name = "chkVIsOriginalPriceGram"
-        Me.chkVIsOriginalPriceGram.Size = New System.Drawing.Size(97, 25)
+        Me.chkVIsOriginalPriceGram.Size = New System.Drawing.Size(116, 30)
         Me.chkVIsOriginalPriceGram.TabIndex = 2
         Me.chkVIsOriginalPriceGram.Text = "ဝယ္ရင္းေစ်း "
         Me.chkVIsOriginalPriceGram.UseVisualStyleBackColor = False
@@ -1148,9 +1209,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label28.BackColor = System.Drawing.Color.Transparent
         Me.Label28.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label28.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label28.Location = New System.Drawing.Point(597, 284)
+        Me.Label28.Location = New System.Drawing.Point(796, 350)
+        Me.Label28.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(26, 16)
+        Me.Label28.Size = New System.Drawing.Size(32, 20)
         Me.Label28.TabIndex = 846
         Me.Label28.Text = "TK"
         '
@@ -1161,9 +1223,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.GroupBox1.Controls.Add(Me.lblVItemImage)
         Me.GroupBox1.Font = New System.Drawing.Font("Myanmar3", 9.5!)
         Me.GroupBox1.ForeColor = System.Drawing.Color.DeepPink
-        Me.GroupBox1.Location = New System.Drawing.Point(820, 42)
+        Me.GroupBox1.Location = New System.Drawing.Point(1093, 52)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(190, 232)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Size = New System.Drawing.Size(253, 286)
         Me.GroupBox1.TabIndex = 17
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Photo Here"
@@ -1171,9 +1235,10 @@ Partial Class frm_SaleItemSetupWithVolume
         'btnVAdd
         '
         Me.btnVAdd.Font = New System.Drawing.Font("Myanmar3", 9.5!, System.Drawing.FontStyle.Bold)
-        Me.btnVAdd.Location = New System.Drawing.Point(44, 175)
+        Me.btnVAdd.Location = New System.Drawing.Point(59, 215)
+        Me.btnVAdd.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnVAdd.Name = "btnVAdd"
-        Me.btnVAdd.Size = New System.Drawing.Size(95, 31)
+        Me.btnVAdd.Size = New System.Drawing.Size(127, 38)
         Me.btnVAdd.TabIndex = 0
         Me.btnVAdd.Text = "&Add"
         Me.btnVAdd.UseVisualStyleBackColor = True
@@ -1182,9 +1247,10 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.lblVPhoto.AutoSize = True
         Me.lblVPhoto.ForeColor = System.Drawing.Color.Navy
-        Me.lblVPhoto.Location = New System.Drawing.Point(79, 88)
+        Me.lblVPhoto.Location = New System.Drawing.Point(105, 108)
+        Me.lblVPhoto.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblVPhoto.Name = "lblVPhoto"
-        Me.lblVPhoto.Size = New System.Drawing.Size(42, 19)
+        Me.lblVPhoto.Size = New System.Drawing.Size(52, 23)
         Me.lblVPhoto.TabIndex = 807
         Me.lblVPhoto.Text = "Photo"
         '
@@ -1192,9 +1258,10 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.lblVItemImage.BackColor = System.Drawing.Color.Snow
         Me.lblVItemImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblVItemImage.Location = New System.Drawing.Point(23, 25)
+        Me.lblVItemImage.Location = New System.Drawing.Point(31, 31)
+        Me.lblVItemImage.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.lblVItemImage.Name = "lblVItemImage"
-        Me.lblVItemImage.Size = New System.Drawing.Size(148, 143)
+        Me.lblVItemImage.Size = New System.Drawing.Size(197, 176)
         Me.lblVItemImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.lblVItemImage.TabIndex = 806
         Me.lblVItemImage.TabStop = False
@@ -1205,9 +1272,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label57.BackColor = System.Drawing.Color.Transparent
         Me.Label57.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label57.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label57.Location = New System.Drawing.Point(253, 284)
+        Me.Label57.Location = New System.Drawing.Point(337, 350)
+        Me.Label57.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(18, 16)
+        Me.Label57.Size = New System.Drawing.Size(21, 20)
         Me.Label57.TabIndex = 11
         Me.Label57.Text = "K"
         '
@@ -1217,9 +1285,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label60.BackColor = System.Drawing.Color.Transparent
         Me.Label60.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label60.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label60.Location = New System.Drawing.Point(333, 284)
+        Me.Label60.Location = New System.Drawing.Point(444, 350)
+        Me.Label60.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(16, 16)
+        Me.Label60.Size = New System.Drawing.Size(19, 20)
         Me.Label60.TabIndex = 2
         Me.Label60.Text = "P"
         '
@@ -1229,9 +1298,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label61.BackColor = System.Drawing.Color.Transparent
         Me.Label61.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label61.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label61.Location = New System.Drawing.Point(406, 284)
+        Me.Label61.Location = New System.Drawing.Point(541, 350)
+        Me.Label61.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label61.Name = "Label61"
-        Me.Label61.Size = New System.Drawing.Size(18, 16)
+        Me.Label61.Size = New System.Drawing.Size(21, 20)
         Me.Label61.TabIndex = 12
         Me.Label61.Text = "Y"
         '
@@ -1241,9 +1311,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.chkVByFixPrice.BackColor = System.Drawing.Color.Transparent
         Me.chkVByFixPrice.Font = New System.Drawing.Font("Myanmar3", 9.5!, System.Drawing.FontStyle.Bold)
         Me.chkVByFixPrice.ForeColor = System.Drawing.Color.Navy
-        Me.chkVByFixPrice.Location = New System.Drawing.Point(39, 312)
+        Me.chkVByFixPrice.Location = New System.Drawing.Point(52, 384)
+        Me.chkVByFixPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkVByFixPrice.Name = "chkVByFixPrice"
-        Me.chkVByFixPrice.Size = New System.Drawing.Size(156, 23)
+        Me.chkVByFixPrice.Size = New System.Drawing.Size(188, 27)
         Me.chkVByFixPrice.TabIndex = 15
         Me.chkVByFixPrice.Text = "Fixed Selling Price" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.chkVByFixPrice.UseVisualStyleBackColor = False
@@ -1253,9 +1324,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.LnkTotalWeight.AutoSize = True
         Me.LnkTotalWeight.BackColor = System.Drawing.Color.Transparent
         Me.LnkTotalWeight.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.LnkTotalWeight.Location = New System.Drawing.Point(115, 279)
+        Me.LnkTotalWeight.Location = New System.Drawing.Point(153, 343)
+        Me.LnkTotalWeight.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LnkTotalWeight.Name = "LnkTotalWeight"
-        Me.LnkTotalWeight.Size = New System.Drawing.Size(80, 20)
+        Me.LnkTotalWeight.Size = New System.Drawing.Size(94, 25)
         Me.LnkTotalWeight.TabIndex = 7
         Me.LnkTotalWeight.TabStop = True
         Me.LnkTotalWeight.Text = "စုစုပေါင်းချိန်"
@@ -1264,18 +1336,20 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.cboVItemCategory.Font = New System.Drawing.Font("Myanmar3", 9.5!)
         Me.cboVItemCategory.FormattingEnabled = True
-        Me.cboVItemCategory.Location = New System.Drawing.Point(198, 47)
+        Me.cboVItemCategory.Location = New System.Drawing.Point(264, 58)
+        Me.cboVItemCategory.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboVItemCategory.Name = "cboVItemCategory"
-        Me.cboVItemCategory.Size = New System.Drawing.Size(254, 27)
+        Me.cboVItemCategory.Size = New System.Drawing.Size(337, 31)
         Me.cboVItemCategory.TabIndex = 0
         '
         'cboVGoldQuality
         '
         Me.cboVGoldQuality.Font = New System.Drawing.Font("Myanmar3", 9.5!)
         Me.cboVGoldQuality.FormattingEnabled = True
-        Me.cboVGoldQuality.Location = New System.Drawing.Point(198, 118)
+        Me.cboVGoldQuality.Location = New System.Drawing.Point(264, 145)
+        Me.cboVGoldQuality.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboVGoldQuality.Name = "cboVGoldQuality"
-        Me.cboVGoldQuality.Size = New System.Drawing.Size(254, 27)
+        Me.cboVGoldQuality.Size = New System.Drawing.Size(337, 31)
         Me.cboVGoldQuality.TabIndex = 2
         '
         'Label77
@@ -1284,9 +1358,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label77.BackColor = System.Drawing.Color.Transparent
         Me.Label77.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label77.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label77.Location = New System.Drawing.Point(490, 284)
+        Me.Label77.Location = New System.Drawing.Point(653, 350)
+        Me.Label77.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label77.Name = "Label77"
-        Me.Label77.Size = New System.Drawing.Size(37, 16)
+        Me.Label77.Size = New System.Drawing.Size(45, 20)
         Me.Label77.TabIndex = 684
         Me.Label77.Text = "gram"
         '
@@ -1295,9 +1370,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label81.AutoSize = True
         Me.Label81.BackColor = System.Drawing.Color.Transparent
         Me.Label81.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.Label81.Location = New System.Drawing.Point(128, 248)
+        Me.Label81.Location = New System.Drawing.Point(171, 305)
+        Me.Label81.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label81.Name = "Label81"
-        Me.Label81.Size = New System.Drawing.Size(67, 20)
+        Me.Label81.Size = New System.Drawing.Size(80, 25)
         Me.Label81.TabIndex = 1083
         Me.Label81.Text = "ကွင်းတိုင်း"
         '
@@ -1306,9 +1382,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label82.AutoSize = True
         Me.Label82.BackColor = System.Drawing.Color.Transparent
         Me.Label82.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.Label82.Location = New System.Drawing.Point(147, 120)
+        Me.Label82.Location = New System.Drawing.Point(196, 148)
+        Me.Label82.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label82.Name = "Label82"
-        Me.Label82.Size = New System.Drawing.Size(48, 20)
+        Me.Label82.Size = New System.Drawing.Size(60, 25)
         Me.Label82.TabIndex = 1079
         Me.Label82.Text = "ရွှေရည်"
         '
@@ -1317,9 +1394,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label83.AutoSize = True
         Me.Label83.BackColor = System.Drawing.Color.Transparent
         Me.Label83.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.Label83.Location = New System.Drawing.Point(120, 48)
+        Me.Label83.Location = New System.Drawing.Point(160, 59)
+        Me.Label83.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label83.Name = "Label83"
-        Me.Label83.Size = New System.Drawing.Size(75, 20)
+        Me.Label83.Size = New System.Drawing.Size(91, 25)
         Me.Label83.TabIndex = 1080
         Me.Label83.Text = "အမျိုးအစား"
         '
@@ -1328,9 +1406,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label84.AutoSize = True
         Me.Label84.BackColor = System.Drawing.Color.Transparent
         Me.Label84.Font = New System.Drawing.Font("Myanmar3", 9.5!, System.Drawing.FontStyle.Bold)
-        Me.Label84.Location = New System.Drawing.Point(108, 186)
+        Me.Label84.Location = New System.Drawing.Point(144, 229)
+        Me.Label84.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label84.Name = "Label84"
-        Me.Label84.Size = New System.Drawing.Size(87, 19)
+        Me.Label84.Size = New System.Drawing.Size(106, 23)
         Me.Label84.TabIndex = 1082
         Me.Label84.Text = "Barcode No"
         '
@@ -1339,9 +1418,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label85.AutoSize = True
         Me.Label85.BackColor = System.Drawing.Color.Transparent
         Me.Label85.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.Label85.Location = New System.Drawing.Point(124, 215)
+        Me.Label85.Location = New System.Drawing.Point(165, 265)
+        Me.Label85.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label85.Name = "Label85"
-        Me.Label85.Size = New System.Drawing.Size(71, 20)
+        Me.Label85.Size = New System.Drawing.Size(87, 25)
         Me.Label85.TabIndex = 1081
         Me.Label85.Text = "ကြိုးအရှည်"
         '
@@ -1350,15 +1430,16 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label86.AutoSize = True
         Me.Label86.BackColor = System.Drawing.Color.Transparent
         Me.Label86.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.Label86.Location = New System.Drawing.Point(118, 85)
+        Me.Label86.Location = New System.Drawing.Point(157, 105)
+        Me.Label86.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label86.Name = "Label86"
-        Me.Label86.Size = New System.Drawing.Size(77, 20)
+        Me.Label86.Size = New System.Drawing.Size(94, 25)
         Me.Label86.TabIndex = 1078
         Me.Label86.Text = "အမျိုးအမည်"
         '
         'TabStockItem
         '
-        Me.TabStockItem.BackColor = System.Drawing.Color.Lavender
+        Me.TabStockItem.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
         Me.TabStockItem.Controls.Add(Me.cboItemName)
         Me.TabStockItem.Controls.Add(Me.txtTotalCost)
         Me.TabStockItem.Controls.Add(Me.Label15)
@@ -1397,21 +1478,33 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.TabStockItem.Controls.Add(Me.Label13)
         Me.TabStockItem.Controls.Add(Me.Label14)
         Me.TabStockItem.Font = New System.Drawing.Font("Myanmar3", 9.7!)
-        Me.TabStockItem.Location = New System.Drawing.Point(4, 26)
+        Me.TabStockItem.Location = New System.Drawing.Point(4, 31)
+        Me.TabStockItem.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabStockItem.Name = "TabStockItem"
-        Me.TabStockItem.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabStockItem.Size = New System.Drawing.Size(1170, 491)
+        Me.TabStockItem.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabStockItem.Size = New System.Drawing.Size(1563, 606)
         Me.TabStockItem.TabIndex = 0
         Me.TabStockItem.Text = "Stock"
+        '
+        'cboItemName
+        '
+        Me.cboItemName.Font = New System.Drawing.Font("Myanmar3", 9.5!)
+        Me.cboItemName.FormattingEnabled = True
+        Me.cboItemName.Location = New System.Drawing.Point(137, 50)
+        Me.cboItemName.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cboItemName.Name = "cboItemName"
+        Me.cboItemName.Size = New System.Drawing.Size(299, 31)
+        Me.cboItemName.TabIndex = 920
         '
         'txtTotalCost
         '
         Me.txtTotalCost.BackColor = System.Drawing.Color.White
         Me.txtTotalCost.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTotalCost.Font = New System.Drawing.Font("Myanmar3", 9.0!)
-        Me.txtTotalCost.Location = New System.Drawing.Point(1034, 234)
+        Me.txtTotalCost.Location = New System.Drawing.Point(1379, 288)
+        Me.txtTotalCost.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtTotalCost.Name = "txtTotalCost"
-        Me.txtTotalCost.Size = New System.Drawing.Size(128, 26)
+        Me.txtTotalCost.Size = New System.Drawing.Size(170, 31)
         Me.txtTotalCost.TabIndex = 918
         '
         'Label15
@@ -1420,9 +1513,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label15.BackColor = System.Drawing.Color.Transparent
         Me.Label15.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.Label15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label15.Location = New System.Drawing.Point(871, 236)
+        Me.Label15.Location = New System.Drawing.Point(1161, 290)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(154, 20)
+        Me.Label15.Size = New System.Drawing.Size(185, 25)
         Me.Label15.TabIndex = 919
         Me.Label15.Text = "ဝယ်ရင်းစျေး(Total Cost)"
         '
@@ -1431,9 +1525,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.lnkColor.AutoSize = True
         Me.lnkColor.BackColor = System.Drawing.Color.Transparent
         Me.lnkColor.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.lnkColor.Location = New System.Drawing.Point(50, 241)
+        Me.lnkColor.Location = New System.Drawing.Point(67, 297)
+        Me.lnkColor.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lnkColor.Name = "lnkColor"
-        Me.lnkColor.Size = New System.Drawing.Size(44, 20)
+        Me.lnkColor.Size = New System.Drawing.Size(54, 25)
         Me.lnkColor.TabIndex = 917
         Me.lnkColor.TabStop = True
         Me.lnkColor.Text = "Color"
@@ -1442,9 +1537,10 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.cboColor.Font = New System.Drawing.Font("Myanmar3", 9.5!)
         Me.cboColor.FormattingEnabled = True
-        Me.cboColor.Location = New System.Drawing.Point(103, 238)
+        Me.cboColor.Location = New System.Drawing.Point(137, 293)
+        Me.cboColor.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboColor.Name = "cboColor"
-        Me.cboColor.Size = New System.Drawing.Size(145, 27)
+        Me.cboColor.Size = New System.Drawing.Size(192, 31)
         Me.cboColor.TabIndex = 916
         '
         'GBFix
@@ -1454,9 +1550,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.GBFix.Controls.Add(Me.txtSaleFixPrice)
         Me.GBFix.Controls.Add(Me.Label65)
         Me.GBFix.Enabled = False
-        Me.GBFix.Location = New System.Drawing.Point(431, 178)
+        Me.GBFix.Location = New System.Drawing.Point(575, 219)
+        Me.GBFix.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GBFix.Name = "GBFix"
-        Me.GBFix.Size = New System.Drawing.Size(343, 49)
+        Me.GBFix.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GBFix.Size = New System.Drawing.Size(457, 60)
         Me.GBFix.TabIndex = 853
         Me.GBFix.TabStop = False
         '
@@ -1465,9 +1563,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtWSFixPrice.BackColor = System.Drawing.Color.White
         Me.txtWSFixPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtWSFixPrice.Font = New System.Drawing.Font("Tahoma", 8.5!)
-        Me.txtWSFixPrice.Location = New System.Drawing.Point(227, 21)
+        Me.txtWSFixPrice.Location = New System.Drawing.Point(303, 26)
+        Me.txtWSFixPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtWSFixPrice.Name = "txtWSFixPrice"
-        Me.txtWSFixPrice.Size = New System.Drawing.Size(104, 21)
+        Me.txtWSFixPrice.Size = New System.Drawing.Size(138, 25)
         Me.txtWSFixPrice.TabIndex = 21
         Me.txtWSFixPrice.Text = "0"
         Me.txtWSFixPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1478,9 +1577,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label24.BackColor = System.Drawing.Color.Transparent
         Me.Label24.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.Label24.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label24.Location = New System.Drawing.Point(145, 22)
+        Me.Label24.Location = New System.Drawing.Point(193, 27)
+        Me.Label24.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(82, 20)
+        Me.Label24.Size = New System.Drawing.Size(98, 25)
         Me.Label24.TabIndex = 852
         Me.Label24.Text = "Whole Sale"
         '
@@ -1489,9 +1589,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtSaleFixPrice.BackColor = System.Drawing.Color.White
         Me.txtSaleFixPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSaleFixPrice.Font = New System.Drawing.Font("Tahoma", 8.5!)
-        Me.txtSaleFixPrice.Location = New System.Drawing.Point(38, 22)
+        Me.txtSaleFixPrice.Location = New System.Drawing.Point(51, 27)
+        Me.txtSaleFixPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtSaleFixPrice.Name = "txtSaleFixPrice"
-        Me.txtSaleFixPrice.Size = New System.Drawing.Size(107, 21)
+        Me.txtSaleFixPrice.Size = New System.Drawing.Size(142, 25)
         Me.txtSaleFixPrice.TabIndex = 20
         Me.txtSaleFixPrice.Text = "0"
         Me.txtSaleFixPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1502,9 +1603,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label65.BackColor = System.Drawing.Color.Transparent
         Me.Label65.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.Label65.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label65.Location = New System.Drawing.Point(2, 23)
+        Me.Label65.Location = New System.Drawing.Point(3, 28)
+        Me.Label65.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label65.Name = "Label65"
-        Me.Label65.Size = New System.Drawing.Size(36, 20)
+        Me.Label65.Size = New System.Drawing.Size(44, 25)
         Me.Label65.TabIndex = 850
         Me.Label65.Text = "Sale"
         '
@@ -1513,9 +1615,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtSellingRate.BackColor = System.Drawing.Color.White
         Me.txtSellingRate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSellingRate.Font = New System.Drawing.Font("Myanmar3", 9.0!)
-        Me.txtSellingRate.Location = New System.Drawing.Point(883, 195)
+        Me.txtSellingRate.Location = New System.Drawing.Point(1177, 240)
+        Me.txtSellingRate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtSellingRate.Name = "txtSellingRate"
-        Me.txtSellingRate.Size = New System.Drawing.Size(53, 26)
+        Me.txtSellingRate.Size = New System.Drawing.Size(70, 31)
         Me.txtSellingRate.TabIndex = 914
         '
         'txtSupplierVou
@@ -1523,9 +1626,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtSupplierVou.BackColor = System.Drawing.Color.White
         Me.txtSupplierVou.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSupplierVou.Font = New System.Drawing.Font("Myanmar3", 10.0!)
-        Me.txtSupplierVou.Location = New System.Drawing.Point(664, 236)
+        Me.txtSupplierVou.Location = New System.Drawing.Point(885, 290)
+        Me.txtSupplierVou.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtSupplierVou.Name = "txtSupplierVou"
-        Me.txtSupplierVou.Size = New System.Drawing.Size(119, 28)
+        Me.txtSupplierVou.Size = New System.Drawing.Size(158, 33)
         Me.txtSupplierVou.TabIndex = 16
         '
         'txtColor
@@ -1534,9 +1638,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtColor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtColor.Enabled = False
         Me.txtColor.Font = New System.Drawing.Font("Myanmar3", 10.0!)
-        Me.txtColor.Location = New System.Drawing.Point(251, 237)
+        Me.txtColor.Location = New System.Drawing.Point(335, 292)
+        Me.txtColor.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtColor.Name = "txtColor"
-        Me.txtColor.Size = New System.Drawing.Size(77, 28)
+        Me.txtColor.Size = New System.Drawing.Size(102, 33)
         Me.txtColor.TabIndex = 8
         '
         'txtOriginalCode
@@ -1544,9 +1649,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtOriginalCode.BackColor = System.Drawing.Color.White
         Me.txtOriginalCode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOriginalCode.Font = New System.Drawing.Font("Myanmar3", 9.0!)
-        Me.txtOriginalCode.Location = New System.Drawing.Point(103, 134)
+        Me.txtOriginalCode.Location = New System.Drawing.Point(137, 165)
+        Me.txtOriginalCode.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtOriginalCode.Name = "txtOriginalCode"
-        Me.txtOriginalCode.Size = New System.Drawing.Size(225, 26)
+        Me.txtOriginalCode.Size = New System.Drawing.Size(299, 31)
         Me.txtOriginalCode.TabIndex = 4
         '
         'txtPriceCode
@@ -1554,9 +1660,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtPriceCode.BackColor = System.Drawing.Color.White
         Me.txtPriceCode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPriceCode.Font = New System.Drawing.Font("Myanmar3", 9.0!)
-        Me.txtPriceCode.Location = New System.Drawing.Point(1033, 195)
+        Me.txtPriceCode.Location = New System.Drawing.Point(1377, 240)
+        Me.txtPriceCode.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtPriceCode.Name = "txtPriceCode"
-        Me.txtPriceCode.Size = New System.Drawing.Size(128, 26)
+        Me.txtPriceCode.Size = New System.Drawing.Size(170, 31)
         Me.txtPriceCode.TabIndex = 13
         '
         'txtGoldSmith
@@ -1564,9 +1671,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtGoldSmith.BackColor = System.Drawing.Color.White
         Me.txtGoldSmith.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtGoldSmith.Font = New System.Drawing.Font("Myanmar3", 10.0!)
-        Me.txtGoldSmith.Location = New System.Drawing.Point(250, 199)
+        Me.txtGoldSmith.Location = New System.Drawing.Point(333, 245)
+        Me.txtGoldSmith.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtGoldSmith.Name = "txtGoldSmith"
-        Me.txtGoldSmith.Size = New System.Drawing.Size(78, 28)
+        Me.txtGoldSmith.Size = New System.Drawing.Size(103, 33)
         Me.txtGoldSmith.TabIndex = 7
         '
         'txtWidth
@@ -1574,9 +1682,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtWidth.BackColor = System.Drawing.Color.White
         Me.txtWidth.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtWidth.Font = New System.Drawing.Font("Myanmar3", 9.5!)
-        Me.txtWidth.Location = New System.Drawing.Point(245, 166)
+        Me.txtWidth.Location = New System.Drawing.Point(327, 204)
+        Me.txtWidth.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtWidth.Name = "txtWidth"
-        Me.txtWidth.Size = New System.Drawing.Size(83, 27)
+        Me.txtWidth.Size = New System.Drawing.Size(110, 32)
         Me.txtWidth.TabIndex = 6
         '
         'txtItemCode
@@ -1584,9 +1693,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtItemCode.BackColor = System.Drawing.Color.White
         Me.txtItemCode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtItemCode.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtItemCode.Location = New System.Drawing.Point(103, 108)
+        Me.txtItemCode.Location = New System.Drawing.Point(137, 133)
+        Me.txtItemCode.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtItemCode.Name = "txtItemCode"
-        Me.txtItemCode.Size = New System.Drawing.Size(225, 22)
+        Me.txtItemCode.Size = New System.Drawing.Size(299, 26)
         Me.txtItemCode.TabIndex = 3
         '
         'txtLength
@@ -1594,9 +1704,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtLength.BackColor = System.Drawing.Color.White
         Me.txtLength.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtLength.Font = New System.Drawing.Font("Myanmar3", 9.0!)
-        Me.txtLength.Location = New System.Drawing.Point(103, 166)
+        Me.txtLength.Location = New System.Drawing.Point(137, 204)
+        Me.txtLength.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtLength.Name = "txtLength"
-        Me.txtLength.Size = New System.Drawing.Size(72, 26)
+        Me.txtLength.Size = New System.Drawing.Size(95, 31)
         Me.txtLength.TabIndex = 5
         '
         'Label8
@@ -1605,9 +1716,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label8.Location = New System.Drawing.Point(773, 198)
+        Me.Label8.Location = New System.Drawing.Point(1031, 244)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(104, 20)
+        Me.Label8.Size = New System.Drawing.Size(126, 25)
         Me.Label8.TabIndex = 915
         Me.Label8.Text = "SellingRate(%)"
         '
@@ -1615,9 +1727,10 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.cboGoldSmith.Font = New System.Drawing.Font("Myanmar3", 9.5!)
         Me.cboGoldSmith.FormattingEnabled = True
-        Me.cboGoldSmith.Location = New System.Drawing.Point(103, 199)
+        Me.cboGoldSmith.Location = New System.Drawing.Point(137, 245)
+        Me.cboGoldSmith.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboGoldSmith.Name = "cboGoldSmith"
-        Me.cboGoldSmith.Size = New System.Drawing.Size(145, 27)
+        Me.cboGoldSmith.Size = New System.Drawing.Size(192, 31)
         Me.cboGoldSmith.TabIndex = 913
         '
         'lblVoucherNo
@@ -1626,9 +1739,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.lblVoucherNo.BackColor = System.Drawing.Color.Transparent
         Me.lblVoucherNo.Font = New System.Drawing.Font("Myanmar3", 8.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblVoucherNo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.lblVoucherNo.Location = New System.Drawing.Point(577, 243)
+        Me.lblVoucherNo.Location = New System.Drawing.Point(769, 299)
+        Me.lblVoucherNo.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblVoucherNo.Name = "lblVoucherNo"
-        Me.lblVoucherNo.Size = New System.Drawing.Size(75, 17)
+        Me.lblVoucherNo.Size = New System.Drawing.Size(90, 22)
         Me.lblVoucherNo.TabIndex = 912
         Me.lblVoucherNo.Text = "Voucher No"
         '
@@ -1637,9 +1751,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.lnkSupplier.AutoSize = True
         Me.lnkSupplier.BackColor = System.Drawing.Color.Transparent
         Me.lnkSupplier.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.lnkSupplier.Location = New System.Drawing.Point(356, 243)
+        Me.lnkSupplier.Location = New System.Drawing.Point(475, 299)
+        Me.lnkSupplier.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lnkSupplier.Name = "lnkSupplier"
-        Me.lnkSupplier.Size = New System.Drawing.Size(62, 20)
+        Me.lnkSupplier.Size = New System.Drawing.Size(74, 25)
         Me.lnkSupplier.TabIndex = 14
         Me.lnkSupplier.TabStop = True
         Me.lnkSupplier.Text = "Supplier"
@@ -1648,9 +1763,10 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.cboSupplier.Font = New System.Drawing.Font("Myanmar3", 9.5!)
         Me.cboSupplier.FormattingEnabled = True
-        Me.cboSupplier.Location = New System.Drawing.Point(431, 237)
+        Me.cboSupplier.Location = New System.Drawing.Point(575, 292)
+        Me.cboSupplier.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboSupplier.Name = "cboSupplier"
-        Me.cboSupplier.Size = New System.Drawing.Size(142, 27)
+        Me.cboSupplier.Size = New System.Drawing.Size(188, 31)
         Me.cboSupplier.TabIndex = 15
         '
         'LnkGoldQuality
@@ -1658,9 +1774,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.LnkGoldQuality.AutoSize = True
         Me.LnkGoldQuality.BackColor = System.Drawing.Color.Transparent
         Me.LnkGoldQuality.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.LnkGoldQuality.Location = New System.Drawing.Point(51, 76)
+        Me.LnkGoldQuality.Location = New System.Drawing.Point(68, 94)
+        Me.LnkGoldQuality.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LnkGoldQuality.Name = "LnkGoldQuality"
-        Me.LnkGoldQuality.Size = New System.Drawing.Size(48, 20)
+        Me.LnkGoldQuality.Size = New System.Drawing.Size(60, 25)
         Me.LnkGoldQuality.TabIndex = 908
         Me.LnkGoldQuality.TabStop = True
         Me.LnkGoldQuality.Text = "ရွှေရည်"
@@ -1670,9 +1787,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.LnkItemName.AutoSize = True
         Me.LnkItemName.BackColor = System.Drawing.Color.Transparent
         Me.LnkItemName.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.LnkItemName.Location = New System.Drawing.Point(22, 45)
+        Me.LnkItemName.Location = New System.Drawing.Point(29, 55)
+        Me.LnkItemName.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LnkItemName.Name = "LnkItemName"
-        Me.LnkItemName.Size = New System.Drawing.Size(77, 20)
+        Me.LnkItemName.Size = New System.Drawing.Size(94, 25)
         Me.LnkItemName.TabIndex = 907
         Me.LnkItemName.TabStop = True
         Me.LnkItemName.Text = "အမျိုးအမည်"
@@ -1682,9 +1800,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.LnkCategory.AutoSize = True
         Me.LnkCategory.BackColor = System.Drawing.Color.Transparent
         Me.LnkCategory.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.LnkCategory.Location = New System.Drawing.Point(24, 14)
+        Me.LnkCategory.Location = New System.Drawing.Point(32, 17)
+        Me.LnkCategory.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LnkCategory.Name = "LnkCategory"
-        Me.LnkCategory.Size = New System.Drawing.Size(75, 20)
+        Me.LnkCategory.Size = New System.Drawing.Size(91, 25)
         Me.LnkCategory.TabIndex = 906
         Me.LnkCategory.TabStop = True
         Me.LnkCategory.Text = "အမျိုးအစား"
@@ -1694,9 +1813,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label16.AutoSize = True
         Me.Label16.BackColor = System.Drawing.Color.Transparent
         Me.Label16.Font = New System.Drawing.Font("Myanmar3", 8.999999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(0, 139)
+        Me.Label16.Location = New System.Drawing.Point(0, 171)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(99, 17)
+        Me.Label16.Size = New System.Drawing.Size(117, 22)
         Me.Label16.TabIndex = 904
         Me.Label16.Text = "Original Code"
         '
@@ -1706,9 +1826,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.lblPriceCode.BackColor = System.Drawing.Color.Transparent
         Me.lblPriceCode.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.lblPriceCode.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.lblPriceCode.Location = New System.Drawing.Point(950, 198)
+        Me.lblPriceCode.Location = New System.Drawing.Point(1267, 244)
+        Me.lblPriceCode.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblPriceCode.Name = "lblPriceCode"
-        Me.lblPriceCode.Size = New System.Drawing.Size(79, 20)
+        Me.lblPriceCode.Size = New System.Drawing.Size(95, 25)
         Me.lblPriceCode.TabIndex = 902
         Me.lblPriceCode.Text = "ဝယ်ရင်းစျေး"
         '
@@ -1717,9 +1838,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label64.AutoSize = True
         Me.Label64.BackColor = System.Drawing.Color.Transparent
         Me.Label64.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.Label64.Location = New System.Drawing.Point(14, 199)
+        Me.Label64.Location = New System.Drawing.Point(19, 245)
+        Me.Label64.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label64.Name = "Label64"
-        Me.Label64.Size = New System.Drawing.Size(85, 20)
+        Me.Label64.Size = New System.Drawing.Size(102, 25)
         Me.Label64.TabIndex = 900
         Me.Label64.Text = "ပန်းထိမ်ဆရာ"
         '
@@ -1730,9 +1852,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.GroupBox4.Controls.Add(Me.lblItemImage)
         Me.GroupBox4.Font = New System.Drawing.Font("Myanmar3", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox4.ForeColor = System.Drawing.Color.DeepPink
-        Me.GroupBox4.Location = New System.Drawing.Point(1015, 13)
+        Me.GroupBox4.Location = New System.Drawing.Point(1353, 16)
+        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(145, 170)
+        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox4.Size = New System.Drawing.Size(193, 209)
         Me.GroupBox4.TabIndex = 18
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Photo Here"
@@ -1740,9 +1864,10 @@ Partial Class frm_SaleItemSetupWithVolume
         'btnAdd
         '
         Me.btnAdd.Font = New System.Drawing.Font("Myanmar3", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAdd.Location = New System.Drawing.Point(34, 131)
+        Me.btnAdd.Location = New System.Drawing.Point(45, 161)
+        Me.btnAdd.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(95, 31)
+        Me.btnAdd.Size = New System.Drawing.Size(127, 38)
         Me.btnAdd.TabIndex = 0
         Me.btnAdd.Text = "&Add"
         Me.btnAdd.UseVisualStyleBackColor = True
@@ -1751,9 +1876,10 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.lblPhoto.AutoSize = True
         Me.lblPhoto.ForeColor = System.Drawing.Color.Navy
-        Me.lblPhoto.Location = New System.Drawing.Point(48, 62)
+        Me.lblPhoto.Location = New System.Drawing.Point(64, 76)
+        Me.lblPhoto.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblPhoto.Name = "lblPhoto"
-        Me.lblPhoto.Size = New System.Drawing.Size(42, 19)
+        Me.lblPhoto.Size = New System.Drawing.Size(55, 25)
         Me.lblPhoto.TabIndex = 807
         Me.lblPhoto.Text = "Photo"
         '
@@ -1761,9 +1887,10 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.lblItemImage.BackColor = System.Drawing.Color.Snow
         Me.lblItemImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblItemImage.Location = New System.Drawing.Point(10, 17)
+        Me.lblItemImage.Location = New System.Drawing.Point(13, 21)
+        Me.lblItemImage.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.lblItemImage.Name = "lblItemImage"
-        Me.lblItemImage.Size = New System.Drawing.Size(126, 113)
+        Me.lblItemImage.Size = New System.Drawing.Size(167, 139)
         Me.lblItemImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.lblItemImage.TabIndex = 806
         Me.lblItemImage.TabStop = False
@@ -1793,9 +1920,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.GroupBox5.Controls.Add(Me.chkIsOriginalFixedPrice)
         Me.GroupBox5.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.GroupBox5.ForeColor = System.Drawing.Color.Navy
-        Me.GroupBox5.Location = New System.Drawing.Point(849, 278)
+        Me.GroupBox5.Location = New System.Drawing.Point(1132, 342)
+        Me.GroupBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(310, 209)
+        Me.GroupBox5.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox5.Size = New System.Drawing.Size(413, 257)
         Me.GroupBox5.TabIndex = 22
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "ဝယ်ရင်းစျေး"
@@ -1806,9 +1935,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Font = New System.Drawing.Font("Myanmar3", 9.2!)
         Me.Label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label11.Location = New System.Drawing.Point(15, 171)
+        Me.Label11.Location = New System.Drawing.Point(20, 210)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(51, 38)
+        Me.Label11.Size = New System.Drawing.Size(63, 46)
         Me.Label11.TabIndex = 907
         Me.Label11.Text = "ပန်းထိမ်" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "အလျော့"
         '
@@ -1817,9 +1947,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.radGramPrice.AutoSize = True
         Me.radGramPrice.Checked = True
         Me.radGramPrice.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.radGramPrice.Location = New System.Drawing.Point(44, 69)
+        Me.radGramPrice.Location = New System.Drawing.Point(59, 85)
+        Me.radGramPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.radGramPrice.Name = "radGramPrice"
-        Me.radGramPrice.Size = New System.Drawing.Size(89, 24)
+        Me.radGramPrice.Size = New System.Drawing.Size(107, 29)
         Me.radGramPrice.TabIndex = 3
         Me.radGramPrice.TabStop = True
         Me.radGramPrice.Text = "၁ ဂရမ်စျေး"
@@ -1831,9 +1962,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label22.BackColor = System.Drawing.Color.Transparent
         Me.Label22.Font = New System.Drawing.Font("Myanmar3", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label22.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label22.Location = New System.Drawing.Point(102, 182)
+        Me.Label22.Location = New System.Drawing.Point(136, 224)
+        Me.Label22.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(18, 16)
+        Me.Label22.Size = New System.Drawing.Size(21, 20)
         Me.Label22.TabIndex = 10
         Me.Label22.Text = "K"
         '
@@ -1841,9 +1973,10 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.radKPrice.AutoSize = True
         Me.radKPrice.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.radKPrice.Location = New System.Drawing.Point(44, 96)
+        Me.radKPrice.Location = New System.Drawing.Point(59, 118)
+        Me.radKPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.radKPrice.Name = "radKPrice"
-        Me.radKPrice.Size = New System.Drawing.Size(114, 24)
+        Me.radKPrice.Size = New System.Drawing.Size(138, 29)
         Me.radKPrice.TabIndex = 5
         Me.radKPrice.Text = "၁ ကျပ်သားစျေး"
         Me.radKPrice.UseVisualStyleBackColor = False
@@ -1853,10 +1986,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtPWasteK.BackColor = System.Drawing.Color.White
         Me.txtPWasteK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPWasteK.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPWasteK.Location = New System.Drawing.Point(70, 179)
+        Me.txtPWasteK.Location = New System.Drawing.Point(93, 220)
+        Me.txtPWasteK.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtPWasteK.MaxLength = 3
         Me.txtPWasteK.Name = "txtPWasteK"
-        Me.txtPWasteK.Size = New System.Drawing.Size(31, 21)
+        Me.txtPWasteK.Size = New System.Drawing.Size(41, 24)
         Me.txtPWasteK.TabIndex = 9
         Me.txtPWasteK.Text = "0"
         Me.txtPWasteK.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1866,9 +2000,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtOriginalPriceTK.BackColor = System.Drawing.Color.White
         Me.txtOriginalPriceTK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOriginalPriceTK.Font = New System.Drawing.Font("Tahoma", 8.5!)
-        Me.txtOriginalPriceTK.Location = New System.Drawing.Point(178, 100)
+        Me.txtOriginalPriceTK.Location = New System.Drawing.Point(237, 123)
+        Me.txtOriginalPriceTK.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtOriginalPriceTK.Name = "txtOriginalPriceTK"
-        Me.txtOriginalPriceTK.Size = New System.Drawing.Size(97, 21)
+        Me.txtOriginalPriceTK.Size = New System.Drawing.Size(129, 25)
         Me.txtOriginalPriceTK.TabIndex = 6
         Me.txtOriginalPriceTK.Text = "0"
         Me.txtOriginalPriceTK.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1879,9 +2014,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label26.BackColor = System.Drawing.Color.Transparent
         Me.Label26.Font = New System.Drawing.Font("Myanmar3", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label26.Location = New System.Drawing.Point(154, 181)
+        Me.Label26.Location = New System.Drawing.Point(205, 223)
+        Me.Label26.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(16, 16)
+        Me.Label26.Size = New System.Drawing.Size(19, 20)
         Me.Label26.TabIndex = 8
         Me.Label26.Text = "P"
         '
@@ -1891,9 +2027,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label55.BackColor = System.Drawing.Color.Transparent
         Me.Label55.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.Label55.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label55.Location = New System.Drawing.Point(44, 152)
+        Me.Label55.Location = New System.Drawing.Point(59, 187)
+        Me.Label55.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label55.Name = "Label55"
-        Me.Label55.Size = New System.Drawing.Size(95, 20)
+        Me.Label55.Size = New System.Drawing.Size(113, 25)
         Me.Label55.TabIndex = 881
         Me.Label55.Text = "အခြားအဖိုးအခ"
         '
@@ -1902,10 +2039,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtPWasteP.BackColor = System.Drawing.Color.White
         Me.txtPWasteP.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPWasteP.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPWasteP.Location = New System.Drawing.Point(120, 179)
+        Me.txtPWasteP.Location = New System.Drawing.Point(160, 220)
+        Me.txtPWasteP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtPWasteP.MaxLength = 2
         Me.txtPWasteP.Name = "txtPWasteP"
-        Me.txtPWasteP.Size = New System.Drawing.Size(31, 21)
+        Me.txtPWasteP.Size = New System.Drawing.Size(41, 24)
         Me.txtPWasteP.TabIndex = 10
         Me.txtPWasteP.Text = "0"
         Me.txtPWasteP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1916,9 +2054,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label54.BackColor = System.Drawing.Color.Transparent
         Me.Label54.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.Label54.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label54.Location = New System.Drawing.Point(44, 126)
+        Me.Label54.Location = New System.Drawing.Point(59, 155)
+        Me.Label54.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(132, 20)
+        Me.Label54.Size = New System.Drawing.Size(159, 25)
         Me.Label54.TabIndex = 7
         Me.Label54.Text = "စိန် / ကျောက်ဝယ်စျေး"
         '
@@ -1928,9 +2067,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label27.BackColor = System.Drawing.Color.Transparent
         Me.Label27.Font = New System.Drawing.Font("Myanmar3", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label27.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label27.Location = New System.Drawing.Point(207, 181)
+        Me.Label27.Location = New System.Drawing.Point(276, 223)
+        Me.Label27.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(18, 16)
+        Me.Label27.Size = New System.Drawing.Size(21, 20)
         Me.Label27.TabIndex = 11
         Me.Label27.Text = "Y"
         '
@@ -1940,10 +2080,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtOriginalOtherPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOriginalOtherPrice.Enabled = False
         Me.txtOriginalOtherPrice.Font = New System.Drawing.Font("Tahoma", 8.5!)
-        Me.txtOriginalOtherPrice.Location = New System.Drawing.Point(178, 152)
+        Me.txtOriginalOtherPrice.Location = New System.Drawing.Point(237, 187)
+        Me.txtOriginalOtherPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtOriginalOtherPrice.Name = "txtOriginalOtherPrice"
         Me.txtOriginalOtherPrice.ReadOnly = True
-        Me.txtOriginalOtherPrice.Size = New System.Drawing.Size(97, 21)
+        Me.txtOriginalOtherPrice.Size = New System.Drawing.Size(129, 25)
         Me.txtOriginalOtherPrice.TabIndex = 8
         Me.txtOriginalOtherPrice.Text = "0"
         Me.txtOriginalOtherPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1953,10 +2094,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtPWasteY.BackColor = System.Drawing.Color.White
         Me.txtPWasteY.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPWasteY.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPWasteY.Location = New System.Drawing.Point(170, 179)
+        Me.txtPWasteY.Location = New System.Drawing.Point(227, 220)
+        Me.txtPWasteY.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtPWasteY.MaxLength = 4
         Me.txtPWasteY.Name = "txtPWasteY"
-        Me.txtPWasteY.Size = New System.Drawing.Size(35, 21)
+        Me.txtPWasteY.Size = New System.Drawing.Size(46, 24)
         Me.txtPWasteY.TabIndex = 11
         Me.txtPWasteY.Text = "0"
         Me.txtPWasteY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1966,11 +2108,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtPWasteTG.BackColor = System.Drawing.Color.Linen
         Me.txtPWasteTG.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPWasteTG.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPWasteTG.Location = New System.Drawing.Point(225, 179)
+        Me.txtPWasteTG.Location = New System.Drawing.Point(300, 220)
+        Me.txtPWasteTG.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtPWasteTG.MaxLength = 6
         Me.txtPWasteTG.Name = "txtPWasteTG"
         Me.txtPWasteTG.ReadOnly = True
-        Me.txtPWasteTG.Size = New System.Drawing.Size(53, 21)
+        Me.txtPWasteTG.Size = New System.Drawing.Size(70, 24)
         Me.txtPWasteTG.TabIndex = 12
         Me.txtPWasteTG.Text = "0"
         Me.txtPWasteTG.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1980,9 +2123,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtOriginalGemsPrice.BackColor = System.Drawing.Color.White
         Me.txtOriginalGemsPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOriginalGemsPrice.Font = New System.Drawing.Font("Tahoma", 8.5!)
-        Me.txtOriginalGemsPrice.Location = New System.Drawing.Point(178, 126)
+        Me.txtOriginalGemsPrice.Location = New System.Drawing.Point(237, 155)
+        Me.txtOriginalGemsPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtOriginalGemsPrice.Name = "txtOriginalGemsPrice"
-        Me.txtOriginalGemsPrice.Size = New System.Drawing.Size(97, 21)
+        Me.txtOriginalGemsPrice.Size = New System.Drawing.Size(129, 25)
         Me.txtOriginalGemsPrice.TabIndex = 7
         Me.txtOriginalGemsPrice.Text = "0"
         Me.txtOriginalGemsPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1993,9 +2137,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label29.BackColor = System.Drawing.Color.Transparent
         Me.Label29.Font = New System.Drawing.Font("Myanmar3", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label29.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label29.Location = New System.Drawing.Point(279, 182)
+        Me.Label29.Location = New System.Drawing.Point(372, 224)
+        Me.Label29.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(37, 16)
+        Me.Label29.Size = New System.Drawing.Size(45, 20)
         Me.Label29.TabIndex = 12
         Me.Label29.Text = "gram"
         '
@@ -2004,9 +2149,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtOriginalPriceGram.BackColor = System.Drawing.Color.White
         Me.txtOriginalPriceGram.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOriginalPriceGram.Font = New System.Drawing.Font("Tahoma", 8.5!)
-        Me.txtOriginalPriceGram.Location = New System.Drawing.Point(178, 73)
+        Me.txtOriginalPriceGram.Location = New System.Drawing.Point(237, 90)
+        Me.txtOriginalPriceGram.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtOriginalPriceGram.Name = "txtOriginalPriceGram"
-        Me.txtOriginalPriceGram.Size = New System.Drawing.Size(97, 21)
+        Me.txtOriginalPriceGram.Size = New System.Drawing.Size(129, 25)
         Me.txtOriginalPriceGram.TabIndex = 4
         Me.txtOriginalPriceGram.Text = "0"
         Me.txtOriginalPriceGram.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2016,9 +2162,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtOriginalFixedPrice.BackColor = System.Drawing.Color.White
         Me.txtOriginalFixedPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOriginalFixedPrice.Font = New System.Drawing.Font("Tahoma", 8.5!)
-        Me.txtOriginalFixedPrice.Location = New System.Drawing.Point(175, 24)
+        Me.txtOriginalFixedPrice.Location = New System.Drawing.Point(233, 30)
+        Me.txtOriginalFixedPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtOriginalFixedPrice.Name = "txtOriginalFixedPrice"
-        Me.txtOriginalFixedPrice.Size = New System.Drawing.Size(98, 21)
+        Me.txtOriginalFixedPrice.Size = New System.Drawing.Size(130, 25)
         Me.txtOriginalFixedPrice.TabIndex = 1
         Me.txtOriginalFixedPrice.Text = "0"
         Me.txtOriginalFixedPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2028,9 +2175,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.chkIsOriginalPriceGram.AutoSize = True
         Me.chkIsOriginalPriceGram.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.chkIsOriginalPriceGram.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.chkIsOriginalPriceGram.Location = New System.Drawing.Point(13, 47)
+        Me.chkIsOriginalPriceGram.Location = New System.Drawing.Point(17, 58)
+        Me.chkIsOriginalPriceGram.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkIsOriginalPriceGram.Name = "chkIsOriginalPriceGram"
-        Me.chkIsOriginalPriceGram.Size = New System.Drawing.Size(98, 24)
+        Me.chkIsOriginalPriceGram.Size = New System.Drawing.Size(117, 29)
         Me.chkIsOriginalPriceGram.TabIndex = 2
         Me.chkIsOriginalPriceGram.Text = "ဝယ်ရင်းစျေး"
         Me.chkIsOriginalPriceGram.UseVisualStyleBackColor = False
@@ -2040,9 +2188,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.chkIsOriginalFixedPrice.AutoSize = True
         Me.chkIsOriginalFixedPrice.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.chkIsOriginalFixedPrice.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.chkIsOriginalFixedPrice.Location = New System.Drawing.Point(13, 22)
+        Me.chkIsOriginalFixedPrice.Location = New System.Drawing.Point(17, 27)
+        Me.chkIsOriginalFixedPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkIsOriginalFixedPrice.Name = "chkIsOriginalFixedPrice"
-        Me.chkIsOriginalFixedPrice.Size = New System.Drawing.Size(112, 24)
+        Me.chkIsOriginalFixedPrice.Size = New System.Drawing.Size(133, 29)
         Me.chkIsOriginalFixedPrice.TabIndex = 0
         Me.chkIsOriginalFixedPrice.Text = "ဒုံးဝယ်ရင်းစျေး"
         Me.chkIsOriginalFixedPrice.UseVisualStyleBackColor = False
@@ -2057,9 +2206,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.GroupBox3.Controls.Add(Me.Label52)
         Me.GroupBox3.Controls.Add(Me.Label53)
         Me.GroupBox3.Controls.Add(Me.txtPlatingCharges)
-        Me.GroupBox3.Location = New System.Drawing.Point(801, 14)
+        Me.GroupBox3.Location = New System.Drawing.Point(1068, 17)
+        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(206, 167)
+        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox3.Size = New System.Drawing.Size(275, 206)
         Me.GroupBox3.TabIndex = 17
         Me.GroupBox3.TabStop = False
         '
@@ -2068,9 +2219,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtWhiteCharges.BackColor = System.Drawing.Color.White
         Me.txtWhiteCharges.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtWhiteCharges.Font = New System.Drawing.Font("Tahoma", 8.5!)
-        Me.txtWhiteCharges.Location = New System.Drawing.Point(86, 127)
+        Me.txtWhiteCharges.Location = New System.Drawing.Point(115, 156)
+        Me.txtWhiteCharges.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtWhiteCharges.Name = "txtWhiteCharges"
-        Me.txtWhiteCharges.Size = New System.Drawing.Size(107, 21)
+        Me.txtWhiteCharges.Size = New System.Drawing.Size(142, 25)
         Me.txtWhiteCharges.TabIndex = 21
         Me.txtWhiteCharges.Text = "0"
         Me.txtWhiteCharges.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -2080,9 +2232,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label50.AutoSize = True
         Me.Label50.BackColor = System.Drawing.Color.Transparent
         Me.Label50.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.Label50.Location = New System.Drawing.Point(39, 26)
+        Me.Label50.Location = New System.Drawing.Point(52, 32)
+        Me.Label50.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(47, 20)
+        Me.Label50.Size = New System.Drawing.Size(58, 25)
         Me.Label50.TabIndex = 846
         Me.Label50.Text = "လက်ခ"
         '
@@ -2091,9 +2244,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label51.AutoSize = True
         Me.Label51.BackColor = System.Drawing.Color.Transparent
         Me.Label51.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.Label51.Location = New System.Drawing.Point(14, 128)
+        Me.Label51.Location = New System.Drawing.Point(19, 158)
+        Me.Label51.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(72, 20)
+        Me.Label51.Size = New System.Drawing.Size(86, 25)
         Me.Label51.TabIndex = 852
         Me.Label51.Text = "အဖြူမှုတ်ခ"
         '
@@ -2102,9 +2256,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtDesignCharges.BackColor = System.Drawing.Color.White
         Me.txtDesignCharges.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDesignCharges.Font = New System.Drawing.Font("Tahoma", 8.5!)
-        Me.txtDesignCharges.Location = New System.Drawing.Point(86, 25)
+        Me.txtDesignCharges.Location = New System.Drawing.Point(115, 31)
+        Me.txtDesignCharges.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtDesignCharges.Name = "txtDesignCharges"
-        Me.txtDesignCharges.Size = New System.Drawing.Size(107, 21)
+        Me.txtDesignCharges.Size = New System.Drawing.Size(142, 25)
         Me.txtDesignCharges.TabIndex = 18
         Me.txtDesignCharges.Text = "0"
         Me.txtDesignCharges.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -2114,9 +2269,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtMountingCharges.BackColor = System.Drawing.Color.White
         Me.txtMountingCharges.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtMountingCharges.Font = New System.Drawing.Font("Tahoma", 8.5!)
-        Me.txtMountingCharges.Location = New System.Drawing.Point(86, 93)
+        Me.txtMountingCharges.Location = New System.Drawing.Point(115, 114)
+        Me.txtMountingCharges.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtMountingCharges.Name = "txtMountingCharges"
-        Me.txtMountingCharges.Size = New System.Drawing.Size(107, 21)
+        Me.txtMountingCharges.Size = New System.Drawing.Size(142, 25)
         Me.txtMountingCharges.TabIndex = 20
         Me.txtMountingCharges.Text = "0"
         Me.txtMountingCharges.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -2126,9 +2282,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label52.AutoSize = True
         Me.Label52.BackColor = System.Drawing.Color.Transparent
         Me.Label52.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.Label52.Location = New System.Drawing.Point(-1, 60)
+        Me.Label52.Location = New System.Drawing.Point(-1, 74)
+        Me.Label52.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label52.Name = "Label52"
-        Me.Label52.Size = New System.Drawing.Size(87, 20)
+        Me.Label52.Size = New System.Drawing.Size(104, 25)
         Me.Label52.TabIndex = 848
         Me.Label52.Text = "အရောင်တင်ခ"
         '
@@ -2137,9 +2294,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label53.AutoSize = True
         Me.Label53.BackColor = System.Drawing.Color.Transparent
         Me.Label53.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.Label53.Location = New System.Drawing.Point(26, 94)
+        Me.Label53.Location = New System.Drawing.Point(35, 116)
+        Me.Label53.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(60, 20)
+        Me.Label53.Size = New System.Drawing.Size(70, 25)
         Me.Label53.TabIndex = 850
         Me.Label53.Text = "စိန်တပ်ခ"
         '
@@ -2148,9 +2306,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtPlatingCharges.BackColor = System.Drawing.Color.White
         Me.txtPlatingCharges.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPlatingCharges.Font = New System.Drawing.Font("Tahoma", 8.5!)
-        Me.txtPlatingCharges.Location = New System.Drawing.Point(86, 59)
+        Me.txtPlatingCharges.Location = New System.Drawing.Point(115, 73)
+        Me.txtPlatingCharges.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtPlatingCharges.Name = "txtPlatingCharges"
-        Me.txtPlatingCharges.Size = New System.Drawing.Size(107, 21)
+        Me.txtPlatingCharges.Size = New System.Drawing.Size(142, 25)
         Me.txtPlatingCharges.TabIndex = 19
         Me.txtPlatingCharges.Text = "0"
         Me.txtPlatingCharges.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -2204,9 +2363,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.GroupBox2.Controls.Add(Me.Label49)
         Me.GroupBox2.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.GroupBox2.ForeColor = System.Drawing.Color.DeepPink
-        Me.GroupBox2.Location = New System.Drawing.Point(342, 15)
+        Me.GroupBox2.Location = New System.Drawing.Point(456, 18)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(450, 166)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox2.Size = New System.Drawing.Size(600, 204)
         Me.GroupBox2.TabIndex = 9
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "အလေးချိန်"
@@ -2216,11 +2377,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtItemTG.BackColor = System.Drawing.Color.Linen
         Me.txtItemTG.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtItemTG.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtItemTG.Location = New System.Drawing.Point(347, 21)
+        Me.txtItemTG.Location = New System.Drawing.Point(463, 26)
+        Me.txtItemTG.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtItemTG.MaxLength = 6
         Me.txtItemTG.Name = "txtItemTG"
         Me.txtItemTG.ReadOnly = True
-        Me.txtItemTG.Size = New System.Drawing.Size(63, 21)
+        Me.txtItemTG.Size = New System.Drawing.Size(83, 24)
         Me.txtItemTG.TabIndex = 844
         Me.txtItemTG.Text = "0"
         Me.txtItemTG.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2231,9 +2393,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label19.BackColor = System.Drawing.Color.Transparent
         Me.Label19.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.Label19.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label19.Location = New System.Drawing.Point(21, 48)
+        Me.Label19.Location = New System.Drawing.Point(28, 59)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(99, 20)
+        Me.Label19.Size = New System.Drawing.Size(121, 25)
         Me.Label19.TabIndex = 843
         Me.Label19.Text = "ဆိုင်တင်အလျော့"
         '
@@ -2242,10 +2405,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtItemK.BackColor = System.Drawing.Color.White
         Me.txtItemK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtItemK.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtItemK.Location = New System.Drawing.Point(121, 22)
+        Me.txtItemK.Location = New System.Drawing.Point(161, 27)
+        Me.txtItemK.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtItemK.MaxLength = 3
         Me.txtItemK.Name = "txtItemK"
-        Me.txtItemK.Size = New System.Drawing.Size(51, 21)
+        Me.txtItemK.Size = New System.Drawing.Size(67, 24)
         Me.txtItemK.TabIndex = 1
         Me.txtItemK.Text = "0"
         Me.txtItemK.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2256,9 +2420,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label36.BackColor = System.Drawing.Color.Transparent
         Me.Label36.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.Label36.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label36.Location = New System.Drawing.Point(-1, 108)
+        Me.Label36.Location = New System.Drawing.Point(-1, 133)
+        Me.Label36.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(121, 20)
+        Me.Label36.Size = New System.Drawing.Size(148, 25)
         Me.Label36.TabIndex = 842
         Me.Label36.Text = "ရွှေအတင်အလေးချိန်"
         '
@@ -2267,11 +2432,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtGoldTG.BackColor = System.Drawing.Color.Linen
         Me.txtGoldTG.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtGoldTG.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtGoldTG.Location = New System.Drawing.Point(346, 108)
+        Me.txtGoldTG.Location = New System.Drawing.Point(461, 133)
+        Me.txtGoldTG.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtGoldTG.MaxLength = 6
         Me.txtGoldTG.Name = "txtGoldTG"
         Me.txtGoldTG.ReadOnly = True
-        Me.txtGoldTG.Size = New System.Drawing.Size(63, 21)
+        Me.txtGoldTG.Size = New System.Drawing.Size(83, 24)
         Me.txtGoldTG.TabIndex = 841
         Me.txtGoldTG.TabStop = False
         Me.txtGoldTG.Text = "0"
@@ -2283,9 +2449,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label23.BackColor = System.Drawing.Color.Transparent
         Me.Label23.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label23.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label23.Location = New System.Drawing.Point(175, 24)
+        Me.Label23.Location = New System.Drawing.Point(233, 30)
+        Me.Label23.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(18, 16)
+        Me.Label23.Size = New System.Drawing.Size(21, 20)
         Me.Label23.TabIndex = 384
         Me.Label23.Text = "K"
         '
@@ -2295,9 +2462,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label37.BackColor = System.Drawing.Color.Transparent
         Me.Label37.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label37.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label37.Location = New System.Drawing.Point(411, 108)
+        Me.Label37.Location = New System.Drawing.Point(548, 133)
+        Me.Label37.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(37, 16)
+        Me.Label37.Size = New System.Drawing.Size(45, 20)
         Me.Label37.TabIndex = 840
         Me.Label37.Text = "gram"
         '
@@ -2307,9 +2475,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label20.BackColor = System.Drawing.Color.Transparent
         Me.Label20.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label20.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label20.Location = New System.Drawing.Point(252, 24)
+        Me.Label20.Location = New System.Drawing.Point(336, 30)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(16, 16)
+        Me.Label20.Size = New System.Drawing.Size(19, 20)
         Me.Label20.TabIndex = 2
         Me.Label20.Text = "P"
         '
@@ -2318,10 +2487,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtItemP.BackColor = System.Drawing.Color.White
         Me.txtItemP.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtItemP.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtItemP.Location = New System.Drawing.Point(198, 22)
+        Me.txtItemP.Location = New System.Drawing.Point(264, 27)
+        Me.txtItemP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtItemP.MaxLength = 2
         Me.txtItemP.Name = "txtItemP"
-        Me.txtItemP.Size = New System.Drawing.Size(51, 21)
+        Me.txtItemP.Size = New System.Drawing.Size(67, 24)
         Me.txtItemP.TabIndex = 2
         Me.txtItemP.Text = "0"
         Me.txtItemP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2332,9 +2502,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label21.BackColor = System.Drawing.Color.Transparent
         Me.Label21.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label21.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label21.Location = New System.Drawing.Point(325, 24)
+        Me.Label21.Location = New System.Drawing.Point(433, 30)
+        Me.Label21.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(18, 16)
+        Me.Label21.Size = New System.Drawing.Size(21, 20)
         Me.Label21.TabIndex = 388
         Me.Label21.Text = "Y"
         '
@@ -2343,11 +2514,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtGoldY.BackColor = System.Drawing.Color.Linen
         Me.txtGoldY.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtGoldY.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtGoldY.Location = New System.Drawing.Point(273, 108)
+        Me.txtGoldY.Location = New System.Drawing.Point(364, 133)
+        Me.txtGoldY.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtGoldY.MaxLength = 3
         Me.txtGoldY.Name = "txtGoldY"
         Me.txtGoldY.ReadOnly = True
-        Me.txtGoldY.Size = New System.Drawing.Size(48, 21)
+        Me.txtGoldY.Size = New System.Drawing.Size(63, 24)
         Me.txtGoldY.TabIndex = 833
         Me.txtGoldY.TabStop = False
         Me.txtGoldY.Text = "0"
@@ -2358,10 +2530,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtItemY.BackColor = System.Drawing.Color.White
         Me.txtItemY.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtItemY.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtItemY.Location = New System.Drawing.Point(274, 22)
+        Me.txtItemY.Location = New System.Drawing.Point(365, 27)
+        Me.txtItemY.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtItemY.MaxLength = 4
         Me.txtItemY.Name = "txtItemY"
-        Me.txtItemY.Size = New System.Drawing.Size(47, 21)
+        Me.txtItemY.Size = New System.Drawing.Size(62, 24)
         Me.txtItemY.TabIndex = 3
         Me.txtItemY.Text = "0"
         Me.txtItemY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2372,9 +2545,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label39.BackColor = System.Drawing.Color.Transparent
         Me.Label39.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label39.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label39.Location = New System.Drawing.Point(324, 110)
+        Me.Label39.Location = New System.Drawing.Point(432, 135)
+        Me.Label39.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(18, 16)
+        Me.Label39.Size = New System.Drawing.Size(21, 20)
         Me.Label39.TabIndex = 838
         Me.Label39.Text = "Y"
         '
@@ -2383,11 +2557,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtGoldP.BackColor = System.Drawing.Color.Linen
         Me.txtGoldP.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtGoldP.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtGoldP.Location = New System.Drawing.Point(197, 108)
+        Me.txtGoldP.Location = New System.Drawing.Point(263, 133)
+        Me.txtGoldP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtGoldP.MaxLength = 2
         Me.txtGoldP.Name = "txtGoldP"
         Me.txtGoldP.ReadOnly = True
-        Me.txtGoldP.Size = New System.Drawing.Size(52, 21)
+        Me.txtGoldP.Size = New System.Drawing.Size(69, 24)
         Me.txtGoldP.TabIndex = 832
         Me.txtGoldP.TabStop = False
         Me.txtGoldP.Text = "0"
@@ -2399,9 +2574,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label40.BackColor = System.Drawing.Color.Transparent
         Me.Label40.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label40.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label40.Location = New System.Drawing.Point(253, 109)
+        Me.Label40.Location = New System.Drawing.Point(337, 134)
+        Me.Label40.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(16, 16)
+        Me.Label40.Size = New System.Drawing.Size(19, 20)
         Me.Label40.TabIndex = 837
         Me.Label40.Text = "P"
         '
@@ -2410,11 +2586,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtGoldK.BackColor = System.Drawing.Color.Linen
         Me.txtGoldK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtGoldK.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtGoldK.Location = New System.Drawing.Point(120, 108)
+        Me.txtGoldK.Location = New System.Drawing.Point(160, 133)
+        Me.txtGoldK.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtGoldK.MaxLength = 3
         Me.txtGoldK.Name = "txtGoldK"
         Me.txtGoldK.ReadOnly = True
-        Me.txtGoldK.Size = New System.Drawing.Size(52, 21)
+        Me.txtGoldK.Size = New System.Drawing.Size(69, 24)
         Me.txtGoldK.TabIndex = 831
         Me.txtGoldK.TabStop = False
         Me.txtGoldK.Text = "0"
@@ -2426,9 +2603,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label31.BackColor = System.Drawing.Color.Transparent
         Me.Label31.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.Label31.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label31.Location = New System.Drawing.Point(19, 74)
+        Me.Label31.Location = New System.Drawing.Point(25, 91)
+        Me.Label31.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(101, 20)
+        Me.Label31.Size = New System.Drawing.Size(123, 25)
         Me.Label31.TabIndex = 402
         Me.Label31.Text = "အလေးချိန်ပေါင်း"
         '
@@ -2438,9 +2616,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label41.BackColor = System.Drawing.Color.Transparent
         Me.Label41.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label41.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label41.Location = New System.Drawing.Point(174, 110)
+        Me.Label41.Location = New System.Drawing.Point(232, 135)
+        Me.Label41.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(18, 16)
+        Me.Label41.Size = New System.Drawing.Size(21, 20)
         Me.Label41.TabIndex = 836
         Me.Label41.Text = "K"
         '
@@ -2450,9 +2629,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label30.BackColor = System.Drawing.Color.Transparent
         Me.Label30.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label30.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label30.Location = New System.Drawing.Point(175, 76)
+        Me.Label30.Location = New System.Drawing.Point(233, 94)
+        Me.Label30.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(18, 16)
+        Me.Label30.Size = New System.Drawing.Size(21, 20)
         Me.Label30.TabIndex = 404
         Me.Label30.Text = "K"
         '
@@ -2461,11 +2641,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtTotalK.BackColor = System.Drawing.Color.Linen
         Me.txtTotalK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTotalK.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTotalK.Location = New System.Drawing.Point(121, 74)
+        Me.txtTotalK.Location = New System.Drawing.Point(161, 91)
+        Me.txtTotalK.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtTotalK.MaxLength = 3
         Me.txtTotalK.Name = "txtTotalK"
         Me.txtTotalK.ReadOnly = True
-        Me.txtTotalK.Size = New System.Drawing.Size(51, 21)
+        Me.txtTotalK.Size = New System.Drawing.Size(67, 24)
         Me.txtTotalK.TabIndex = 26
         Me.txtTotalK.TabStop = False
         Me.txtTotalK.Text = "0"
@@ -2477,9 +2658,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label34.BackColor = System.Drawing.Color.Transparent
         Me.Label34.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.Label34.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label34.Location = New System.Drawing.Point(6, 136)
+        Me.Label34.Location = New System.Drawing.Point(8, 167)
+        Me.Label34.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(114, 20)
+        Me.Label34.Size = New System.Drawing.Size(140, 25)
         Me.Label34.TabIndex = 830
         Me.Label34.Text = "ကျောက်အလေးချိန်"
         '
@@ -2489,9 +2671,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label32.BackColor = System.Drawing.Color.Transparent
         Me.Label32.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label32.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label32.Location = New System.Drawing.Point(252, 76)
+        Me.Label32.Location = New System.Drawing.Point(336, 94)
+        Me.Label32.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(16, 16)
+        Me.Label32.Size = New System.Drawing.Size(19, 20)
         Me.Label32.TabIndex = 406
         Me.Label32.Text = "P"
         '
@@ -2500,11 +2683,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtGemTG.BackColor = System.Drawing.Color.Linen
         Me.txtGemTG.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtGemTG.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtGemTG.Location = New System.Drawing.Point(346, 136)
+        Me.txtGemTG.Location = New System.Drawing.Point(461, 167)
+        Me.txtGemTG.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtGemTG.MaxLength = 6
         Me.txtGemTG.Name = "txtGemTG"
         Me.txtGemTG.ReadOnly = True
-        Me.txtGemTG.Size = New System.Drawing.Size(63, 21)
+        Me.txtGemTG.Size = New System.Drawing.Size(83, 24)
         Me.txtGemTG.TabIndex = 829
         Me.txtGemTG.TabStop = False
         Me.txtGemTG.Text = "0"
@@ -2515,11 +2699,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtTotalP.BackColor = System.Drawing.Color.Linen
         Me.txtTotalP.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTotalP.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTotalP.Location = New System.Drawing.Point(198, 74)
+        Me.txtTotalP.Location = New System.Drawing.Point(264, 91)
+        Me.txtTotalP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtTotalP.MaxLength = 2
         Me.txtTotalP.Name = "txtTotalP"
         Me.txtTotalP.ReadOnly = True
-        Me.txtTotalP.Size = New System.Drawing.Size(51, 21)
+        Me.txtTotalP.Size = New System.Drawing.Size(67, 24)
         Me.txtTotalP.TabIndex = 27
         Me.txtTotalP.TabStop = False
         Me.txtTotalP.Text = "0"
@@ -2531,9 +2716,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label33.BackColor = System.Drawing.Color.Transparent
         Me.Label33.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label33.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label33.Location = New System.Drawing.Point(411, 136)
+        Me.Label33.Location = New System.Drawing.Point(548, 167)
+        Me.Label33.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(37, 16)
+        Me.Label33.Size = New System.Drawing.Size(45, 20)
         Me.Label33.TabIndex = 828
         Me.Label33.Text = "gram"
         '
@@ -2543,9 +2729,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label35.BackColor = System.Drawing.Color.Transparent
         Me.Label35.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label35.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label35.Location = New System.Drawing.Point(324, 76)
+        Me.Label35.Location = New System.Drawing.Point(432, 94)
+        Me.Label35.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(18, 16)
+        Me.Label35.Size = New System.Drawing.Size(21, 20)
         Me.Label35.TabIndex = 408
         Me.Label35.Text = "Y"
         '
@@ -2554,11 +2741,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtTotalY.BackColor = System.Drawing.Color.Linen
         Me.txtTotalY.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTotalY.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTotalY.Location = New System.Drawing.Point(273, 74)
+        Me.txtTotalY.Location = New System.Drawing.Point(364, 91)
+        Me.txtTotalY.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtTotalY.MaxLength = 3
         Me.txtTotalY.Name = "txtTotalY"
         Me.txtTotalY.ReadOnly = True
-        Me.txtTotalY.Size = New System.Drawing.Size(48, 21)
+        Me.txtTotalY.Size = New System.Drawing.Size(63, 24)
         Me.txtTotalY.TabIndex = 28
         Me.txtTotalY.TabStop = False
         Me.txtTotalY.Text = "0"
@@ -2569,11 +2757,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtGemY.BackColor = System.Drawing.Color.Linen
         Me.txtGemY.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtGemY.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtGemY.Location = New System.Drawing.Point(273, 136)
+        Me.txtGemY.Location = New System.Drawing.Point(364, 167)
+        Me.txtGemY.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtGemY.MaxLength = 3
         Me.txtGemY.Name = "txtGemY"
         Me.txtGemY.ReadOnly = True
-        Me.txtGemY.Size = New System.Drawing.Size(48, 21)
+        Me.txtGemY.Size = New System.Drawing.Size(63, 24)
         Me.txtGemY.TabIndex = 820
         Me.txtGemY.TabStop = False
         Me.txtGemY.Text = "0"
@@ -2585,9 +2774,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label38.BackColor = System.Drawing.Color.Transparent
         Me.Label38.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label38.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label38.Location = New System.Drawing.Point(324, 138)
+        Me.Label38.Location = New System.Drawing.Point(432, 170)
+        Me.Label38.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(18, 16)
+        Me.Label38.Size = New System.Drawing.Size(21, 20)
         Me.Label38.TabIndex = 825
         Me.Label38.Text = "Y"
         '
@@ -2596,11 +2786,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtGemP.BackColor = System.Drawing.Color.Linen
         Me.txtGemP.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtGemP.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtGemP.Location = New System.Drawing.Point(197, 136)
+        Me.txtGemP.Location = New System.Drawing.Point(263, 167)
+        Me.txtGemP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtGemP.MaxLength = 2
         Me.txtGemP.Name = "txtGemP"
         Me.txtGemP.ReadOnly = True
-        Me.txtGemP.Size = New System.Drawing.Size(52, 21)
+        Me.txtGemP.Size = New System.Drawing.Size(69, 24)
         Me.txtGemP.TabIndex = 819
         Me.txtGemP.TabStop = False
         Me.txtGemP.Text = "0"
@@ -2612,9 +2803,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label42.BackColor = System.Drawing.Color.Transparent
         Me.Label42.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label42.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label42.Location = New System.Drawing.Point(253, 137)
+        Me.Label42.Location = New System.Drawing.Point(337, 169)
+        Me.Label42.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(16, 16)
+        Me.Label42.Size = New System.Drawing.Size(19, 20)
         Me.Label42.TabIndex = 824
         Me.Label42.Text = "P"
         '
@@ -2624,9 +2816,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label43.BackColor = System.Drawing.Color.Transparent
         Me.Label43.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label43.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label43.Location = New System.Drawing.Point(175, 50)
+        Me.Label43.Location = New System.Drawing.Point(233, 62)
+        Me.Label43.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(18, 16)
+        Me.Label43.Size = New System.Drawing.Size(21, 20)
         Me.Label43.TabIndex = 423
         Me.Label43.Text = "K"
         '
@@ -2635,11 +2828,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtGemK.BackColor = System.Drawing.Color.Linen
         Me.txtGemK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtGemK.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtGemK.Location = New System.Drawing.Point(120, 136)
+        Me.txtGemK.Location = New System.Drawing.Point(160, 167)
+        Me.txtGemK.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtGemK.MaxLength = 3
         Me.txtGemK.Name = "txtGemK"
         Me.txtGemK.ReadOnly = True
-        Me.txtGemK.Size = New System.Drawing.Size(52, 21)
+        Me.txtGemK.Size = New System.Drawing.Size(69, 24)
         Me.txtGemK.TabIndex = 818
         Me.txtGemK.TabStop = False
         Me.txtGemK.Text = "0"
@@ -2650,10 +2844,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtWasteK.BackColor = System.Drawing.Color.White
         Me.txtWasteK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtWasteK.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtWasteK.Location = New System.Drawing.Point(121, 48)
+        Me.txtWasteK.Location = New System.Drawing.Point(161, 59)
+        Me.txtWasteK.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtWasteK.MaxLength = 3
         Me.txtWasteK.Name = "txtWasteK"
-        Me.txtWasteK.Size = New System.Drawing.Size(51, 21)
+        Me.txtWasteK.Size = New System.Drawing.Size(67, 24)
         Me.txtWasteK.TabIndex = 3
         Me.txtWasteK.Text = "0"
         Me.txtWasteK.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2664,9 +2859,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label44.BackColor = System.Drawing.Color.Transparent
         Me.Label44.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label44.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label44.Location = New System.Drawing.Point(174, 139)
+        Me.Label44.Location = New System.Drawing.Point(232, 171)
+        Me.Label44.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(18, 16)
+        Me.Label44.Size = New System.Drawing.Size(21, 20)
         Me.Label44.TabIndex = 823
         Me.Label44.Text = "K"
         '
@@ -2676,9 +2872,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label45.BackColor = System.Drawing.Color.Transparent
         Me.Label45.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label45.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label45.Location = New System.Drawing.Point(252, 50)
+        Me.Label45.Location = New System.Drawing.Point(336, 62)
+        Me.Label45.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(16, 16)
+        Me.Label45.Size = New System.Drawing.Size(19, 20)
         Me.Label45.TabIndex = 425
         Me.Label45.Text = "P"
         '
@@ -2687,10 +2884,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtWasteP.BackColor = System.Drawing.Color.White
         Me.txtWasteP.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtWasteP.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtWasteP.Location = New System.Drawing.Point(198, 48)
+        Me.txtWasteP.Location = New System.Drawing.Point(264, 59)
+        Me.txtWasteP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtWasteP.MaxLength = 2
         Me.txtWasteP.Name = "txtWasteP"
-        Me.txtWasteP.Size = New System.Drawing.Size(51, 21)
+        Me.txtWasteP.Size = New System.Drawing.Size(67, 24)
         Me.txtWasteP.TabIndex = 4
         Me.txtWasteP.Text = "0"
         Me.txtWasteP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2701,9 +2899,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label46.BackColor = System.Drawing.Color.Transparent
         Me.Label46.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label46.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label46.Location = New System.Drawing.Point(324, 50)
+        Me.Label46.Location = New System.Drawing.Point(432, 62)
+        Me.Label46.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(18, 16)
+        Me.Label46.Size = New System.Drawing.Size(21, 20)
         Me.Label46.TabIndex = 427
         Me.Label46.Text = "Y"
         '
@@ -2712,10 +2911,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtWasteY.BackColor = System.Drawing.Color.White
         Me.txtWasteY.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtWasteY.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtWasteY.Location = New System.Drawing.Point(273, 48)
+        Me.txtWasteY.Location = New System.Drawing.Point(364, 59)
+        Me.txtWasteY.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtWasteY.MaxLength = 4
         Me.txtWasteY.Name = "txtWasteY"
-        Me.txtWasteY.Size = New System.Drawing.Size(48, 21)
+        Me.txtWasteY.Size = New System.Drawing.Size(63, 24)
         Me.txtWasteY.TabIndex = 5
         Me.txtWasteY.Text = "0"
         Me.txtWasteY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2725,9 +2925,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.LnkTotalNoWaste.AutoSize = True
         Me.LnkTotalNoWaste.BackColor = System.Drawing.Color.Transparent
         Me.LnkTotalNoWaste.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.LnkTotalNoWaste.Location = New System.Drawing.Point(50, 22)
+        Me.LnkTotalNoWaste.Location = New System.Drawing.Point(67, 27)
+        Me.LnkTotalNoWaste.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LnkTotalNoWaste.Name = "LnkTotalNoWaste"
-        Me.LnkTotalNoWaste.Size = New System.Drawing.Size(70, 20)
+        Me.LnkTotalNoWaste.Size = New System.Drawing.Size(86, 25)
         Me.LnkTotalNoWaste.TabIndex = 3
         Me.LnkTotalNoWaste.TabStop = True
         Me.LnkTotalNoWaste.Text = "အထည်ချိန်"
@@ -2738,9 +2939,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label47.BackColor = System.Drawing.Color.Transparent
         Me.Label47.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label47.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label47.Location = New System.Drawing.Point(412, 24)
+        Me.Label47.Location = New System.Drawing.Point(549, 30)
+        Me.Label47.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(37, 16)
+        Me.Label47.Size = New System.Drawing.Size(45, 20)
         Me.Label47.TabIndex = 684
         Me.Label47.Text = "gram"
         '
@@ -2749,11 +2951,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtWasteTG.BackColor = System.Drawing.Color.Linen
         Me.txtWasteTG.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtWasteTG.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtWasteTG.Location = New System.Drawing.Point(347, 48)
+        Me.txtWasteTG.Location = New System.Drawing.Point(463, 59)
+        Me.txtWasteTG.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtWasteTG.MaxLength = 6
         Me.txtWasteTG.Name = "txtWasteTG"
         Me.txtWasteTG.ReadOnly = True
-        Me.txtWasteTG.Size = New System.Drawing.Size(63, 21)
+        Me.txtWasteTG.Size = New System.Drawing.Size(83, 24)
         Me.txtWasteTG.TabIndex = 5
         Me.txtWasteTG.Text = "0"
         Me.txtWasteTG.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2764,9 +2967,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label48.BackColor = System.Drawing.Color.Transparent
         Me.Label48.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label48.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label48.Location = New System.Drawing.Point(412, 50)
+        Me.Label48.Location = New System.Drawing.Point(549, 62)
+        Me.Label48.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(37, 16)
+        Me.Label48.Size = New System.Drawing.Size(45, 20)
         Me.Label48.TabIndex = 688
         Me.Label48.Text = "gram"
         '
@@ -2775,11 +2979,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtTotalTG.BackColor = System.Drawing.Color.Linen
         Me.txtTotalTG.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTotalTG.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTotalTG.Location = New System.Drawing.Point(347, 74)
+        Me.txtTotalTG.Location = New System.Drawing.Point(463, 91)
+        Me.txtTotalTG.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtTotalTG.MaxLength = 6
         Me.txtTotalTG.Name = "txtTotalTG"
         Me.txtTotalTG.ReadOnly = True
-        Me.txtTotalTG.Size = New System.Drawing.Size(63, 21)
+        Me.txtTotalTG.Size = New System.Drawing.Size(83, 24)
         Me.txtTotalTG.TabIndex = 689
         Me.txtTotalTG.TabStop = False
         Me.txtTotalTG.Text = "0"
@@ -2791,9 +2996,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label49.BackColor = System.Drawing.Color.Transparent
         Me.Label49.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label49.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label49.Location = New System.Drawing.Point(412, 76)
+        Me.Label49.Location = New System.Drawing.Point(549, 94)
+        Me.Label49.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(37, 16)
+        Me.Label49.Size = New System.Drawing.Size(45, 20)
         Me.Label49.TabIndex = 690
         Me.Label49.Text = "gram"
         '
@@ -2817,7 +3023,8 @@ Partial Class frm_SaleItemSetupWithVolume
         DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.grdGems.DefaultCellStyle = DataGridViewCellStyle2
-        Me.grdGems.Location = New System.Drawing.Point(7, 283)
+        Me.grdGems.Location = New System.Drawing.Point(9, 348)
+        Me.grdGems.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.grdGems.Name = "grdGems"
         DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
         DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control
@@ -2828,13 +3035,14 @@ Partial Class frm_SaleItemSetupWithVolume
         DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.grdGems.RowHeadersDefaultCellStyle = DataGridViewCellStyle3
         Me.grdGems.RowHeadersWidth = 25
-        Me.grdGems.Size = New System.Drawing.Size(834, 192)
+        Me.grdGems.Size = New System.Drawing.Size(1112, 236)
         Me.grdGems.TabIndex = 14
         Me.grdGems.TabStop = False
         '
         'GemsCategory
         '
         Me.GemsCategory.HeaderText = "Category"
+        Me.GemsCategory.MinimumWidth = 6
         Me.GemsCategory.Name = "GemsCategory"
         Me.GemsCategory.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
         Me.GemsCategory.Width = 210
@@ -2842,18 +3050,21 @@ Partial Class frm_SaleItemSetupWithVolume
         'RBP
         '
         Me.RBP.HeaderText = "RBP"
+        Me.RBP.MinimumWidth = 6
         Me.RBP.Name = "RBP"
         Me.RBP.Width = 50
         '
         'QTY
         '
         Me.QTY.HeaderText = "QTY"
+        Me.QTY.MinimumWidth = 6
         Me.QTY.Name = "QTY"
         Me.QTY.Width = 40
         '
         'GemsName
         '
         Me.GemsName.HeaderText = "Gems Name"
+        Me.GemsName.MinimumWidth = 6
         Me.GemsName.Name = "GemsName"
         Me.GemsName.Width = 150
         '
@@ -2861,6 +3072,7 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.Fix.HeaderText = "Fix"
         Me.Fix.Items.AddRange(New Object() {"Fix", "ByWeight", "ByQty"})
+        Me.Fix.MinimumWidth = 6
         Me.Fix.Name = "Fix"
         Me.Fix.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
         Me.Fix.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
@@ -2869,18 +3081,23 @@ Partial Class frm_SaleItemSetupWithVolume
         'UnitPrice
         '
         Me.UnitPrice.HeaderText = "UnitPrice"
+        Me.UnitPrice.MinimumWidth = 6
         Me.UnitPrice.Name = "UnitPrice"
+        Me.UnitPrice.Width = 125
         '
         'Amount
         '
         Me.Amount.HeaderText = "Amount"
+        Me.Amount.MinimumWidth = 6
         Me.Amount.Name = "Amount"
         Me.Amount.Width = 110
         '
         'GemsRemark
         '
         Me.GemsRemark.HeaderText = "GemsRemark"
+        Me.GemsRemark.MinimumWidth = 6
         Me.GemsRemark.Name = "GemsRemark"
+        Me.GemsRemark.Width = 125
         '
         'chkByFixedPrice
         '
@@ -2888,9 +3105,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.chkByFixedPrice.BackColor = System.Drawing.Color.Transparent
         Me.chkByFixedPrice.Font = New System.Drawing.Font("Myanmar3", 9.0!, System.Drawing.FontStyle.Bold)
         Me.chkByFixedPrice.ForeColor = System.Drawing.Color.Navy
-        Me.chkByFixedPrice.Location = New System.Drawing.Point(339, 199)
+        Me.chkByFixedPrice.Location = New System.Drawing.Point(452, 245)
+        Me.chkByFixedPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkByFixedPrice.Name = "chkByFixedPrice"
-        Me.chkByFixedPrice.Size = New System.Drawing.Size(99, 21)
+        Me.chkByFixedPrice.Size = New System.Drawing.Size(118, 26)
         Me.chkByFixedPrice.TabIndex = 11
         Me.chkByFixedPrice.Text = "Fixed Price"
         Me.chkByFixedPrice.UseVisualStyleBackColor = False
@@ -2899,18 +3117,20 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.cboItemCategory.Font = New System.Drawing.Font("Myanmar3", 9.5!)
         Me.cboItemCategory.FormattingEnabled = True
-        Me.cboItemCategory.Location = New System.Drawing.Point(103, 8)
+        Me.cboItemCategory.Location = New System.Drawing.Point(137, 10)
+        Me.cboItemCategory.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboItemCategory.Name = "cboItemCategory"
-        Me.cboItemCategory.Size = New System.Drawing.Size(225, 27)
+        Me.cboItemCategory.Size = New System.Drawing.Size(299, 31)
         Me.cboItemCategory.TabIndex = 0
         '
         'cboGoldQuality
         '
         Me.cboGoldQuality.Font = New System.Drawing.Font("Myanmar3", 9.5!)
         Me.cboGoldQuality.FormattingEnabled = True
-        Me.cboGoldQuality.Location = New System.Drawing.Point(103, 76)
+        Me.cboGoldQuality.Location = New System.Drawing.Point(137, 94)
+        Me.cboGoldQuality.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboGoldQuality.Name = "cboGoldQuality"
-        Me.cboGoldQuality.Size = New System.Drawing.Size(225, 27)
+        Me.cboGoldQuality.Size = New System.Drawing.Size(299, 31)
         Me.cboGoldQuality.TabIndex = 2
         '
         'Label59
@@ -2918,9 +3138,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label59.AutoSize = True
         Me.Label59.BackColor = System.Drawing.Color.Transparent
         Me.Label59.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.Label59.Location = New System.Drawing.Point(181, 169)
+        Me.Label59.Location = New System.Drawing.Point(241, 208)
+        Me.Label59.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(67, 20)
+        Me.Label59.Size = New System.Drawing.Size(80, 25)
         Me.Label59.TabIndex = 897
         Me.Label59.Text = "ကွင်းတိုင်း"
         '
@@ -2929,9 +3150,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label13.AutoSize = True
         Me.Label13.BackColor = System.Drawing.Color.Transparent
         Me.Label13.Font = New System.Drawing.Font("Myanmar3", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label13.Location = New System.Drawing.Point(16, 111)
+        Me.Label13.Location = New System.Drawing.Point(21, 137)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(83, 17)
+        Me.Label13.Size = New System.Drawing.Size(98, 22)
         Me.Label13.TabIndex = 896
         Me.Label13.Text = "Barcode No"
         '
@@ -2940,9 +3162,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label14.AutoSize = True
         Me.Label14.BackColor = System.Drawing.Color.Transparent
         Me.Label14.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.Label14.Location = New System.Drawing.Point(28, 169)
+        Me.Label14.Location = New System.Drawing.Point(37, 208)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(71, 20)
+        Me.Label14.Size = New System.Drawing.Size(87, 25)
         Me.Label14.TabIndex = 895
         Me.Label14.Text = "ကြိုးအရှည်"
         '
@@ -2952,10 +3175,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.tabStock.Controls.Add(Me.TabVolumeStock)
         Me.tabStock.Controls.Add(Me.TabLooseDiamond)
         Me.tabStock.Font = New System.Drawing.Font("Myanmar3", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.tabStock.Location = New System.Drawing.Point(0, 99)
+        Me.tabStock.Location = New System.Drawing.Point(0, 122)
+        Me.tabStock.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tabStock.Name = "tabStock"
         Me.tabStock.SelectedIndex = 0
-        Me.tabStock.Size = New System.Drawing.Size(1178, 521)
+        Me.tabStock.Size = New System.Drawing.Size(1571, 641)
         Me.tabStock.TabIndex = 13
         '
         'TabLooseDiamond
@@ -2991,9 +3215,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.TabLooseDiamond.Controls.Add(Me.chkDFixPrice)
         Me.TabLooseDiamond.Controls.Add(Me.cboDCategory)
         Me.TabLooseDiamond.Controls.Add(Me.Label105)
-        Me.TabLooseDiamond.Location = New System.Drawing.Point(4, 26)
+        Me.TabLooseDiamond.Location = New System.Drawing.Point(4, 31)
+        Me.TabLooseDiamond.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabLooseDiamond.Name = "TabLooseDiamond"
-        Me.TabLooseDiamond.Size = New System.Drawing.Size(1170, 491)
+        Me.TabLooseDiamond.Size = New System.Drawing.Size(1563, 606)
         Me.TabLooseDiamond.TabIndex = 2
         Me.TabLooseDiamond.Text = "Loose Diamond Stock"
         '
@@ -3007,9 +3232,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.GroupBox7.Controls.Add(Me.chkDOriginalFixPrice)
         Me.GroupBox7.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.GroupBox7.ForeColor = System.Drawing.Color.Navy
-        Me.GroupBox7.Location = New System.Drawing.Point(797, 234)
+        Me.GroupBox7.Location = New System.Drawing.Point(1063, 288)
+        Me.GroupBox7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox7.Name = "GroupBox7"
-        Me.GroupBox7.Size = New System.Drawing.Size(359, 124)
+        Me.GroupBox7.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox7.Size = New System.Drawing.Size(479, 153)
         Me.GroupBox7.TabIndex = 960
         Me.GroupBox7.TabStop = False
         Me.GroupBox7.Text = "ဝယ်ရင်းစျေး"
@@ -3020,9 +3247,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label12.BackColor = System.Drawing.Color.Transparent
         Me.Label12.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.Label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label12.Location = New System.Drawing.Point(75, 83)
+        Me.Label12.Location = New System.Drawing.Point(100, 102)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(95, 20)
+        Me.Label12.Size = New System.Drawing.Size(115, 25)
         Me.Label12.TabIndex = 882
         Me.Label12.Text = "တစ်ကရက်‌စျေး"
         '
@@ -3031,9 +3259,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtOriginalPriceCarat.BackColor = System.Drawing.Color.White
         Me.txtOriginalPriceCarat.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOriginalPriceCarat.Font = New System.Drawing.Font("Tahoma", 8.5!)
-        Me.txtOriginalPriceCarat.Location = New System.Drawing.Point(176, 82)
+        Me.txtOriginalPriceCarat.Location = New System.Drawing.Point(235, 101)
+        Me.txtOriginalPriceCarat.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtOriginalPriceCarat.Name = "txtOriginalPriceCarat"
-        Me.txtOriginalPriceCarat.Size = New System.Drawing.Size(97, 21)
+        Me.txtOriginalPriceCarat.Size = New System.Drawing.Size(129, 25)
         Me.txtOriginalPriceCarat.TabIndex = 4
         Me.txtOriginalPriceCarat.Text = "0"
         Me.txtOriginalPriceCarat.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -3043,9 +3272,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtDOriginalFixPrice.BackColor = System.Drawing.Color.White
         Me.txtDOriginalFixPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDOriginalFixPrice.Font = New System.Drawing.Font("Tahoma", 8.5!)
-        Me.txtDOriginalFixPrice.Location = New System.Drawing.Point(175, 24)
+        Me.txtDOriginalFixPrice.Location = New System.Drawing.Point(233, 30)
+        Me.txtDOriginalFixPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtDOriginalFixPrice.Name = "txtDOriginalFixPrice"
-        Me.txtDOriginalFixPrice.Size = New System.Drawing.Size(98, 21)
+        Me.txtDOriginalFixPrice.Size = New System.Drawing.Size(130, 25)
         Me.txtDOriginalFixPrice.TabIndex = 1
         Me.txtDOriginalFixPrice.Text = "0"
         Me.txtDOriginalFixPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -3055,9 +3285,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.chkOriginalPriceCarat.AutoSize = True
         Me.chkOriginalPriceCarat.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.chkOriginalPriceCarat.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.chkOriginalPriceCarat.Location = New System.Drawing.Point(13, 47)
+        Me.chkOriginalPriceCarat.Location = New System.Drawing.Point(17, 58)
+        Me.chkOriginalPriceCarat.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkOriginalPriceCarat.Name = "chkOriginalPriceCarat"
-        Me.chkOriginalPriceCarat.Size = New System.Drawing.Size(98, 24)
+        Me.chkOriginalPriceCarat.Size = New System.Drawing.Size(117, 29)
         Me.chkOriginalPriceCarat.TabIndex = 2
         Me.chkOriginalPriceCarat.Text = "ဝယ်ရင်းစျေး"
         Me.chkOriginalPriceCarat.UseVisualStyleBackColor = False
@@ -3067,9 +3298,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.chkDOriginalFixPrice.AutoSize = True
         Me.chkDOriginalFixPrice.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.chkDOriginalFixPrice.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.chkDOriginalFixPrice.Location = New System.Drawing.Point(13, 22)
+        Me.chkDOriginalFixPrice.Location = New System.Drawing.Point(17, 27)
+        Me.chkDOriginalFixPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkDOriginalFixPrice.Name = "chkDOriginalFixPrice"
-        Me.chkDOriginalFixPrice.Size = New System.Drawing.Size(112, 24)
+        Me.chkDOriginalFixPrice.Size = New System.Drawing.Size(133, 29)
         Me.chkDOriginalFixPrice.TabIndex = 0
         Me.chkDOriginalFixPrice.Text = "ဒုံးဝယ်ရင်းစျေး"
         Me.chkDOriginalFixPrice.UseVisualStyleBackColor = False
@@ -3079,9 +3311,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtDFixPrice.BackColor = System.Drawing.Color.White
         Me.txtDFixPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDFixPrice.Font = New System.Drawing.Font("Tahoma", 8.5!)
-        Me.txtDFixPrice.Location = New System.Drawing.Point(412, 164)
+        Me.txtDFixPrice.Location = New System.Drawing.Point(549, 202)
+        Me.txtDFixPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtDFixPrice.Name = "txtDFixPrice"
-        Me.txtDFixPrice.Size = New System.Drawing.Size(140, 21)
+        Me.txtDFixPrice.Size = New System.Drawing.Size(186, 25)
         Me.txtDFixPrice.TabIndex = 959
         Me.txtDFixPrice.Text = "0"
         Me.txtDFixPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -3091,9 +3324,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtDQty.BackColor = System.Drawing.Color.White
         Me.txtDQty.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDQty.Font = New System.Drawing.Font("Myanmar3", 9.0!)
-        Me.txtDQty.Location = New System.Drawing.Point(113, 300)
+        Me.txtDQty.Location = New System.Drawing.Point(151, 369)
+        Me.txtDQty.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtDQty.Name = "txtDQty"
-        Me.txtDQty.Size = New System.Drawing.Size(225, 26)
+        Me.txtDQty.Size = New System.Drawing.Size(299, 31)
         Me.txtDQty.TabIndex = 957
         '
         'Label104
@@ -3101,9 +3335,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label104.AutoSize = True
         Me.Label104.BackColor = System.Drawing.Color.Transparent
         Me.Label104.Font = New System.Drawing.Font("Myanmar3", 8.999999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label104.Location = New System.Drawing.Point(72, 305)
+        Me.Label104.Location = New System.Drawing.Point(96, 375)
+        Me.Label104.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label104.Name = "Label104"
-        Me.Label104.Size = New System.Drawing.Size(32, 17)
+        Me.Label104.Size = New System.Drawing.Size(38, 22)
         Me.Label104.TabIndex = 958
         Me.Label104.Text = "Qty"
         '
@@ -3112,9 +3347,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtDescription.BackColor = System.Drawing.Color.White
         Me.txtDescription.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDescription.Font = New System.Drawing.Font("Myanmar3", 9.0!)
-        Me.txtDescription.Location = New System.Drawing.Point(114, 269)
+        Me.txtDescription.Location = New System.Drawing.Point(152, 331)
+        Me.txtDescription.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtDescription.Name = "txtDescription"
-        Me.txtDescription.Size = New System.Drawing.Size(225, 26)
+        Me.txtDescription.Size = New System.Drawing.Size(299, 31)
         Me.txtDescription.TabIndex = 955
         '
         'Label67
@@ -3122,9 +3358,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label67.AutoSize = True
         Me.Label67.BackColor = System.Drawing.Color.Transparent
         Me.Label67.Font = New System.Drawing.Font("Myanmar3", 8.999999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label67.Location = New System.Drawing.Point(21, 274)
+        Me.Label67.Location = New System.Drawing.Point(28, 337)
+        Me.Label67.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label67.Name = "Label67"
-        Me.Label67.Size = New System.Drawing.Size(83, 17)
+        Me.Label67.Size = New System.Drawing.Size(98, 22)
         Me.Label67.TabIndex = 956
         Me.Label67.Text = "Description"
         '
@@ -3133,9 +3370,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.lnkClarity.AutoSize = True
         Me.lnkClarity.BackColor = System.Drawing.Color.Transparent
         Me.lnkClarity.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.lnkClarity.Location = New System.Drawing.Point(58, 235)
+        Me.lnkClarity.Location = New System.Drawing.Point(77, 289)
+        Me.lnkClarity.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lnkClarity.Name = "lnkClarity"
-        Me.lnkClarity.Size = New System.Drawing.Size(51, 20)
+        Me.lnkClarity.Size = New System.Drawing.Size(63, 25)
         Me.lnkClarity.TabIndex = 954
         Me.lnkClarity.TabStop = True
         Me.lnkClarity.Text = "Clarity"
@@ -3144,9 +3382,10 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.cboDClarity.Font = New System.Drawing.Font("Myanmar3", 9.5!)
         Me.cboDClarity.FormattingEnabled = True
-        Me.cboDClarity.Location = New System.Drawing.Point(114, 232)
+        Me.cboDClarity.Location = New System.Drawing.Point(152, 286)
+        Me.cboDClarity.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboDClarity.Name = "cboDClarity"
-        Me.cboDClarity.Size = New System.Drawing.Size(172, 27)
+        Me.cboDClarity.Size = New System.Drawing.Size(228, 31)
         Me.cboDClarity.TabIndex = 953
         '
         'lnkShape
@@ -3154,9 +3393,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.lnkShape.AutoSize = True
         Me.lnkShape.BackColor = System.Drawing.Color.Transparent
         Me.lnkShape.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.lnkShape.Location = New System.Drawing.Point(61, 202)
+        Me.lnkShape.Location = New System.Drawing.Point(81, 249)
+        Me.lnkShape.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lnkShape.Name = "lnkShape"
-        Me.lnkShape.Size = New System.Drawing.Size(48, 20)
+        Me.lnkShape.Size = New System.Drawing.Size(57, 25)
         Me.lnkShape.TabIndex = 952
         Me.lnkShape.TabStop = True
         Me.lnkShape.Text = "Shape"
@@ -3165,9 +3405,10 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.cboDShape.Font = New System.Drawing.Font("Myanmar3", 9.5!)
         Me.cboDShape.FormattingEnabled = True
-        Me.cboDShape.Location = New System.Drawing.Point(114, 199)
+        Me.cboDShape.Location = New System.Drawing.Point(152, 245)
+        Me.cboDShape.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboDShape.Name = "cboDShape"
-        Me.cboDShape.Size = New System.Drawing.Size(172, 27)
+        Me.cboDShape.Size = New System.Drawing.Size(228, 31)
         Me.cboDShape.TabIndex = 951
         '
         'lnkDColor
@@ -3175,9 +3416,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.lnkDColor.AutoSize = True
         Me.lnkDColor.BackColor = System.Drawing.Color.Transparent
         Me.lnkDColor.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.lnkDColor.Location = New System.Drawing.Point(65, 165)
+        Me.lnkDColor.Location = New System.Drawing.Point(87, 203)
+        Me.lnkDColor.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lnkDColor.Name = "lnkDColor"
-        Me.lnkDColor.Size = New System.Drawing.Size(44, 20)
+        Me.lnkDColor.Size = New System.Drawing.Size(54, 25)
         Me.lnkDColor.TabIndex = 950
         Me.lnkDColor.TabStop = True
         Me.lnkDColor.Text = "Color"
@@ -3186,9 +3428,10 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.cboDColor.Font = New System.Drawing.Font("Myanmar3", 9.5!)
         Me.cboDColor.FormattingEnabled = True
-        Me.cboDColor.Location = New System.Drawing.Point(114, 162)
+        Me.cboDColor.Location = New System.Drawing.Point(152, 199)
+        Me.cboDColor.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboDColor.Name = "cboDColor"
-        Me.cboDColor.Size = New System.Drawing.Size(172, 27)
+        Me.cboDColor.Size = New System.Drawing.Size(228, 31)
         Me.cboDColor.TabIndex = 949
         '
         'txtDSellingRate
@@ -3196,9 +3439,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtDSellingRate.BackColor = System.Drawing.Color.White
         Me.txtDSellingRate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDSellingRate.Font = New System.Drawing.Font("Myanmar3", 9.0!)
-        Me.txtDSellingRate.Location = New System.Drawing.Point(667, 161)
+        Me.txtDSellingRate.Location = New System.Drawing.Point(889, 198)
+        Me.txtDSellingRate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtDSellingRate.Name = "txtDSellingRate"
-        Me.txtDSellingRate.Size = New System.Drawing.Size(112, 26)
+        Me.txtDSellingRate.Size = New System.Drawing.Size(149, 31)
         Me.txtDSellingRate.TabIndex = 947
         '
         'txtDVoucherNo
@@ -3206,9 +3450,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtDVoucherNo.BackColor = System.Drawing.Color.White
         Me.txtDVoucherNo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDVoucherNo.Font = New System.Drawing.Font("Myanmar3", 10.0!)
-        Me.txtDVoucherNo.Location = New System.Drawing.Point(667, 201)
+        Me.txtDVoucherNo.Location = New System.Drawing.Point(889, 247)
+        Me.txtDVoucherNo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtDVoucherNo.Name = "txtDVoucherNo"
-        Me.txtDVoucherNo.Size = New System.Drawing.Size(112, 28)
+        Me.txtDVoucherNo.Size = New System.Drawing.Size(149, 33)
         Me.txtDVoucherNo.TabIndex = 932
         '
         'txtDOCode
@@ -3216,9 +3461,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtDOCode.BackColor = System.Drawing.Color.White
         Me.txtDOCode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDOCode.Font = New System.Drawing.Font("Myanmar3", 9.0!)
-        Me.txtDOCode.Location = New System.Drawing.Point(114, 126)
+        Me.txtDOCode.Location = New System.Drawing.Point(152, 155)
+        Me.txtDOCode.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtDOCode.Name = "txtDOCode"
-        Me.txtDOCode.Size = New System.Drawing.Size(225, 26)
+        Me.txtDOCode.Size = New System.Drawing.Size(299, 31)
         Me.txtDOCode.TabIndex = 922
         '
         'txtDOriginalPrice
@@ -3226,9 +3472,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtDOriginalPrice.BackColor = System.Drawing.Color.White
         Me.txtDOriginalPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDOriginalPrice.Font = New System.Drawing.Font("Myanmar3", 9.0!)
-        Me.txtDOriginalPrice.Location = New System.Drawing.Point(667, 245)
+        Me.txtDOriginalPrice.Location = New System.Drawing.Point(889, 302)
+        Me.txtDOriginalPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtDOriginalPrice.Name = "txtDOriginalPrice"
-        Me.txtDOriginalPrice.Size = New System.Drawing.Size(112, 26)
+        Me.txtDOriginalPrice.Size = New System.Drawing.Size(149, 31)
         Me.txtDOriginalPrice.TabIndex = 929
         '
         'txtDBarcode
@@ -3236,9 +3483,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtDBarcode.BackColor = System.Drawing.Color.White
         Me.txtDBarcode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDBarcode.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDBarcode.Location = New System.Drawing.Point(114, 97)
+        Me.txtDBarcode.Location = New System.Drawing.Point(152, 119)
+        Me.txtDBarcode.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtDBarcode.Name = "txtDBarcode"
-        Me.txtDBarcode.Size = New System.Drawing.Size(225, 22)
+        Me.txtDBarcode.Size = New System.Drawing.Size(299, 26)
         Me.txtDBarcode.TabIndex = 921
         '
         'Label17
@@ -3247,9 +3495,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label17.BackColor = System.Drawing.Color.Transparent
         Me.Label17.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.Label17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label17.Location = New System.Drawing.Point(554, 164)
+        Me.Label17.Location = New System.Drawing.Point(739, 202)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(112, 20)
+        Me.Label17.Size = New System.Drawing.Size(136, 25)
         Me.Label17.TabIndex = 948
         Me.Label17.Text = "Selling Rate (%)"
         '
@@ -3259,9 +3508,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label18.BackColor = System.Drawing.Color.Transparent
         Me.Label18.Font = New System.Drawing.Font("Myanmar3", 8.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label18.Location = New System.Drawing.Point(591, 208)
+        Me.Label18.Location = New System.Drawing.Point(788, 256)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(75, 17)
+        Me.Label18.Size = New System.Drawing.Size(90, 22)
         Me.Label18.TabIndex = 945
         Me.Label18.Text = "Voucher No"
         '
@@ -3270,9 +3520,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.lnkDSupplier.AutoSize = True
         Me.lnkDSupplier.BackColor = System.Drawing.Color.Transparent
         Me.lnkDSupplier.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.lnkDSupplier.Location = New System.Drawing.Point(343, 208)
+        Me.lnkDSupplier.Location = New System.Drawing.Point(457, 256)
+        Me.lnkDSupplier.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lnkDSupplier.Name = "lnkDSupplier"
-        Me.lnkDSupplier.Size = New System.Drawing.Size(62, 20)
+        Me.lnkDSupplier.Size = New System.Drawing.Size(74, 25)
         Me.lnkDSupplier.TabIndex = 930
         Me.lnkDSupplier.TabStop = True
         Me.lnkDSupplier.Text = "Supplier"
@@ -3281,9 +3532,10 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.cboDSupplier.Font = New System.Drawing.Font("Myanmar3", 9.5!)
         Me.cboDSupplier.FormattingEnabled = True
-        Me.cboDSupplier.Location = New System.Drawing.Point(410, 202)
+        Me.cboDSupplier.Location = New System.Drawing.Point(547, 249)
+        Me.cboDSupplier.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboDSupplier.Name = "cboDSupplier"
-        Me.cboDSupplier.Size = New System.Drawing.Size(142, 27)
+        Me.cboDSupplier.Size = New System.Drawing.Size(188, 31)
         Me.cboDSupplier.TabIndex = 931
         '
         'lnkDCategory
@@ -3291,9 +3543,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.lnkDCategory.AutoSize = True
         Me.lnkDCategory.BackColor = System.Drawing.Color.Transparent
         Me.lnkDCategory.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.lnkDCategory.Location = New System.Drawing.Point(16, 59)
+        Me.lnkDCategory.Location = New System.Drawing.Point(21, 73)
+        Me.lnkDCategory.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lnkDCategory.Name = "lnkDCategory"
-        Me.lnkDCategory.Size = New System.Drawing.Size(93, 20)
+        Me.lnkDCategory.Size = New System.Drawing.Size(111, 25)
         Me.lnkDCategory.TabIndex = 942
         Me.lnkDCategory.TabStop = True
         Me.lnkDCategory.Text = "စိန်အမျိုးအစား"
@@ -3303,9 +3556,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label25.AutoSize = True
         Me.Label25.BackColor = System.Drawing.Color.Transparent
         Me.Label25.Font = New System.Drawing.Font("Myanmar3", 8.999999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(10, 131)
+        Me.Label25.Location = New System.Drawing.Point(13, 161)
+        Me.Label25.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(99, 17)
+        Me.Label25.Size = New System.Drawing.Size(117, 22)
         Me.Label25.TabIndex = 941
         Me.Label25.Text = "Original Code"
         '
@@ -3315,9 +3569,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label66.BackColor = System.Drawing.Color.Transparent
         Me.Label66.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.Label66.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label66.Location = New System.Drawing.Point(587, 248)
+        Me.Label66.Location = New System.Drawing.Point(783, 305)
+        Me.Label66.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(79, 20)
+        Me.Label66.Size = New System.Drawing.Size(95, 25)
         Me.Label66.TabIndex = 940
         Me.Label66.Text = "ဝယ်ရင်းစျေး"
         '
@@ -3328,9 +3583,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.GroupBox8.Controls.Add(Me.lblDItemImage)
         Me.GroupBox8.Font = New System.Drawing.Font("Myanmar3", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox8.ForeColor = System.Drawing.Color.DeepPink
-        Me.GroupBox8.Location = New System.Drawing.Point(1011, 63)
+        Me.GroupBox8.Location = New System.Drawing.Point(1348, 78)
+        Me.GroupBox8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox8.Name = "GroupBox8"
-        Me.GroupBox8.Size = New System.Drawing.Size(145, 170)
+        Me.GroupBox8.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox8.Size = New System.Drawing.Size(193, 209)
         Me.GroupBox8.TabIndex = 934
         Me.GroupBox8.TabStop = False
         Me.GroupBox8.Text = "Photo Here"
@@ -3338,9 +3595,10 @@ Partial Class frm_SaleItemSetupWithVolume
         'btnDAdd
         '
         Me.btnDAdd.Font = New System.Drawing.Font("Myanmar3", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDAdd.Location = New System.Drawing.Point(34, 131)
+        Me.btnDAdd.Location = New System.Drawing.Point(45, 161)
+        Me.btnDAdd.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnDAdd.Name = "btnDAdd"
-        Me.btnDAdd.Size = New System.Drawing.Size(95, 31)
+        Me.btnDAdd.Size = New System.Drawing.Size(127, 38)
         Me.btnDAdd.TabIndex = 0
         Me.btnDAdd.Text = "&Add"
         Me.btnDAdd.UseVisualStyleBackColor = True
@@ -3349,9 +3607,10 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.lblDPhoto.AutoSize = True
         Me.lblDPhoto.ForeColor = System.Drawing.Color.Navy
-        Me.lblDPhoto.Location = New System.Drawing.Point(48, 62)
+        Me.lblDPhoto.Location = New System.Drawing.Point(64, 76)
+        Me.lblDPhoto.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblDPhoto.Name = "lblDPhoto"
-        Me.lblDPhoto.Size = New System.Drawing.Size(42, 19)
+        Me.lblDPhoto.Size = New System.Drawing.Size(55, 25)
         Me.lblDPhoto.TabIndex = 807
         Me.lblDPhoto.Text = "Photo"
         '
@@ -3359,9 +3618,10 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.lblDItemImage.BackColor = System.Drawing.Color.Snow
         Me.lblDItemImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblDItemImage.Location = New System.Drawing.Point(10, 17)
+        Me.lblDItemImage.Location = New System.Drawing.Point(13, 21)
+        Me.lblDItemImage.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.lblDItemImage.Name = "lblDItemImage"
-        Me.lblDItemImage.Size = New System.Drawing.Size(126, 113)
+        Me.lblDItemImage.Size = New System.Drawing.Size(167, 139)
         Me.lblDItemImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.lblDItemImage.TabIndex = 806
         Me.lblDItemImage.TabStop = False
@@ -3376,9 +3636,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.GroupBox9.Controls.Add(Me.Label71)
         Me.GroupBox9.Controls.Add(Me.Label72)
         Me.GroupBox9.Controls.Add(Me.txtDPlatingCharges)
-        Me.GroupBox9.Location = New System.Drawing.Point(797, 64)
+        Me.GroupBox9.Location = New System.Drawing.Point(1063, 79)
+        Me.GroupBox9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox9.Name = "GroupBox9"
-        Me.GroupBox9.Size = New System.Drawing.Size(206, 167)
+        Me.GroupBox9.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox9.Size = New System.Drawing.Size(275, 206)
         Me.GroupBox9.TabIndex = 933
         Me.GroupBox9.TabStop = False
         '
@@ -3387,9 +3649,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtDWhiteCharges.BackColor = System.Drawing.Color.White
         Me.txtDWhiteCharges.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDWhiteCharges.Font = New System.Drawing.Font("Tahoma", 8.5!)
-        Me.txtDWhiteCharges.Location = New System.Drawing.Point(86, 127)
+        Me.txtDWhiteCharges.Location = New System.Drawing.Point(115, 156)
+        Me.txtDWhiteCharges.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtDWhiteCharges.Name = "txtDWhiteCharges"
-        Me.txtDWhiteCharges.Size = New System.Drawing.Size(107, 21)
+        Me.txtDWhiteCharges.Size = New System.Drawing.Size(142, 25)
         Me.txtDWhiteCharges.TabIndex = 21
         Me.txtDWhiteCharges.Text = "0"
         Me.txtDWhiteCharges.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -3399,9 +3662,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label69.AutoSize = True
         Me.Label69.BackColor = System.Drawing.Color.Transparent
         Me.Label69.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.Label69.Location = New System.Drawing.Point(39, 26)
+        Me.Label69.Location = New System.Drawing.Point(52, 32)
+        Me.Label69.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label69.Name = "Label69"
-        Me.Label69.Size = New System.Drawing.Size(47, 20)
+        Me.Label69.Size = New System.Drawing.Size(58, 25)
         Me.Label69.TabIndex = 846
         Me.Label69.Text = "လက်ခ"
         '
@@ -3410,9 +3674,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label70.AutoSize = True
         Me.Label70.BackColor = System.Drawing.Color.Transparent
         Me.Label70.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.Label70.Location = New System.Drawing.Point(14, 128)
+        Me.Label70.Location = New System.Drawing.Point(19, 158)
+        Me.Label70.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(72, 20)
+        Me.Label70.Size = New System.Drawing.Size(86, 25)
         Me.Label70.TabIndex = 852
         Me.Label70.Text = "အဖြူမှုတ်ခ"
         '
@@ -3421,9 +3686,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtDDesignCharges.BackColor = System.Drawing.Color.White
         Me.txtDDesignCharges.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDDesignCharges.Font = New System.Drawing.Font("Tahoma", 8.5!)
-        Me.txtDDesignCharges.Location = New System.Drawing.Point(86, 25)
+        Me.txtDDesignCharges.Location = New System.Drawing.Point(115, 31)
+        Me.txtDDesignCharges.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtDDesignCharges.Name = "txtDDesignCharges"
-        Me.txtDDesignCharges.Size = New System.Drawing.Size(107, 21)
+        Me.txtDDesignCharges.Size = New System.Drawing.Size(142, 25)
         Me.txtDDesignCharges.TabIndex = 18
         Me.txtDDesignCharges.Text = "0"
         Me.txtDDesignCharges.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -3433,9 +3699,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtDMountingCharges.BackColor = System.Drawing.Color.White
         Me.txtDMountingCharges.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDMountingCharges.Font = New System.Drawing.Font("Tahoma", 8.5!)
-        Me.txtDMountingCharges.Location = New System.Drawing.Point(86, 93)
+        Me.txtDMountingCharges.Location = New System.Drawing.Point(115, 114)
+        Me.txtDMountingCharges.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtDMountingCharges.Name = "txtDMountingCharges"
-        Me.txtDMountingCharges.Size = New System.Drawing.Size(107, 21)
+        Me.txtDMountingCharges.Size = New System.Drawing.Size(142, 25)
         Me.txtDMountingCharges.TabIndex = 20
         Me.txtDMountingCharges.Text = "0"
         Me.txtDMountingCharges.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -3445,9 +3712,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label71.AutoSize = True
         Me.Label71.BackColor = System.Drawing.Color.Transparent
         Me.Label71.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.Label71.Location = New System.Drawing.Point(-1, 60)
+        Me.Label71.Location = New System.Drawing.Point(-1, 74)
+        Me.Label71.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label71.Name = "Label71"
-        Me.Label71.Size = New System.Drawing.Size(87, 20)
+        Me.Label71.Size = New System.Drawing.Size(104, 25)
         Me.Label71.TabIndex = 848
         Me.Label71.Text = "အရောင်တင်ခ"
         '
@@ -3456,9 +3724,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label72.AutoSize = True
         Me.Label72.BackColor = System.Drawing.Color.Transparent
         Me.Label72.Font = New System.Drawing.Font("Myanmar3", 9.8!)
-        Me.Label72.Location = New System.Drawing.Point(26, 94)
+        Me.Label72.Location = New System.Drawing.Point(35, 116)
+        Me.Label72.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label72.Name = "Label72"
-        Me.Label72.Size = New System.Drawing.Size(60, 20)
+        Me.Label72.Size = New System.Drawing.Size(70, 25)
         Me.Label72.TabIndex = 850
         Me.Label72.Text = "စိန်တပ်ခ"
         '
@@ -3467,9 +3736,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtDPlatingCharges.BackColor = System.Drawing.Color.White
         Me.txtDPlatingCharges.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDPlatingCharges.Font = New System.Drawing.Font("Tahoma", 8.5!)
-        Me.txtDPlatingCharges.Location = New System.Drawing.Point(86, 59)
+        Me.txtDPlatingCharges.Location = New System.Drawing.Point(115, 73)
+        Me.txtDPlatingCharges.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtDPlatingCharges.Name = "txtDPlatingCharges"
-        Me.txtDPlatingCharges.Size = New System.Drawing.Size(107, 21)
+        Me.txtDPlatingCharges.Size = New System.Drawing.Size(142, 25)
         Me.txtDPlatingCharges.TabIndex = 19
         Me.txtDPlatingCharges.Text = "0"
         Me.txtDPlatingCharges.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -3483,9 +3753,11 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.GroupBox10.Controls.Add(Me.Label101)
         Me.GroupBox10.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.GroupBox10.ForeColor = System.Drawing.Color.DeepPink
-        Me.GroupBox10.Location = New System.Drawing.Point(350, 56)
+        Me.GroupBox10.Location = New System.Drawing.Point(467, 69)
+        Me.GroupBox10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox10.Name = "GroupBox10"
-        Me.GroupBox10.Size = New System.Drawing.Size(429, 87)
+        Me.GroupBox10.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox10.Size = New System.Drawing.Size(572, 107)
         Me.GroupBox10.TabIndex = 927
         Me.GroupBox10.TabStop = False
         Me.GroupBox10.Text = "အလေးချိန်"
@@ -3496,9 +3768,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label74.BackColor = System.Drawing.Color.Transparent
         Me.Label74.Font = New System.Drawing.Font("Myanmar3", 9.8!)
         Me.Label74.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label74.Location = New System.Drawing.Point(31, 23)
+        Me.Label74.Location = New System.Drawing.Point(41, 28)
+        Me.Label74.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label74.Name = "Label74"
-        Me.Label74.Size = New System.Drawing.Size(75, 20)
+        Me.Label74.Size = New System.Drawing.Size(91, 25)
         Me.Label74.TabIndex = 846
         Me.Label74.Text = "ကျောက်ချိန်"
         '
@@ -3508,11 +3781,12 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtDGram.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDGram.Enabled = False
         Me.txtDGram.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDGram.Location = New System.Drawing.Point(265, 25)
+        Me.txtDGram.Location = New System.Drawing.Point(353, 31)
+        Me.txtDGram.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtDGram.MaxLength = 6
         Me.txtDGram.Name = "txtDGram"
         Me.txtDGram.ReadOnly = True
-        Me.txtDGram.Size = New System.Drawing.Size(63, 21)
+        Me.txtDGram.Size = New System.Drawing.Size(83, 24)
         Me.txtDGram.TabIndex = 844
         Me.txtDGram.Text = "0"
         Me.txtDGram.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -3522,9 +3796,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.txtRBP.BackColor = System.Drawing.Color.White
         Me.txtRBP.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtRBP.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRBP.Location = New System.Drawing.Point(112, 25)
+        Me.txtRBP.Location = New System.Drawing.Point(149, 31)
+        Me.txtRBP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtRBP.Name = "txtRBP"
-        Me.txtRBP.Size = New System.Drawing.Size(60, 21)
+        Me.txtRBP.Size = New System.Drawing.Size(79, 24)
         Me.txtRBP.TabIndex = 1
         Me.txtRBP.Text = "0"
         Me.txtRBP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -3535,9 +3810,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label75.BackColor = System.Drawing.Color.Transparent
         Me.Label75.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label75.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label75.Location = New System.Drawing.Point(175, 27)
+        Me.Label75.Location = New System.Drawing.Point(233, 33)
+        Me.Label75.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label75.Name = "Label75"
-        Me.Label75.Size = New System.Drawing.Size(70, 16)
+        Me.Label75.Size = New System.Drawing.Size(88, 20)
         Me.Label75.TabIndex = 384
         Me.Label75.Text = "RBP/ကရက်"
         '
@@ -3547,9 +3823,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label101.BackColor = System.Drawing.Color.Transparent
         Me.Label101.Font = New System.Drawing.Font("Myanmar3", 8.0!, System.Drawing.FontStyle.Bold)
         Me.Label101.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label101.Location = New System.Drawing.Point(335, 27)
+        Me.Label101.Location = New System.Drawing.Point(447, 33)
+        Me.Label101.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label101.Name = "Label101"
-        Me.Label101.Size = New System.Drawing.Size(40, 16)
+        Me.Label101.Size = New System.Drawing.Size(48, 20)
         Me.Label101.TabIndex = 684
         Me.Label101.Text = "Gram"
         '
@@ -3559,9 +3836,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.chkDFixPrice.BackColor = System.Drawing.Color.Transparent
         Me.chkDFixPrice.Font = New System.Drawing.Font("Myanmar3", 9.0!, System.Drawing.FontStyle.Bold)
         Me.chkDFixPrice.ForeColor = System.Drawing.Color.Navy
-        Me.chkDFixPrice.Location = New System.Drawing.Point(311, 164)
+        Me.chkDFixPrice.Location = New System.Drawing.Point(415, 202)
+        Me.chkDFixPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkDFixPrice.Name = "chkDFixPrice"
-        Me.chkDFixPrice.Size = New System.Drawing.Size(99, 21)
+        Me.chkDFixPrice.Size = New System.Drawing.Size(118, 26)
         Me.chkDFixPrice.TabIndex = 928
         Me.chkDFixPrice.Text = "Fixed Price"
         Me.chkDFixPrice.UseVisualStyleBackColor = False
@@ -3570,9 +3848,10 @@ Partial Class frm_SaleItemSetupWithVolume
         '
         Me.cboDCategory.Font = New System.Drawing.Font("Myanmar3", 9.5!)
         Me.cboDCategory.FormattingEnabled = True
-        Me.cboDCategory.Location = New System.Drawing.Point(114, 58)
+        Me.cboDCategory.Location = New System.Drawing.Point(152, 71)
+        Me.cboDCategory.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboDCategory.Name = "cboDCategory"
-        Me.cboDCategory.Size = New System.Drawing.Size(225, 27)
+        Me.cboDCategory.Size = New System.Drawing.Size(299, 31)
         Me.cboDCategory.TabIndex = 918
         '
         'Label105
@@ -3580,9 +3859,10 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Label105.AutoSize = True
         Me.Label105.BackColor = System.Drawing.Color.Transparent
         Me.Label105.Font = New System.Drawing.Font("Myanmar3", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label105.Location = New System.Drawing.Point(26, 100)
+        Me.Label105.Location = New System.Drawing.Point(35, 123)
+        Me.Label105.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label105.Name = "Label105"
-        Me.Label105.Size = New System.Drawing.Size(83, 17)
+        Me.Label105.Size = New System.Drawing.Size(98, 22)
         Me.Label105.TabIndex = 937
         Me.Label105.Text = "Barcode No"
         '
@@ -3592,28 +3872,19 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.chkisNormal.BackColor = System.Drawing.Color.Transparent
         Me.chkisNormal.Font = New System.Drawing.Font("Myanmar3", 9.0!, System.Drawing.FontStyle.Bold)
         Me.chkisNormal.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.chkisNormal.Location = New System.Drawing.Point(427, 13)
+        Me.chkisNormal.Location = New System.Drawing.Point(569, 16)
+        Me.chkisNormal.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkisNormal.Name = "chkisNormal"
-        Me.chkisNormal.Size = New System.Drawing.Size(73, 21)
+        Me.chkisNormal.Size = New System.Drawing.Size(88, 26)
         Me.chkisNormal.TabIndex = 1456
         Me.chkisNormal.TabStop = True
         Me.chkisNormal.Text = "Normal"
         Me.chkisNormal.UseVisualStyleBackColor = False
         '
-        'cboItemName
-        '
-        Me.cboItemName.Font = New System.Drawing.Font("Myanmar3", 9.5!)
-        Me.cboItemName.FormattingEnabled = True
-        Me.cboItemName.Location = New System.Drawing.Point(103, 41)
-        Me.cboItemName.Name = "cboItemName"
-        Me.cboItemName.Size = New System.Drawing.Size(225, 27)
-        Me.cboItemName.TabIndex = 920
-        '
         'frm_SaleItemSetupWithVolume
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(1181, 668)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.ClientSize = New System.Drawing.Size(1575, 822)
         Me.Controls.Add(Me.chkisNormal)
         Me.Controls.Add(Me.chkIsLooseDiamond)
         Me.Controls.Add(Me.chkIsVolume)
@@ -3647,6 +3918,7 @@ Partial Class frm_SaleItemSetupWithVolume
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.tabStock)
         Me.KeyPreview = True
+        Me.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.Name = "frm_SaleItemSetupWithVolume"
         Me.Text = "Stock Setup"
         Me.Controls.SetChildIndex(Me.tabStock, 0)

@@ -2518,6 +2518,10 @@
     <None Include="Resources\app_logo.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\New.png" />
+    <None Include="Resources\Sav.png" />
+    <None Include="Resources\Delete.png" />
+    <None Include="Resources\Cancel.png" />
     <Content Include="Treasure Myanmar Solutions Logo.ico" />
     <None Include="HelpBook\GoldQuantity\GoldQuality.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
